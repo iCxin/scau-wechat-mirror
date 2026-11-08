@@ -16,6 +16,10 @@ on:
         description: "列表抓取页数，每页 20 条（留空使用脚本默认值）"
         required: false
         default: ""
+      album_pages:
+        description: "首次读取微信合集的最大页数，每页 20 篇（留空使用 30）"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -57,10 +61,14 @@ jobs:
           SCAU_PAPER_ID: "6903558"
           SITE_URL: "https://icxin.github.io/scau-wechat-mirror"
           REPO_URL: "https://github.com/${{ github.repository }}"
+          SCAU_BIZ: "MjM5OTE2MzUwNA=="
+          SCAU_ALBUM_ID: "2195323138559836160"
+          USE_ALBUM: "1"
           MAX_NEW: ${{ inputs.max_new }}
           DISCOVER_PAGES: ${{ inputs.discover_pages }}
+          ALBUM_MAX_PAGES: ${{ inputs.album_pages }}
           WECHAT_FETCH: "1"
-          WECHAT_MAX: "20"
+          WECHAT_MAX: "40"
         run: python scripts/sync.py
 
       - name: Commit synced data

@@ -17,6 +17,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html as html_lib
 import json
 import os
@@ -51,8 +52,16 @@ WECHAT_FETCH = os.getenv("WECHAT_FETCH", "1").lower() not in {"0", "false", "no"
 WECHAT_MAX = max(0, int(os.getenv("WECHAT_MAX", "20") or 20))
 MAX_ARTICLES = max(100, int(os.getenv("MAX_ARTICLES", "3000") or 3000))
 
+# 微信合集（专辑）用于回填历史文章。合集是公开页面，不需要公众号后台登录。
+SCAU_BIZ = os.getenv("SCAU_BIZ", "MjM5OTE2MzUwNA==")
+SCAU_ALBUM_ID = os.getenv("SCAU_ALBUM_ID", "2195323138559836160")
+USE_ALBUM = os.getenv("USE_ALBUM", "1").lower() not in {"0", "false", "no", "off"}
+ALBUM_MAX_PAGES = max(1, int(os.getenv("ALBUM_MAX_PAGES", "30") or 30))
+
 PAPER_API = "https://api.thepaper.cn/contentapi/cont/pph/gov"
 PAPER_BASE = "https://m.thepaper.cn"
+ALBUM_API = "https://mp.weixin.qq.com/mp/appmsgalbum"
+ALBUM_CACHE_PATH = DATA_DIR / "album.json"
 
 # 仅用于诊断：把列表接口最后一次的状态写进 index.json 的 sync 字段。
 LAST_LIST_META: dict = {}
@@ -522,6 +531,242 @@ def fetch_paper_detail(session: requests.Session, cont_id: str) -> dict | None:
 
 
 # ---------------------------------------------------------------------------
+# 微信合集：历史文章发现（公开页面，无需公众号后台）
+# ---------------------------------------------------------------------------
+
+def load_album_cache() -> dict:
+    if ALBUM_CACHE_PATH.exists():
+        try:
+            data = json.loads(ALBUM_CACHE_PATH.read_text(encoding="utf-8"))
+            if isinstance(data, dict) and isinstance(data.get("items"), list):
+                data.setdefault("album_id", SCAU_ALBUM_ID)
+                data.setdefault("biz", SCAU_BIZ)
+                data.setdefault("title", "")
+                data.setdefault("article_count", 0)
+                data.setdefault("items", [])
+                return data
+        except Exception as exc:  # noqa: BLE001
+            log(f"合集缓存读取失败，将重建：{exc}")
+    return {
+        "album_id": SCAU_ALBUM_ID,
+        "biz": SCAU_BIZ,
+        "title": "",
+        "article_count": 0,
+        "fetched": 0,
+        "pages": 0,
+        "error": None,
+        "updated_at": None,
+        "items": [],
+    }
+
+
+def parse_album_item(raw: dict) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    url = clean_wechat_url(raw.get("url"))
+    title = clean_text(raw.get("title"))
+    if not url or not title:
+        return None
+
+    published = parse_dt(raw.get("create_time")) or parse_dt(raw.get("update_time"))
+    cover = normalize_url(
+        raw.get("cover_img_1_1") or raw.get("cover_img_wxid") or raw.get("cover"),
+        force_https=True,
+    )
+    msgid = str(raw.get("msgid") or "").strip()
+    itemidx = raw.get("itemidx")
+    digits = re.sub(r"\D", "", msgid)
+    if digits:
+        article_id = "wx" + digits[-24:]
+    else:
+        article_id = "wx" + hashlib.md5(url.encode("utf-8")).hexdigest()[:18]
+
+    return {
+        "id": article_id,
+        "title": title,
+        "published_at": published.isoformat(timespec="seconds") if published else None,
+        "published_label": published.isoformat(timespec="seconds")[:10] if published else "",
+        "cover": cover,
+        "summary": "",
+        "author": ACCOUNT_NAME,
+        "paper_url": None,
+        "external_url": url,
+        "origin": "album",
+        "msgid": msgid,
+        "itemidx": itemidx,
+        "raw_tags": [],
+    }
+
+
+def fetch_album(session: requests.Session, album_id: str, biz: str, max_pages: int) -> tuple[list, dict]:
+    meta = {
+        "album_id": album_id,
+        "biz": biz,
+        "title": "",
+        "article_count": 0,
+        "pages": 0,
+        "fetched": 0,
+        "error": None,
+    }
+    if not album_id or not biz:
+        meta["error"] = "缺少合集 id 或 biz"
+        return [], meta
+
+    # 先访问合集页，让微信种下必要的 cookie。
+    request(
+        session,
+        "GET",
+        ALBUM_API,
+        retries=1,
+        params={"__biz": biz, "album_id": album_id, "scene": 173},
+        headers={"Referer": "https://mp.weixin.qq.com/"},
+    )
+
+    params = {
+        "action": "getalbum",
+        "__biz": biz,
+        "album_id": album_id,
+        "count": 20,
+        "f": "json",
+    }
+    items: list[dict] = []
+    begin_msgid = ""
+    begin_itemidx = 1
+
+    for page in range(1, max_pages + 1):
+        page_params = dict(params)
+        if begin_msgid:
+            page_params["begin_msgid"] = begin_msgid
+            page_params["begin_itemidx"] = str(begin_itemidx)
+
+        response = request(
+            session,
+            "GET",
+            ALBUM_API,
+            retries=2,
+            params=page_params,
+            headers={
+                "Accept": "application/json, text/plain, */*",
+                "Referer": f"https://mp.weixin.qq.com/mp/appmsgalbum?__biz={biz}&album_id={album_id}&scene=173",
+                "X-Requested-With": "XMLHttpRequest",
+            },
+        )
+        if response is None:
+            meta["error"] = "合集接口请求失败"
+            break
+        try:
+            data = response.json()
+        except Exception:  # noqa: BLE001
+            meta["error"] = "合集接口返回非 JSON"
+            break
+        if not isinstance(data, dict):
+            meta["error"] = "合集接口返回格式异常"
+            break
+
+        base_resp = data.get("base_resp") or {}
+        ret = base_resp.get("ret", 0)
+        if ret not in (0, "0", None):
+            meta["error"] = f"合集接口 ret={ret}"
+            break
+
+        album_info = data.get("album_resp_info") or {}
+        if not meta["title"]:
+            meta["title"] = clean_text(album_info.get("title") or "")
+        if not meta["article_count"]:
+            raw_count = album_info.get("article_count")
+            if raw_count is None:
+                raw_count = ((data.get("getalbum_resp") or {}).get("base_info") or {}).get("article_count")
+            try:
+                meta["article_count"] = int(raw_count or 0)
+            except (TypeError, ValueError):
+                meta["article_count"] = 0
+
+        album_resp = data.get("getalbum_resp") or {}
+        article_list = album_resp.get("article_list") or []
+        if isinstance(article_list, dict):
+            article_list = [article_list]
+        if not isinstance(article_list, list) or not article_list:
+            break
+
+        meta["pages"] = page
+        for raw in article_list:
+            parsed = parse_album_item(raw)
+            if parsed:
+                items.append(parsed)
+        meta["fetched"] = len(items)
+
+        last = article_list[-1] if isinstance(article_list[-1], dict) else {}
+        next_msgid = str(last.get("msgid") or "")
+        next_itemidx = last.get("itemidx", 1)
+        continue_flag = album_resp.get("continue_flag")
+        if not next_msgid or next_msgid == begin_msgid:
+            break
+        if continue_flag in (0, "0", False):
+            break
+        begin_msgid = next_msgid
+        begin_itemidx = next_itemidx
+        time.sleep(0.7)
+
+    meta["fetched"] = len(items)
+    return items, meta
+
+
+def merge_album_cache(cache: dict, new_items: list, meta: dict) -> tuple[dict, bool]:
+    existing = {
+        str(item.get("id")): item
+        for item in cache.get("items", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    existing_keys = {
+        wechat_key(item.get("external_url"))
+        for item in existing.values()
+        if wechat_key(item.get("external_url"))
+    }
+
+    changed = False
+    for item in new_items:
+        item_id = str(item.get("id") or "")
+        if not item_id:
+            continue
+        key = wechat_key(item.get("external_url"))
+        if item_id in existing:
+            # 补齐缺失的封面/日期，不覆盖已有内容。
+            current = existing[item_id]
+            for field in ("cover", "published_at", "title"):
+                if not current.get(field) and item.get(field):
+                    current[field] = item[field]
+                    changed = True
+            continue
+        if key and key in existing_keys:
+            continue
+        existing[item_id] = item
+        if key:
+            existing_keys.add(key)
+        changed = True
+
+    merged = sorted(existing.values(), key=sort_key, reverse=True)
+    if len(merged) > 5000:
+        merged = merged[:5000]
+        changed = True
+
+    cache["items"] = merged
+    cache["fetched"] = len(merged)
+    for field in ("album_id", "biz", "title", "article_count"):
+        value = meta.get(field)
+        if value and cache.get(field) != value:
+            cache[field] = value
+            changed = True
+    if meta.get("error") != cache.get("error"):
+        cache["error"] = meta.get("error")
+        changed = True
+    if meta.get("pages"):
+        cache["pages"] = meta["pages"]
+    if changed:
+        cache["updated_at"] = NOW().isoformat(timespec="seconds")
+    return cache, changed
+
+
+# ---------------------------------------------------------------------------
 # 微信原文增强（可选）
 # ---------------------------------------------------------------------------
 
@@ -943,6 +1188,11 @@ def run(args) -> int:
     log(f"开始同步：账号={ACCOUNT_NAME}，现有 {len(existing)} 篇，本次最多新增 {max_new} 篇，发现页数 {discover_pages}")
 
     session = new_session()
+    album_cache = load_album_cache() if USE_ALBUM else {"items": []}
+    album_items: list[dict] = list(album_cache.get("items") or [])
+    album_meta: dict = {}
+    album_changed = False
+
     discovered: dict[str, dict] = {}
     raw_keys: list[str] = []
     for page in range(1, discover_pages + 1):
@@ -961,10 +1211,49 @@ def run(args) -> int:
         # 这样既能在正常分页时回填历史，也能在接口不支持翻页时安全退化。
         time.sleep(0.8)
 
+    if USE_ALBUM and SCAU_ALBUM_ID and SCAU_BIZ:
+        pages = ALBUM_MAX_PAGES if not album_items else 1
+        log(f"读取微信合集：最多 {pages} 页")
+        fetched_items, album_meta = fetch_album(session, SCAU_ALBUM_ID, SCAU_BIZ, pages)
+        album_cache, album_changed = merge_album_cache(album_cache, fetched_items, album_meta)
+        album_items = album_cache.get("items") or []
+        if album_changed and not args.dry_run:
+            write_json(ALBUM_CACHE_PATH, album_cache)
+        log(
+            f"合集缓存 {len(album_items)} 篇；接口标注 {album_meta.get('article_count')} 篇；"
+            f"错误：{album_meta.get('error')}"
+        )
+    else:
+        album_meta = {"error": "未启用合集回填"}
+
+    if album_items:
+        paper_keys = {wechat_key(item.get("external_url")) for item in discovered.values()}
+        paper_keys.discard(None)
+        paper_titles = {
+            (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
+            for item in discovered.values()
+        }
+        added = 0
+        for item in album_items:
+            if item.get("id") in seen_ids:
+                continue
+            key = wechat_key(item.get("external_url"))
+            if key and (key in seen_keys or key in paper_keys):
+                continue
+            title_key = (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
+            if title_key in paper_titles:
+                continue
+            discovered[item["id"]] = item
+            if key:
+                paper_keys.add(key)
+            paper_titles.add(title_key)
+            added += 1
+        log(f"合集补充 {added} 篇待处理文章")
+
     log(f"列表发现 {len(discovered)} 篇")
     last_error = None
     if not discovered:
-        last_error = "列表接口未返回可识别的文章"
+        last_error = "列表与合集接口均未返回可识别的文章"
 
     fresh: list[dict] = []
     for item in discovered.values():
@@ -983,13 +1272,23 @@ def run(args) -> int:
     wechat_attempts = 0
 
     for item in fresh[:max_new]:
-        detail = fetch_paper_detail(session, item["id"])
-        if detail is None:
-            failed += 1
-            last_error = "澎湃号正文抓取失败"
-            log(f"跳过（正文抓取失败）：{item['title'][:42]}")
-            time.sleep(1.0)
-            continue
+        if item.get("origin") == "album":
+            detail = {
+                "title": item.get("title"),
+                "content_html": "",
+                "summary": item.get("summary") or "",
+                "published_at": item.get("published_at"),
+                "cover": item.get("cover"),
+                "original_url": item.get("external_url"),
+            }
+        else:
+            detail = fetch_paper_detail(session, item["id"])
+            if detail is None:
+                failed += 1
+                last_error = "澎湃号正文抓取失败"
+                log(f"跳过（正文抓取失败）：{item['title'][:42]}")
+                time.sleep(1.0)
+                continue
 
         original = clean_wechat_url(detail.get("original_url")) or clean_wechat_url(item.get("external_url"))
         key = wechat_key(original)
@@ -1003,6 +1302,12 @@ def run(args) -> int:
             if wechat:
                 wechat_count += 1
             time.sleep(1.2)
+
+        if item.get("origin") == "album" and not wechat:
+            failed += 1
+            last_error = "微信原文抓取失败（合集文章）"
+            log(f"跳过（合集文章微信抓取失败）：{item['title'][:42]}")
+            continue
 
         built = build_article(item, detail, wechat)
         if not built:
@@ -1070,6 +1375,14 @@ def run(args) -> int:
             "last_pages": discover_pages,
             "last_raw_keys": raw_keys,
             "last_list": dict(LAST_LIST_META),
+            "album": {
+                "id": SCAU_ALBUM_ID,
+                "title": album_cache.get("title"),
+                "article_count": album_cache.get("article_count"),
+                "cached": len(album_items),
+                "pages": album_meta.get("pages"),
+                "error": album_meta.get("error"),
+            },
         }
         index["stats"] = build_stats(deduped)
 
