@@ -7,13 +7,387 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": null,
-  "sync": {},
-  "stats": {
-    "total": 0,
-    "wechat": 0,
-    "paper": 0,
-    "latest": null
+  "generated_at": "2026-11-09T00:23:25+08:00",
+  "sync": {
+    "last_success": "2026-11-09T00:23:25+08:00",
+    "last_error": null,
+    "last_discovered": 20,
+    "last_fresh": 20,
+    "last_new": 20,
+    "last_wechat": 20,
+    "last_failed": 0,
+    "last_pages": 10,
+    "last_raw_keys": [
+      "authorInfo",
+      "cardMode",
+      "closeComment",
+      "closeFrontComment",
+      "closePraise",
+      "contId",
+      "contType",
+      "forwardType",
+      "hideVideoFlag",
+      "imgCardMode",
+      "isOutForward",
+      "isOutForword",
+      "isSustainedFly",
+      "mobForwardType",
+      "name",
+      "nodeId",
+      "originalContId",
+      "originalFlag",
+      "paywalled",
+      "pic",
+      "praiseStyle",
+      "praiseTimes",
+      "pubTime",
+      "pubTimeLong",
+      "pubTimeNew",
+      "publishTime",
+      "seriesTagRecType",
+      "sharePic",
+      "smallPic",
+      "softLocType",
+      "trackArticleType",
+      "trackOriginality",
+      "trackPublishTime",
+      "voiceInfo"
+    ],
+    "last_list": {
+      "status": 200,
+      "code": 200,
+      "count": 20
+    }
   },
-  "articles": []
+  "stats": {
+    "total": 20,
+    "wechat": 20,
+    "paper": 0,
+    "latest": "2026-11-04T17:26:00+08:00"
+  },
+  "articles": [
+    {
+      "id": "34417470",
+      "title": "华农，特等奖！总数全省第一！",
+      "published_at": "2026-11-04T17:26:00+08:00",
+      "published_label": "2026-11-04",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDicCbT4KSDDibTHvtNcuHZREZQlyh6FKuQv6NVIFdNKXPb3ibVS6g5uibFzffiazmkXvTaSARYCGHcNEBWJfjW3mbJqiaTTWcTHHMug/0?wx_fmt=jpeg",
+      "summary": "近日 第十五届“挑战杯” 中国大学生创业计划竞赛 终审决赛在大连理工大学落幕 华南农业大学团队共斩获9项奖励 其中包括 东北振兴产业升级专项赛特等奖1项、 一等",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/NmLQEh5WB7cd3RiV9aMSNg",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34417470",
+      "word_count": 1019,
+      "fetched_at": "2026-11-09T00:21:47+08:00"
+    },
+    {
+      "id": "34384949",
+      "title": "粉色灿烂！华农“美人树”的一百种打开方式→",
+      "published_at": "2026-10-31T10:30:00+08:00",
+      "published_label": "2026-10-31",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckCULPAoYrAiaBTAF7xrsSmHtgaa23Yo3m20sh0AlaC1bdzd0qicEZI5StEr4kYzTlibE882YBOibm5y6Rqiaicu2ViaGYNQVBoqwXKsQ4/0?wx_fmt=jpeg",
+      "summary": "许是南国秋风多贪春 秋日的华农 有着“美人树”之称的美丽异木棉盛放 上演了一场“倒放的春天” 今天，跟随官微的镜头 看这场粉色灿烂的一百种打开方式！ 点击视频，",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/myJ5DHAhin6k1dO3OHi84Q",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34384949",
+      "word_count": 826,
+      "fetched_at": "2026-11-09T00:21:52+08:00"
+    },
+    {
+      "id": "34356344",
+      "title": "SAJ创刊！华农主办，高标准、国际化！",
+      "published_at": "2026-10-28T17:39:00+08:00",
+      "published_label": "2026-10-28",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckCklc1wa6jAl9OuKhmD8ibpQsagxOPiapibfFFtS9Z5OhsBediaVwfaU9oh6pjPzbTxc39VUEJwHwytTOibbjC6KVmL7J7pIic4IZAx4/0?wx_fmt=jpeg",
+      "summary": "10月27日，由华南农业大学（以下简称“华农”）主办的《智慧农业学报（英文）》（Smart Agriculture Journal，简称“SAJ”）创刊启动会暨",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/U2oRDxaPDcjKhrAOUuJkTA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34356344",
+      "word_count": 1715,
+      "fetched_at": "2026-11-09T00:21:57+08:00"
+    },
+    {
+      "id": "34331535",
+      "title": "你敢信，这是广州的秋天！｜今日霜降",
+      "published_at": "2026-10-23T08:01:00+08:00",
+      "published_label": "2026-10-23",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBMsJ6yibRw5romIltNJ97nibLhuDrt2f0dVBeylF0NWIGiby9c2wv2Lkoiciaic9OmH7OCHODsOZ8eJXIqBibEk2BGs8xqCauYib5Ty8c/0?wx_fmt=jpeg",
+      "summary": "华农二十四节气 【编者按】霜降，是秋日节气的尾声。北方寒霜初降、木叶飘零，但岭南的秋色才缓缓登台。昼暖夜凉，不见白霜，却见繁花盛放。这其中，既有美丽异木棉、三角",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/AtR6E23PAWeSH_ti8LRDoQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34331535",
+      "word_count": 1653,
+      "fetched_at": "2026-11-09T00:22:02+08:00"
+    },
+    {
+      "id": "34314025",
+      "title": "明天开幕，华农等你！",
+      "published_at": "2026-10-22T17:19:00+08:00",
+      "published_label": "2026-10-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBpBet4W1yBgcZ1sic17cBFwzXr7zr9ffwNThsdqzHT3mFH130jgytPXMbjCCic03ibZRicPYBnqXT1ER1rT96yxb4Ajkj7VLDED2Y/0?wx_fmt=jpeg",
+      "summary": "jjilie 中国国际大学生创新大赛（2026） 广东省分赛现场决赛 将于10月23日至25日 在华南农业大学举行 400支来自全省的队伍将齐聚华农 展开激烈角",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/oE2DoPfzndvuIn9UUdAoiQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34314025",
+      "word_count": 2309,
+      "fetched_at": "2026-11-09T00:22:07+08:00"
+    },
+    {
+      "id": "34296023",
+      "title": "华农人扎根的第五年，这个绝美小镇怎样了？",
+      "published_at": "2026-10-20T19:01:00+08:00",
+      "published_label": "2026-10-20",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckCK4yuSSzwThHdgEvHKhsVZcZ9LW0j8prETKoqJnlQ1ibMQgVT7WibRsj7ZG2pYQTG0ME3ibdgBAQBpythmCIBD7GmhtGr8J5t3BU/0?wx_fmt=jpeg",
+      "summary": "红色根脉绵延，客家风韵悠长 河源市东源县义合镇 是华南农业大学定点帮扶的乡镇 山河风物得天独厚 但曾经，当地发展却受困于产业薄弱 人才不足等现实困境 时光流转，",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/OcqcwZXvzISqB13D1Ejigw",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34296023",
+      "word_count": 4459,
+      "fetched_at": "2026-11-09T00:22:12+08:00"
+    },
+    {
+      "id": "34284411",
+      "title": "欢迎回家！华农2026校友返校日活动安排来了！",
+      "published_at": "2026-10-19T12:33:00+08:00",
+      "published_label": "2026-10-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckADMcYNLQib685BcGU7BGu6XNwuyyO39rwIInOKSCVmziayMCLmH71cRpYibCvdoeXTfNlXHLxRbkdVoKJW0H17ul9oZh48V2Gzjg/0?wx_fmt=jpeg",
+      "summary": "秋意渐浓，思绪翩跹 还记得在“五湖四海一片林”的青春岁月吗？ 华南农业大学 2026年秩年校友返校日活动 定于11月7日举行 校友企业产品展，参观校史馆、农博馆",
+      "tags": [
+        "通知",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/4Vc7C6m7Os4eR5s0X3kcIw",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34284411",
+      "word_count": 1937,
+      "fetched_at": "2026-11-09T00:22:17+08:00"
+    },
+    {
+      "id": "34274247",
+      "title": "华农体育学院，揭牌成立！",
+      "published_at": "2026-10-17T19:16:00+08:00",
+      "published_label": "2026-10-17",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBEYoxpdAumywk4eFF5gLsHOLbzMGqpZ8paQydhkYBhZtjwcZHOg0YVyibCn5cEgnicIu0daXxmfZsOgA3gtKRMV6I7XvqRzF9ck/0?wx_fmt=jpeg",
+      "summary": "10月17日 华南农业大学体育学院揭牌仪式 暨体育高质量发展大会 在红满堂举行 华农体育学院将 以“体育+农业”交叉融合为特色 面向湾区运动健康产业需求 重点打",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/PbibLx296BqfXsCx-CiBZQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34274247",
+      "word_count": 2055,
+      "fetched_at": "2026-11-09T00:22:23+08:00"
+    },
+    {
+      "id": "34265723",
+      "title": "今天，吃一碗华农好饭🥢！",
+      "published_at": "2026-10-16T15:38:00+08:00",
+      "published_label": "2026-10-16",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckAmx6byId4EcSxUoibhPIaQAAV5RFuE9zUJq5Ro3dSFq8eibeZCejDmKMh502LIibOTVvc1n7OtLkI7ib2qicVgX04jKZSCBibzcI1Yc/0?wx_fmt=jpeg",
+      "summary": "今天（10月16日） 是第46个世界粮食日 今年的主题为“创新当下，粮安未来” 保障粮食安全，是 “国之大者” 华南农业大学深入推进“双一流”建设 始终牢记强农",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/waI00690aV2zmhUJ3sk2zQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34265723",
+      "word_count": 3095,
+      "fetched_at": "2026-11-09T00:22:28+08:00"
+    },
+    {
+      "id": "34265724",
+      "title": "就在明晚！华农迎新晚会节目单抢先看！",
+      "published_at": "2026-10-15T12:19:00+08:00",
+      "published_label": "2026-10-15",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckCtxcorbyDeMbmDgroCXUIYjibXznWp9AlkvkVfbVdYR11Qap0NzaSWSZxibblKBHJ027oNRWMsGc4icLNoNEhiaxITGHUSTaXVe0A/0?wx_fmt=jpeg",
+      "summary": "华南农业大学2026年迎新晚会 定于10月16日19:30 在东区体育场举行 本届迎新晚会 以“赓续长征星火，躬耕紫荆年华”为主题 设“相聚华农、星火永续、根脉",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/5ROUo9k9iG-hyHUd6MRJvA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34265724",
+      "word_count": 396,
+      "fetched_at": "2026-11-09T00:22:32+08:00"
+    },
+    {
+      "id": "34246188",
+      "title": "84岁仍在山巅！华农“茶痴”有段古！",
+      "published_at": "2026-10-13T19:00:00+08:00",
+      "published_label": "2026-10-13",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBibU4libhvfic8JGppITGNxw4ibeWaLG4aXzrpibKjsF0p8INfbbKicpAYW41icT4OicM2GFu4BtNknusWpvRIA3g34ibFRo9BqkeRznqA/0?wx_fmt=jpeg",
+      "summary": "如果让你把前半辈子的地位和荣誉“清零” 到完全陌生的环境里 开启一份截然不同的事业，你愿意吗？ 在河源紫金的深山里 有这样一个“怪人” 别人退休享清福 84岁的",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/m9Dgu2rmumUCUbMY8v6cHA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34246188",
+      "word_count": 4715,
+      "fetched_at": "2026-11-09T00:22:39+08:00"
+    },
+    {
+      "id": "34230908",
+      "title": "从华农走出的“大地脊梁”！央视纪录片专题报道→",
+      "published_at": "2026-10-11T10:19:00+08:00",
+      "published_label": "2026-10-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckCwibT51MYgiasQnlbb0e0jGmvevS0ka6CpLc594Rv1F7bobH2X0MlLicibWaBBQqTtcMKncMOqdvAw2cXTo0ok1UMXrJxvmP11aA0/0?wx_fmt=jpeg",
+      "summary": "近日 中央广播电视总台农业农村频道 “三农群英汇”栏目 《大地脊梁》系列纪录片 播出中国工程院院士 华南农业大学教授罗锡文专题 真实饱满的情感、细节丰富的动作",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/-HjmhKdOHcEXs9COF5O2wA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34230908",
+      "word_count": 1673,
+      "fetched_at": "2026-11-09T00:22:43+08:00"
+    },
+    {
+      "id": "34229106",
+      "title": "华农学子，环球报到！",
+      "published_at": "2026-10-10T15:26:00+08:00",
+      "published_label": "2026-10-10",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBbCCh5libM9ia8pWfx6xUtYm7yVKfSRSGWbQCqHMC7kxjNmC1L4D7gZicjreE4YG12u9yA5HeQd3JtKxgpYFFpAPEPndYIoYBtcs/0?wx_fmt=jpeg",
+      "summary": "“你在哪过暑假？” “在法国学种地”“在爱尔兰头脑风暴” “在加拿大搞课题研究”“在新加坡学习智慧农业” “在肯尼亚讨论饲料检测” “在中国香港做金融项目” …",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/spbURe5XwVsFhpGH40p74w",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34229106",
+      "word_count": 3127,
+      "fetched_at": "2026-11-09T00:22:48+08:00"
+    },
+    {
+      "id": "34211735",
+      "title": "小长假走了，“国庆花”还在 | 今日寒露",
+      "published_at": "2026-10-08T08:05:00+08:00",
+      "published_label": "2026-10-08",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBxUic9zyibialdZC2dq3mZibuUUumuOBjuI8X43IhuOfFRIZUmKK3thAOSYrswibicibZjmHdc41w5qbNLeP8X5R1VId1GYCqJCia1c64/0?wx_fmt=jpeg",
+      "summary": "华农二十四节气 【编者按】寒露已至，暑尽风清。岭南褪去盛夏的燥热，秋意随风，吹到每个人的心间。 华农校园内，栾树黄花簌簌、粉果垂枝；大叶相思缀起细碎绒花，镰叶迎",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/oPyL0Fozk5TfNnadAZmynA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34211735",
+      "word_count": 1956,
+      "fetched_at": "2026-11-09T00:22:54+08:00"
+    },
+    {
+      "id": "34188440",
+      "title": "万名学子归来，齐交“暑期作业”！",
+      "published_at": "2026-09-30T22:57:00+08:00",
+      "published_label": "2026-09-30",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBYPTUtde8WzVhicwC3n0oAWRIxt6IzsPD43NOoMf1b05ncduG9hNSiciaGY9CzIRnE0CjPfKIJ2TJEVJPUuCcw7M2l8XkCOdHicp8/0?wx_fmt=jpeg",
+      "summary": "青春助力“百千万” 万名学子大调研 从粤西山头到粤东沿海 从技术赋能产业发展到专业助力基层治理 9月30日，华南农业大学举行 2026年暑期“万名学子乡村大调研",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/z-v50qD3VZmAlzs31G2VGw",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34188440",
+      "word_count": 2363,
+      "fetched_at": "2026-11-09T00:22:58+08:00"
+    },
+    {
+      "id": "34188442",
+      "title": "来啦！华农国庆假期服务指南→",
+      "published_at": "2026-09-30T18:06:00+08:00",
+      "published_label": "2026-09-30",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckC8XFjjEGH7tcrKRxjUIXbZhfQBDPyyh0recLTX2ku7bMO9Vo73OUJ0SQs3Lyv6wloBnn2SVsZnv3EzkLianx3ToicOjUIHxP1hI/0?wx_fmt=jpeg",
+      "summary": "金秋十月，喜迎国庆 校园服务持续在线 校园食堂、紫荆小巴正常运营 进校预约、校园参观、文创选购…… 畅游华农，这份指南请收好 陪你舒心欢度国庆假期！ 进校预约指",
+      "tags": [
+        "通知",
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/wQbLrWQ4RfWZkwqe_B77dQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34188442",
+      "word_count": 3118,
+      "fetched_at": "2026-11-09T00:23:04+08:00"
+    },
+    {
+      "id": "34176086",
+      "title": "中职→研究生，流水线→实验室！邢国忠，加油！",
+      "published_at": "2026-09-29T11:55:00+08:00",
+      "published_label": "2026-09-29",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDyCrTr7Yt5bVK6wUPZGtFLPQBYYI8LiawNjozrxHTLW3MzrZ5lgIHqibzLPYuDRBv4YlSnyicfW66icOn8qLOT8GGEbVDFlfyXqdY/0?wx_fmt=jpeg",
+      "summary": "从中职到本科再到研究生 从工厂流水线到全国重点实验室 家庭的重担、生活的压力、未来的迷茫 曾使他在低谷中苦苦挣扎 但“人生不能止步于此”的信念 也支撑着他一次又",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/MSyOJiOh38xcP8DWYd-Vhw",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34176086",
+      "word_count": 2459,
+      "fetched_at": "2026-11-09T00:23:09+08:00"
+    },
+    {
+      "id": "34154062",
+      "title": "今晚，你那边的月亮圆不圆？",
+      "published_at": "2026-09-25T19:00:00+08:00",
+      "published_label": "2026-09-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDkTe6LLZ4gWMBGEHpQ3DIFWhHHt7fQgibaO7C45PDaxQVDsD2JrzbpJC34dUSeZaFmRjzf2pgB5oyA5WUpPke6fQUN7icy0ggwg/0?wx_fmt=jpeg",
+      "summary": "秋序渐深，时节安然 岁岁中秋，如期赴约 佳节至，风物甜 属于华农的中秋仪式感 从一枚专属月饼开启 匠心烘烤的月饼 金黄温润，馅料醇厚 一口秋日，熨帖人心 意常伴",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/XTATguef1BfJ6L1OXjOV1Q",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34154062",
+      "word_count": 492,
+      "fetched_at": "2026-11-09T00:23:15+08:00"
+    },
+    {
+      "id": "34154061",
+      "title": "万名师生，同上一堂大课！",
+      "published_at": "2026-09-24T21:21:30+08:00",
+      "published_label": "2026-09-24",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckA8JNBibQKKF9rmzicM2AYTXfdmicl93f4faU2btw89KrnAib0yvy6T0xgQsQOUDOCvVgRDwXXvDSuXNkWXIjGfv4vjKicNGic8Hv8ek/0?wx_fmt=jpeg",
+      "summary": "9月24日，华南农业大学开展党员基本培训集中大课，全校1万余名师生党员通过1个主会场和60多个分会场“同上一堂大课”，集体学习教育部党组书记、部长怀进鹏主讲的“",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/JgO_VfveZ89AwzAp92VoGg",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34154061",
+      "word_count": 1870,
+      "fetched_at": "2026-11-09T00:23:19+08:00"
+    },
+    {
+      "id": "34141789",
+      "title": "华农这堂课，会飞！",
+      "published_at": "2026-09-24T10:38:01+08:00",
+      "published_label": "2026-09-24",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDfzKzt0wrZYaKjFPdQlbIvh8v0ibjycnFTIiauekbZ8S7UIp2IeQnJ7wET7CKJmSKhA5MmRIzC5bYobdLSWoeX5b7KBZFBLhuu4/0?wx_fmt=jpeg",
+      "summary": "“从过去‘人扛牛拉’，到如今‘机种机收’，再迈向‘智能感知、自主决策’，科技力量已经渗透到‘耕、种、管、收、藏、运’等农业生产运输全链条。”9月23日下午，薛红",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/TtDYft3MlEHEX6WMUa7BfA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34141789",
+      "word_count": 1850,
+      "fetched_at": "2026-11-09T00:23:24+08:00"
+    }
+  ]
 }
