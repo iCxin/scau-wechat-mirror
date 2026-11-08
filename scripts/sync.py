@@ -280,7 +280,7 @@ def request(session: requests.Session, method: str, url: str, *, retries: int = 
 # 澎湃号：发现列表
 # ---------------------------------------------------------------------------
 
-def fetch_paper_list(session: requests.Session, page_num: int, page_size: int = 20) -> tuple[list, bool]:
+def fetch_paper_list(session: requests.Session, page_num: int, page_size: int = 10) -> tuple[list, bool]:
     if page_num == 1:
         LAST_LIST_META.clear()
 
@@ -337,7 +337,7 @@ def fetch_paper_user_list(
     session: requests.Session,
     page_num: int,
     start_time=0,
-    page_size: int = 20,
+    page_size: int = 10,
 ) -> tuple[list, object, bool]:
     """澎湃号历史接口。
 
@@ -363,6 +363,8 @@ def fetch_paper_user_list(
         },
     )
     if response is None:
+        if page_num == 1:
+            log("历史接口：请求失败")
         return [], start_time, False
     try:
         payload = response.json()
@@ -370,11 +372,18 @@ def fetch_paper_user_list(
         log(f"历史接口返回非 JSON（page={page_num}）")
         return [], start_time, False
     if not isinstance(payload, dict):
+        if page_num == 1:
+            log("历史接口：响应不是 JSON 对象")
         return [], start_time, False
 
     data = payload.get("data")
     if not isinstance(data, dict):
         data = payload
+    if page_num == 1:
+        log(
+            f"历史接口 page1：status={response.status_code} code={payload.get('code')} "
+            f"data_keys={list(data.keys()) if isinstance(data, dict) else type(data).__name__}"
+        )
     items = data.get("list") or data.get("records") or []
     if not isinstance(items, list):
         items = []
@@ -384,16 +393,51 @@ def fetch_paper_user_list(
 
     raw_cursor = data.get("startTime")
     next_cursor = start_time
-    if isinstance(raw_cursor, (int, float)) and raw_cursor > 0:
-        next_cursor = int(raw_cursor)
-    elif isinstance(raw_cursor, str) and raw_cursor.strip():
-        next_cursor = raw_cursor.strip()
-    elif items and isinstance(items[-1], dict):
+    # 优先用本页最后一篇的时间作为游标，避免把“本页起始时间”再次传回导致原地翻页。
+    if items and isinstance(items[-1], dict):
         last_dt = parse_dt(items[-1].get("pubTimeLong")) or parse_dt(items[-1].get("publishTime"))
         if last_dt:
             next_cursor = int(last_dt.timestamp() * 1000)
+    elif isinstance(raw_cursor, (int, float)) and raw_cursor > 0:
+        next_cursor = int(raw_cursor)
+    elif isinstance(raw_cursor, str) and raw_cursor.strip():
+        next_cursor = raw_cursor.strip()
 
+    if page_num == 1:
+        log(f"历史接口 page1：返回 {len(items)} 篇，hasNext={has_next}，cursor={next_cursor}")
     return items, next_cursor, bool(has_next) if has_next is not None else bool(items)
+
+
+def fetch_paper_user_info(session: requests.Session) -> None:
+    """诊断用：读取官方澎湃号作者主页信息，便于确认历史接口的 pphId。"""
+    response = request(
+        session,
+        "GET",
+        f"https://api.thepaper.cn/userservice/user/homePage/{PAPER_ID}",
+        retries=2,
+        headers={
+            "Accept": "application/json, text/plain, */*",
+            "Origin": "https://m.thepaper.cn",
+            "Referer": "https://m.thepaper.cn/",
+            "Client-Type": "2",
+        },
+    )
+    if response is None:
+        log("作者信息接口请求失败")
+        return
+    try:
+        payload = response.json()
+    except Exception:  # noqa: BLE001
+        log("作者信息接口返回非 JSON")
+        return
+    user_info = payload.get("userInfo") if isinstance(payload, dict) else None
+    if isinstance(user_info, dict):
+        log(
+            f"作者信息：status={response.status_code} userId={user_info.get('userId')} "
+            f"sname={user_info.get('sname')} pph={user_info.get('pph')}"
+        )
+    else:
+        log(f"作者信息：status={response.status_code}，未找到 userInfo")
 
 
 def parse_list_item(item: dict) -> dict | None:
@@ -1253,6 +1297,7 @@ def run(args) -> int:
     log(f"开始同步：账号={ACCOUNT_NAME}，现有 {len(existing)} 篇，本次最多新增 {max_new} 篇，发现页数 {discover_pages}")
 
     session = new_session()
+    fetch_paper_user_info(session)
     album_cache = load_album_cache() if USE_ALBUM else {"items": []}
     album_items: list[dict] = list(album_cache.get("items") or [])
     album_meta: dict = {}
@@ -1268,6 +1313,7 @@ def run(args) -> int:
             break
         if page == 1 and isinstance(items[0], dict):
             raw_keys = sorted(str(key) for key in items[0].keys())
+            log(f"最新列表首条 authorInfo={items[0].get('authorInfo')}")
         for raw in items:
             parsed = parse_list_item(raw)
             if parsed:
