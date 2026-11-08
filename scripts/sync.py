@@ -731,6 +731,8 @@ def to_text(raw_html: str) -> str:
 
 def build_summary(content_html: str, preferred: str = "") -> str:
     text = clean_text(preferred)
+    if "<" in text and ">" in text:
+        text = to_text(str(preferred))
     if len(text) < 25:
         text = re.sub(r"\s+", " ", to_text(content_html)).strip()
     text = re.sub(r"^原创\s*", "", text)
@@ -955,11 +957,12 @@ def run(args) -> int:
             parsed = parse_list_item(raw)
             if parsed:
                 discovered[parsed["id"]] = parsed
-        if not has_next:
-            break
+        # 政务号接口的 hasNext 偶尔不可靠；继续翻页，遇到空页会自然停止。
+        # 这样既能在正常分页时回填历史，也能在接口不支持翻页时安全退化。
         time.sleep(0.8)
 
     log(f"列表发现 {len(discovered)} 篇")
+    last_error = None
     if not discovered:
         last_error = "列表接口未返回可识别的文章"
 

@@ -196,7 +196,8 @@
       link.href = repo;
     });
 
-    const lastSync = data.sync && data.sync.last_success ? data.sync.last_success : data.generated_at;
+    const lastSync = (data.sync && data.sync.last_success)
+      || (articles.length ? data.generated_at : null);
     els.syncPill.classList.remove("is-stale", "is-error");
     if (!lastSync) {
       els.syncText.textContent = "等待首次同步";
