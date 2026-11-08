@@ -28,7 +28,7 @@ import traceback
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
+from urllib.parse import parse_qs, quote, urlencode, urlparse, urlunparse
 from xml.sax.saxutils import escape
 
 from bs4 import BeautifulSoup
@@ -209,7 +209,11 @@ def clean_wechat_url(value) -> str | None:
         if key in query and query[key]:
             keep[key] = query[key][0]
     if keep:
-        return urlunparse(("https", "mp.weixin.qq.com", parsed.path, "", urlencode(keep), ""))
+        # 微信对 __biz 的 `=` 比较挑剔；保留未编码的 `=`，更接近浏览器地址栏里的原文链接。
+        query_string = "&".join(
+            f"{key}={quote(str(value), safe='=')}" for key, value in keep.items()
+        )
+        return f"https://mp.weixin.qq.com/s?{query_string}"
 
     m = re.search(r"/s/([A-Za-z0-9_-]+)", parsed.path)
     if m:
@@ -879,7 +883,21 @@ def merge_album_cache(cache: dict, new_items: list, meta: dict) -> tuple[dict, b
 # 微信原文增强（可选）
 # ---------------------------------------------------------------------------
 
-def fetch_wechat_article(session: requests.Session, url: str) -> dict | None:
+def wechat_url_variants(url: str) -> list[str]:
+    variants = [url]
+    parsed = urlparse(url)
+    if parsed.query:
+        query = parse_qs(parsed.query, keep_blank_values=True)
+        encoded = urlunparse((
+            "https", "mp.weixin.qq.com", parsed.path, "",
+            urlencode(query, doseq=True), "",
+        ))
+        if encoded not in variants:
+            variants.append(encoded)
+    return variants
+
+
+def _fetch_wechat_once(session: requests.Session, url: str) -> dict | None:
     response = request(
         session,
         "GET",
@@ -902,15 +920,21 @@ def fetch_wechat_article(session: requests.Session, url: str) -> dict | None:
         for marker in ("环境异常", "访问过于频繁", "wappoc_appmsgcaptcha", "请输入验证码", "完成验证")
     )
     if blocked:
-        log("微信原文触发风控，回退到官方澎湃号正文")
+        log(f"微信原文触发风控，回退到官方澎湃号正文（{url[:120]}）")
         return None
     if "js_content" not in raw_html and "rich_media_content" not in raw_html:
-        log("微信原文缺少正文节点，回退到官方澎湃号正文")
+        title_match = re.search(r"<title[^>]*>(.*?)</title>", raw_html, re.S | re.I)
+        page_title = clean_text(re.sub("<.*?>", "", html_lib.unescape(title_match.group(1))) if title_match else "")
+        log(
+            f"微信原文缺少正文节点：title={page_title[:70]} "
+            f"len={len(raw_html)} url={url[:150]}"
+        )
         return None
 
     soup = BeautifulSoup(raw_html, "lxml")
     content_node = soup.find(id="js_content") or soup.select_one(".rich_media_content")
     if content_node is None:
+        log(f"微信原文无法定位 js_content（{url[:120]}）")
         return None
 
     title = ""
@@ -966,6 +990,18 @@ def fetch_wechat_article(session: requests.Session, url: str) -> dict | None:
         "account": account,
         "url": url,
     }
+
+
+def fetch_wechat_article(session: requests.Session, url: str) -> dict | None:
+    # 先试原始 __biz（保留 `=`），再试百分号编码版本；都失败后用全新会话重试一次。
+    for attempt in range(2):
+        active = session if attempt == 0 else new_session()
+        for variant in wechat_url_variants(url):
+            result = _fetch_wechat_once(active, variant)
+            if result:
+                result["url"] = url
+                return result
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -1297,7 +1333,6 @@ def run(args) -> int:
     log(f"开始同步：账号={ACCOUNT_NAME}，现有 {len(existing)} 篇，本次最多新增 {max_new} 篇，发现页数 {discover_pages}")
 
     session = new_session()
-    fetch_paper_user_info(session)
     album_cache = load_album_cache() if USE_ALBUM else {"items": []}
     album_items: list[dict] = list(album_cache.get("items") or [])
     album_meta: dict = {}

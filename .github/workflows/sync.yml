@@ -61,10 +61,10 @@ jobs:
           SCAU_PAPER_ID: "6903558"
           SITE_URL: "https://icxin.github.io/scau-wechat-mirror"
           REPO_URL: "https://github.com/${{ github.repository }}"
-          USE_ALBUM: "0"
+          USE_ALBUM: "1"
           MAX_NEW: ${{ inputs.max_new }}
           DISCOVER_PAGES: ${{ inputs.discover_pages }}
-          PAPER_HISTORY_PAGES: ${{ inputs.history_pages }}
+          PAPER_HISTORY_PAGES: "0"
           WECHAT_FETCH: "1"
           WECHAT_MAX: "40"
         run: python scripts/sync.py
