@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c4430">
+  <title>华农官微镜像 · 华南农业大学公众号推文存档</title>
+  <meta name="description" content="华南农业大学官方微信公众号推文镜像站。按时间归档、支持搜索与全文阅读，每篇均附微信原文链接。非官方、非营利站点，内容版权归华南农业大学所有。">
+  <meta property="og:title" content="华农官微镜像">
+  <meta property="og:description" content="把华南农业大学官微的每一次推送，留在可以随时翻阅的地方。">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="alternate" type="application/rss+xml" title="华农官微镜像 RSS" href="feed.xml">
+  <script>
+    // 在首屏绘制前恢复主题，避免闪白。
+    try {
+      var saved = localStorage.getItem("scau-theme");
+      if (saved === "dark" || (!saved && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header" role="banner">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="华农官微镜像首页">
+        <span class="brand-seal" aria-hidden="true">华</span>
+        <span class="brand-copy">
+          <strong>华农官微镜像</strong>
+          <small>SCAU · WECHAT ARCHIVE</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#latest">最新推文</a>
+        <a href="#about">关于镜像</a>
+        <a href="feed.xml">RSS</a>
+      </nav>
+
+      <div class="header-tools">
+        <span class="sync-pill" id="syncPill" title="数据同步状态">
+          <i aria-hidden="true"></i>
+          <span id="syncText">正在读取…</span>
+        </span>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深浅色" title="切换深浅色">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 3v2m0 14v2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42M3 12h2m14 0h2M5.64 18.36l1.42-1.42m9.88-9.88 1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+            <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+          </svg>
+        </button>
+        <a class="icon-btn repo-link" data-repo-link href="https://github.com/iCxin/scau-wechat-mirror" target="_blank" rel="noopener" aria-label="GitHub 仓库" title="GitHub 仓库">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2.6a9.4 9.4 0 0 0-3 18.3c.47.09.64-.2.64-.45v-1.6c-2.6.57-3.15-1.1-3.15-1.1-.43-1.08-1.04-1.37-1.04-1.37-.85-.58.06-.57.06-.57.94.07 1.44.97 1.44.97.84 1.44 2.2 1.02 2.73.78.09-.61.33-1.02.6-1.25-2.08-.24-4.27-1.04-4.27-5.32 0-1.18.42-2.14 1.12-2.9-.11-.24-.49-1.37.11-2.86 0 0 .92-.29 3.01 1.12a10.4 10.4 0 0 1 5.48 0c2.09-1.41 3.01-1.12 3.01-1.12.6 1.49.22 2.62.11 2.86.7.76 1.12 1.72 1.12 2.9 0 4.29-2.2 5.08-4.29 5.31.34.29.64.86.64 1.73v2.57c0 .25.17.55.65.45A9.4 9.4 0 0 0 12 2.6Z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>华南农业大学 · 官方微信公众号</p>
+        <h1>把每一次推送，<br><span class="accent">留在这里。</span></h1>
+        <p class="hero-lede">从校园大事到紫荆花开，从科研突破到食堂新菜。这是一份按时间归档、可随时检索的华农官微阅读档案。</p>
+
+        <div class="hero-metrics" aria-label="镜像统计">
+          <div class="metric">
+            <strong id="metricTotal">—</strong>
+            <span>已收录推文</span>
+          </div>
+          <div class="metric">
+            <strong id="metricWechat">—</strong>
+            <span>微信原文全文</span>
+          </div>
+          <div class="metric">
+            <strong id="metricUpdated">—</strong>
+            <span>最近更新</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#latest">
+            开始阅读
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#about">这个站是什么？</a>
+        </div>
+
+        <p class="hero-note">非官方镜像 · 内容版权归华南农业大学 · 每篇均附原文链接</p>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-a"></div>
+        <div class="art-orbit orbit-b"></div>
+        <div class="art-card">
+          <span class="art-kicker">SCAU</span>
+          <span class="art-title">华农<br>官微</span>
+          <span class="art-year">EST. 2014</span>
+        </div>
+        <svg class="blossom" viewBox="0 0 200 200">
+          <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+            <g>
+              <path d="M100 98 C74 76 76 38 100 18 C124 38 126 76 100 98Z"/>
+              <path d="M100 78 V40"/>
+              <path d="M100 64 c-7-4-12-9-14-15M100 56 c7-4 12-9 14-15"/>
+            </g>
+            <g transform="rotate(72 100 100)">
+              <path d="M100 98 C74 76 76 38 100 18 C124 38 126 76 100 98Z"/>
+              <path d="M100 78 V40"/>
+              <path d="M100 64 c-7-4-12-9-14-15M100 56 c7-4 12-9 14-15"/>
+            </g>
+            <g transform="rotate(144 100 100)">
+              <path d="M100 98 C74 76 76 38 100 18 C124 38 126 76 100 98Z"/>
+              <path d="M100 78 V40"/>
+              <path d="M100 64 c-7-4-12-9-14-15M100 56 c7-4 12-9 14-15"/>
+            </g>
+            <g transform="rotate(216 100 100)">
+              <path d="M100 98 C74 76 76 38 100 18 C124 38 126 76 100 98Z"/>
+              <path d="M100 78 V40"/>
+              <path d="M100 64 c-7-4-12-9-14-15M100 56 c7-4 12-9 14-15"/>
+            </g>
+            <g transform="rotate(288 100 100)">
+              <path d="M100 98 C74 76 76 38 100 18 C124 38 126 76 100 98Z"/>
+              <path d="M100 78 V40"/>
+              <path d="M100 64 c-7-4-12-9-14-15M100 56 c7-4 12-9 14-15"/>
+            </g>
+            <circle cx="100" cy="100" r="9"/>
+            <circle cx="100" cy="100" r="3.2" fill="currentColor" stroke="none"/>
+          </g>
+        </svg>
+        <span class="art-stamp">NO. 10564</span>
+        <span class="art-vertical">笃学明德 · 躬行致远</span>
+      </div>
+    </div>
+
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>笃学明德</span><b>·</b><span>躬行致远</span><b>·</b><span>五湖四海一片林</span><b>·</b><span>紫荆花开</span><b>·</b><span>华农酸奶</span><b>·</b><span>百年校史</span><b>·</b>
+        <span>笃学明德</span><b>·</b><span>躬行致远</span><b>·</b><span>五湖四海一片林</span><b>·</b><span>紫荆花开</span><b>·</b><span>华农酸奶</span><b>·</b><span>百年校史</span><b>·</b>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="section archive" id="latest">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">ARCHIVE / 推文存档</p>
+            <h2>最新推送</h2>
+          </div>
+          <p class="section-desc" id="resultMeta">正在读取镜像数据…</p>
+        </div>
+
+        <div class="toolbar" role="search">
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 15.5 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input id="searchInput" type="search" placeholder="搜索标题、摘要或标签…" autocomplete="off" spellcheck="false">
+            <kbd>/</kbd>
+          </label>
+          <div class="filter-chips" id="filterChips" role="group" aria-label="按标签筛选"></div>
+          <label class="sort-box">
+            <span>排序</span>
+            <select id="sortSelect">
+              <option value="new">最新优先</option>
+              <option value="old">最早优先</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="featuredSlot"></div>
+        <div class="article-grid" id="articleGrid"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span class="empty-mark" aria-hidden="true">华</span>
+          <h3 id="emptyTitle">镜像正在准备中</h3>
+          <p id="emptyText">GitHub Actions 完成第一次同步后，推文会自动出现在这里。</p>
+          <a class="btn btn-outline" id="emptyAction" data-repo-link href="https://github.com/iCxin/scau-wechat-mirror/actions" target="_blank" rel="noopener">查看同步状态</a>
+        </div>
+
+        <div class="load-more-wrap">
+          <button class="btn btn-outline" id="loadMore" type="button" hidden>加载更多</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="shell about-grid">
+        <div class="about-art" aria-hidden="true">
+          <span class="about-char">档</span>
+          <span class="about-caption">SCAU<br>WECHAT<br>ARCHIVE</span>
+        </div>
+        <div class="about-copy">
+          <p class="section-kicker">ABOUT THE MIRROR</p>
+          <h2>一份写给时间看的<br>官微档案</h2>
+          <p class="about-lede">微信公众号的内容会随时间沉入信息流底部。这个镜像站把华南农业大学官方微信号的公开推文整理成可检索、可回看的网页，并始终保留通往原文的链接。</p>
+
+          <div class="about-points">
+            <div class="about-point">
+              <span>01</span>
+              <h3>自动同步</h3>
+              <p>GitHub Actions 定时运行，不依赖任何一台常开电脑，也不会从你的本地网络发起抓取。</p>
+            </div>
+            <div class="about-point">
+              <span>02</span>
+              <h3>双源正文</h3>
+              <p>先读取学校官方澎湃号的完整正文，再尝试增强为微信原文全文；失败时自动回退，不让文章缺席。</p>
+            </div>
+            <div class="about-point">
+              <span>03</span>
+              <h3>原文可溯</h3>
+              <p>每篇文章都保留微信原文与官方澎湃号链接。内容版权归华南农业大学，本站仅作公开信息的非营利归档。</p>
+            </div>
+          </div>
+
+          <div class="about-actions">
+            <a class="btn btn-light" data-repo-link href="https://github.com/iCxin/scau-wechat-mirror" target="_blank" rel="noopener">
+              查看 GitHub 仓库
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="about-rss" href="feed.xml">订阅 RSS <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-seal small" aria-hidden="true">华</span>
+        <div>
+          <strong>华农官微镜像</strong>
+          <p>SCAU WECHAT ARCHIVE</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="页脚导航">
+        <a href="#latest">最新推文</a>
+        <a href="#about">关于镜像</a>
+        <a href="feed.xml">RSS</a>
+        <a data-repo-link href="https://github.com/iCxin/scau-wechat-mirror/issues" target="_blank" rel="noopener">问题反馈</a>
+      </nav>
+      <p class="footer-disclaimer">本站为非官方、非营利性的公开内容镜像，与华南农业大学官方无隶属关系。所有推文内容版权归华南农业大学及原作者所有；数据经学校官方澎湃号同步，原文链接指向微信公众号。如权利人认为内容不宜展示，请通过 GitHub Issues 联系删除。</p>
+      <p class="footer-meta"><span id="footerYear">2026</span> · Built on GitHub Actions &amp; GitHub Pages · <span id="footerSync">等待首次同步</span></p>
+    </div>
+  </footer>
+
+  <div class="reader" id="reader" hidden aria-hidden="true">
+    <div class="reader-backdrop" data-close></div>
+    <article class="reader-panel" role="dialog" aria-modal="true" aria-labelledby="readerTitle" tabindex="-1">
+      <div class="reader-progress" id="readerProgress" aria-hidden="true"></div>
+      <div class="reader-topbar">
+        <span class="reader-source" id="readerSource">华农官微</span>
+        <div class="reader-tools">
+          <button class="reader-tool" id="readerCopy" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 8V5.8A1.8 1.8 0 0 0 14.2 4H5.8A1.8 1.8 0 0 0 4 5.8v8.4A1.8 1.8 0 0 0 5.8 16H8" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+            <span>复制链接</span>
+          </button>
+          <button class="reader-tool" id="readerClose" type="button" aria-label="关闭阅读页">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="reader-scroll" id="readerScroll">
+        <div class="reader-inner">
+          <header class="reader-header">
+            <p class="reader-date" id="readerDate"></p>
+            <h1 id="readerTitle">正在打开…</h1>
+            <div class="reader-tags" id="readerTags"></div>
+            <img class="reader-cover" id="readerCover" alt="" hidden referrerpolicy="no-referrer">
+          </header>
+          <div class="article-body" id="readerBody">
+            <div class="reader-skeleton"><span></span><span></span><span></span><span></span></div>
+          </div>
+          <footer class="reader-footer" id="readerFooter">
+            <div class="reader-links" id="readerLinks"></div>
+            <p>内容版权归华南农业大学所有。本页为非官方镜像，建议以微信原文为准。</p>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">这个小站需要 JavaScript 才能加载推文列表。你仍然可以直接访问 <a href="feed.xml">RSS</a> 或 <a href="https://github.com/iCxin/scau-wechat-mirror">GitHub 仓库</a>。</div>
+  </noscript>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
