@@ -59,7 +59,9 @@ USE_ALBUM = os.getenv("USE_ALBUM", "1").lower() not in {"0", "false", "no", "off
 ALBUM_MAX_PAGES = max(1, int(os.getenv("ALBUM_MAX_PAGES", "30") or 30))
 
 PAPER_API = "https://api.thepaper.cn/contentapi/cont/pph/gov"
+PAPER_USER_API = "https://api.thepaper.cn/contentapi/cont/pph/user"
 PAPER_BASE = "https://m.thepaper.cn"
+PAPER_HISTORY_PAGES = max(0, int(os.getenv("PAPER_HISTORY_PAGES", "20") or 20))
 ALBUM_API = "https://mp.weixin.qq.com/mp/appmsgalbum"
 ALBUM_CACHE_PATH = DATA_DIR / "album.json"
 
@@ -329,6 +331,69 @@ def fetch_paper_list(session: requests.Session, page_num: int, page_size: int = 
         has_next = has_next.strip().lower() in {"1", "true", "yes", "y"}
     LAST_LIST_META.update({"count": len(items)})
     return items, bool(has_next)
+
+
+def fetch_paper_user_list(
+    session: requests.Session,
+    page_num: int,
+    start_time=0,
+    page_size: int = 20,
+) -> tuple[list, object, bool]:
+    """澎湃号历史接口。
+
+    政务号首页接口通常只返回最新 20 条；作者接口支持 startTime 游标，
+    可以从新到旧翻页。返回 (items, next_cursor, has_next)。
+    """
+    response = request(
+        session,
+        "POST",
+        PAPER_USER_API,
+        json={
+            "pageSize": page_size,
+            "pageNum": page_num,
+            "contType": 0,
+            "excludeContIds": [],
+            "pphId": PAPER_ID,
+            "startTime": start_time,
+        },
+        headers={
+            "Accept": "application/json, text/plain, */*",
+            "Origin": "https://m.thepaper.cn",
+            "Referer": "https://m.thepaper.cn/",
+        },
+    )
+    if response is None:
+        return [], start_time, False
+    try:
+        payload = response.json()
+    except Exception:  # noqa: BLE001
+        log(f"历史接口返回非 JSON（page={page_num}）")
+        return [], start_time, False
+    if not isinstance(payload, dict):
+        return [], start_time, False
+
+    data = payload.get("data")
+    if not isinstance(data, dict):
+        data = payload
+    items = data.get("list") or data.get("records") or []
+    if not isinstance(items, list):
+        items = []
+    has_next = data.get("hasNext")
+    if isinstance(has_next, str):
+        has_next = has_next.strip().lower() in {"1", "true", "yes", "y"}
+
+    raw_cursor = data.get("startTime")
+    next_cursor = start_time
+    if isinstance(raw_cursor, (int, float)) and raw_cursor > 0:
+        next_cursor = int(raw_cursor)
+    elif isinstance(raw_cursor, str) and raw_cursor.strip():
+        next_cursor = raw_cursor.strip()
+    elif items and isinstance(items[-1], dict):
+        last_dt = parse_dt(items[-1].get("pubTimeLong")) or parse_dt(items[-1].get("publishTime"))
+        if last_dt:
+            next_cursor = int(last_dt.timestamp() * 1000)
+
+    return items, next_cursor, bool(has_next) if has_next is not None else bool(items)
 
 
 def parse_list_item(item: dict) -> dict | None:
@@ -1211,6 +1276,33 @@ def run(args) -> int:
         # 这样既能在正常分页时回填历史，也能在接口不支持翻页时安全退化。
         time.sleep(0.8)
 
+    # 澎湃号作者接口支持按时间游标翻阅历史；它是历史文章的主要来源。
+    history_added = 0
+    if PAPER_HISTORY_PAGES > 0:
+        cursor = 0
+        stagnant_pages = 0
+        history_seen = set(discovered.keys())
+        for page in range(1, PAPER_HISTORY_PAGES + 1):
+            items, next_cursor, _ = fetch_paper_user_list(session, page, cursor)
+            if not items:
+                break
+            added = 0
+            for raw in items:
+                parsed = parse_list_item(raw)
+                if parsed and parsed["id"] not in history_seen:
+                    discovered[parsed["id"]] = parsed
+                    history_seen.add(parsed["id"])
+                    added += 1
+            history_added += added
+            # 第一页通常和“最新列表”重叠，added 为 0 是正常的；
+            # 连续两页没有新 ID 才认为分页没有前进。
+            stagnant_pages = stagnant_pages + 1 if added == 0 else 0
+            if stagnant_pages >= 2:
+                break
+            cursor = next_cursor
+            time.sleep(0.8)
+        log(f"历史接口补充 {history_added} 篇（cursor={cursor}）")
+
     if USE_ALBUM and SCAU_ALBUM_ID and SCAU_BIZ:
         pages = ALBUM_MAX_PAGES if not album_items else 1
         log(f"读取微信合集：最多 {pages} 页")
@@ -1370,6 +1462,7 @@ def run(args) -> int:
             "last_discovered": len(discovered),
             "last_fresh": len(fresh),
             "last_new": fetched,
+            "last_history": history_added,
             "last_wechat": wechat_count,
             "last_failed": failed,
             "last_pages": discover_pages,
