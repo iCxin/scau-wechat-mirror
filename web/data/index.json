@@ -7,12 +7,12 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T16:21:34+08:00",
+  "generated_at": "2026-11-09T16:31:36+08:00",
   "sync": {
-    "last_success": "2026-11-09T16:21:34+08:00",
+    "last_success": "2026-11-09T16:31:36+08:00",
     "last_error": null,
-    "last_discovered": 196,
-    "last_fresh": 186,
+    "last_discovered": 184,
+    "last_fresh": 174,
     "last_new": 12,
     "last_history": 0,
     "last_wechat": 12,
@@ -69,8 +69,8 @@
     }
   },
   "stats": {
-    "total": 34,
-    "wechat": 34,
+    "total": 46,
+    "wechat": 46,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -625,6 +625,202 @@
       "paper_url": null,
       "word_count": 1468,
       "fetched_at": "2026-11-09T16:21:33+08:00"
+    },
+    {
+      "id": "wx2652895252",
+      "title": "华农师生热议全省高等教育高质量发展座谈会精神",
+      "published_at": "2026-08-23T00:33:19+08:00",
+      "published_label": "2026-08-23",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckB1XcXFR4dQrJicXvaQHHobEfPLk7wsRKIye4tgWtaG6ZVZMRh9mQvYnWaSQdGkBRmaE92NnzxP6EWjYyZS49cOr8SBMibsqHeMk/0?wx_fmt=jpeg",
+      "summary": "凝心聚力启新程，深耕高教谋高质量发展。全省高等教育高质量发展座谈会21日召开后，在华农师生中引起热烈反响。大家第一时间深入学习领会会议精神，备受鼓舞、倍感振奋、倍添干劲，并结合学校“双一流”建设与强农报国使命，畅谈学习感悟、共话责任担当、共…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652895252&idx=1&sn=bf30c3014e048dbf8f8e5a1496953e4b",
+      "paper_url": null,
+      "word_count": 2963,
+      "fetched_at": "2026-11-09T16:30:48+08:00"
+    },
+    {
+      "id": "wx2652895115",
+      "title": "广东召开全省高等教育高质量发展大会，黄坤明主持并讲话",
+      "published_at": "2026-08-22T10:00:00+08:00",
+      "published_label": "2026-08-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBj6m4HtZpYtA9u7iaNFbIeQ9KTRp01GWWHRaGUP1g8P2BicdNpjreeH8WruwT51xOjIMP8agG5sbY8TrsuoZjhVUIa7bJ1K2IgQ/0?wx_fmt=jpeg",
+      "summary": "8月21日下午，省委书记黄坤明主持召开全省高等教育高质量发展座谈会，听取在粤高校负责人意见建议，共同研究推进我省高等教育高质量发展…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652895115&idx=1&sn=606ca48eec1986908c8032ca5386338e",
+      "paper_url": null,
+      "word_count": 3013,
+      "fetched_at": "2026-11-09T16:30:52+08:00"
+    },
+    {
+      "id": "wx2652893781",
+      "title": "广东社科最高奖，华农创历史新高！",
+      "published_at": "2026-08-05T13:04:10+08:00",
+      "published_label": "2026-08-05",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckAiayA8os0huaic5NMd8tz5fcV89kDYTjmib9FVOiaWzA2kpCU3aAMzmfN21DiaYrCMwRdiaELicECGO9libiclx5ialKnlULeUicPMR3G4J8/0?wx_fmt=jpeg",
+      "summary": "近日 广东省哲学社会科学理论界 最具权威性和含金量的政府奖项 第十一届 广东省哲学社会科学 优秀成果奖获奖名单正式发布 华农共有 17项成果 受到表彰 其中 一等奖4项 二等奖5项 、 三等奖8项 获奖总数与一等奖数量 均创下学校历史新高…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652893781&idx=1&sn=0a1cb40b3c85535b368f6cdc1e930537",
+      "paper_url": null,
+      "word_count": 1189,
+      "fetched_at": "2026-11-09T16:30:56+08:00"
+    },
+    {
+      "id": "wx2652893139",
+      "title": "他们，获奖！",
+      "published_at": "2026-07-24T18:00:00+08:00",
+      "published_label": "2026-07-24",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckAjU7yc8nibYRwSRcCl1yRribk563rRJic6ld8tcemJklKEiaib4blNjo6xhLglnxLybGbbxBBVDiaXu3ExDWsqPaxibJLAsrsia0xmkwI/0?wx_fmt=jpeg",
+      "summary": "7月23日 第六届全国高校教师教学创新大赛 全国现场赛落幕 华南农业大学 林学与风景园林学院邱权教师团队 （团队成员：何茜、刘效东、吴道铭） 荣获新农科副高组二等奖 马克思主义学院韩谦教师团队 （团队成员：陈洁、唐土红、蔡小婷） 荣获基础课…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652893139&idx=1&sn=afe67e6674489a764f2a9aa3a680af7e",
+      "paper_url": null,
+      "word_count": 1040,
+      "fetched_at": "2026-11-09T16:31:01+08:00"
+    },
+    {
+      "id": "wx2652893092",
+      "title": "第二轮“冲补强”，华农成绩单来了！",
+      "published_at": "2026-07-23T15:50:00+08:00",
+      "published_label": "2026-07-23",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDBafqlzmCxdeRnicrxPNKKCyeAcoTgg97vIrAUMuv15vQUWcibsjXWmDlVYQ2h95353o91b6TBkDbG2c5PvBjyKuhKRmFCBjk7s/0?wx_fmt=jpeg",
+      "summary": "7月21日晚 央视《新闻联播》专栏 “在希望的田野上” 重点报道了 全国粮食生产有序推进‌情况 特别聚焦罗锡文院士团队 河源智慧农场 生动呈现科技赋能 早稻抢收的繁忙场景 罗锡文院士团队在河源智慧农场进行夏季早稻收获作业7月21日获央视《新…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652893092&idx=1&sn=545004b1854b14297f42c9faf0002d5c",
+      "paper_url": null,
+      "word_count": 5121,
+      "fetched_at": "2026-11-09T16:31:05+08:00"
+    },
+    {
+      "id": "wx2652893049",
+      "title": "一举揽获三项大奖，“丰收密码”是啥？",
+      "published_at": "2026-07-22T17:03:03+08:00",
+      "published_label": "2026-07-22",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckAnLHkZXWLUnCicGhvSgVnibibicnThfhnQp27JnS8B8fKqWia2lMVictx5A4gSRL9HGrlqOAUSnWmcQdU8Qt3iawic2fvywnnuZCsNpHk/0?wx_fmt=jpeg",
+      "summary": "近日 华农斩获3项国家科学技术奖 硬核科研成果持续夯实 学校 “双一流” 建设根基的亮眼成绩 获 光明日报、中国青年报、央视网 中国科学报、广东新闻联播、南方日报 羊城晚报、南方农村报、 南方财经 南方都市报 、 广州新闻联播、 广州日报…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652893049&idx=1&sn=1dfd97c2113aa26dbd272a2101d87e9b",
+      "paper_url": null,
+      "word_count": 4336,
+      "fetched_at": "2026-11-09T16:31:09+08:00"
+    },
+    {
+      "id": "wx2652892912",
+      "title": "喜报！华农+6！",
+      "published_at": "2026-07-20T16:10:00+08:00",
+      "published_label": "2026-07-20",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckC4xmpLsUL8X60faibmiaA5Outr3XD5y5yUWBCWvF8Lo1eaqwFOefBEN95UCq2lbZmBdiaRmsPqLyeAsTqWOeYzt2Ohps3Uq0pdYk/0?wx_fmt=jpeg",
+      "summary": "近日，教育部公布了第五批全国党建工作示范高校、标杆院系、样板支部培育创建单位名单，以及第四批全国高校“百个研究生样板党支部”和“百名研究生党员标兵”创建名单。 华南农业大学共有6个项目入选…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652892912&idx=1&sn=a31f99ec2742f4bc64ecf695bdc33ae8",
+      "paper_url": null,
+      "word_count": 4187,
+      "fetched_at": "2026-11-09T16:31:14+08:00"
+    },
+    {
+      "id": "wx2652891776",
+      "title": "祝贺！华农荣获3项国家科学技术奖！",
+      "published_at": "2026-07-08T13:32:56+08:00",
+      "published_label": "2026-07-08",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckArawDqvvUMNLbR2WraGzUp8D36wNpTib6oiac45or2qsm4LIRh93iaPBdW3xwCz1Wia8Gs4STT0JLu4GNuyOvv53CBv6dqOgHGKSQ/0?wx_fmt=jpeg",
+      "summary": "7月8日 国家科学技术奖励大会 在北京人民大会堂隆重召开 2025年度国家科学技术奖评选结果揭晓 华南农业大学共有 3 项成果获奖 其中，2个主持项目 获国家科技进步奖 二等奖 1个主要参与完成项目 获国家科技进步奖 一等奖 获奖总数位居全…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652891776&idx=1&sn=74f5d47f8b8915c5e8c322945501b430",
+      "paper_url": null,
+      "word_count": 1732,
+      "fetched_at": "2026-11-09T16:31:18+08:00"
+    },
+    {
+      "id": "wx2652891023",
+      "title": "今天，他们获表彰！",
+      "published_at": "2026-06-30T21:10:21+08:00",
+      "published_label": "2026-06-30",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckClKz2RpUCsiaT6y6ACGQ78wyhxLdbV4J2KoHGG4cBh4oWw4maTaSY8DX7viamVhPlA6UZNJEuQQyVS4NPiauaA7iaPojQI1StegZE/0?wx_fmt=jpeg",
+      "summary": "6月30日 华南农业大学在丁颖礼堂举行 庆祝建党105周年表彰大会 表彰一批在学校建设发展中 涌现出来的先进集体和优秀个人 激励全校各级党组织和广大党员 向先锋模范学习 牢记初心使命、坚定理想信念 聚力攻坚、昂首跨越 奋力推进学校“双一流”…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652891023&idx=1&sn=f748dfd10d815cadaf2bda326b6378b7",
+      "paper_url": null,
+      "word_count": 3898,
+      "fetched_at": "2026-11-09T16:31:23+08:00"
+    },
+    {
+      "id": "wx2652890778",
+      "title": "一流学科，提质升级！",
+      "published_at": "2026-06-29T12:23:13+08:00",
+      "published_label": "2026-06-29",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDtNHibgXz3WPAbG9mNEhOsHB2Bh5NcYpmK4kYicGq5jtibyPkM6Rq57MIUlfxibKYwBAp4PzuaKOTc3NWjqScSQxctCArWDdS191U/0?wx_fmt=jpeg",
+      "summary": "为深入贯彻落实 国家“双一流”建设战略部署和工作要求 6月28日 华南农业大学召开 作物学一流学科建设总结 暨发展战略咨询会 总结作物学科建设成效 科学谋划中长期高质量发展蓝图 中国工程院院士万建民、康振生、柏连阳、罗锡文、陈勇，中国科学院…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652890778&idx=1&sn=6b516b16506619e9d722016be95e3778",
+      "paper_url": null,
+      "word_count": 1661,
+      "fetched_at": "2026-11-09T16:31:27+08:00"
+    },
+    {
+      "id": "wx2652890761",
+      "title": "揭牌一年，成绩单来了！",
+      "published_at": "2026-06-28T16:24:00+08:00",
+      "published_label": "2026-06-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckC8n93kqoibQUP5rvz3SLXWYWXLDdSiaKm92RB0icZEuHVzm4Ovat9D2QG0ibvicxa6wee6rSFCmaTX3eZWGT36eT1jQwWZ2glbcQvM/0?wx_fmt=jpeg",
+      "summary": "6月28日 由华南农业大学牵头建设的 广东省高等学校未来作物 精准育种基础研究卓越中心 （以下简称“中心”） 召开第一届学术委员会 第二次会议暨2025学术年会 系统梳理年度建设进展 研讨布局下一阶段高质量发展重点任务 会议现场 万建民院士…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652890761&idx=1&sn=2b2d64c8071932a9f75e39aab7882a13",
+      "paper_url": null,
+      "word_count": 1905,
+      "fetched_at": "2026-11-09T16:31:31+08:00"
+    },
+    {
+      "id": "wx2652889914",
+      "title": "官宣！华农成立湾区设计与艺术学院、体育学院",
+      "published_at": "2026-06-22T21:55:15+08:00",
+      "published_label": "2026-06-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBlX15Z0xLvS6g0gmta7XFPfWfcqPAVbfQYlklSibJW4z5pylhaibBVpc8Eia4D64YQ2qz1TID1rwAYqdmReldhLwIhUolicKQAD6w/0?wx_fmt=jpeg",
+      "summary": "近日 经学校研究决定 成立 湾区设计与艺术学院 、 体育学院 打造特色交叉学科增长极 进一步深化“学院-学科-学位点-专业” 一体化建设 湾区设计与艺术学院： “设计+农科+数智”交叉融合 湾区设计与艺术学院定位 “立足农业、以工助农、艺科…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652889914&idx=1&sn=87a7bdab3761597cba4eb63d83ae011a",
+      "paper_url": null,
+      "word_count": 1423,
+      "fetched_at": "2026-11-09T16:31:35+08:00"
     }
   ]
 }
