@@ -138,6 +138,7 @@ python -m http.server 8080 --directory web
 | `PAPER_HISTORY_PAGES` | `0` | 保留的澎湃号历史接口，官方政务号暂不可用，默认关闭 |
 | `WECHAT_FETCH` | `1` | 是否尝试抓取微信原文；设为 `0` 则只用澎湃号正文 |
 | `WECHAT_MAX` | 工作流 `40` | 单次最多尝试多少篇微信原文，避免请求过多 |
+| `FAILED_MAX_ATTEMPTS` | `3` | 连续失败几次后跳过该篇，避免每小时重复撞同一批抓不到的文章 |
 | `MAX_ARTICLES` | `3000` | 索引最多保留多少篇（按时间保留最新） |
 
 > 微信长链默认会 302 到 `wappoc_appmsgcaptcha` 验证码页。脚本会先尝试带 `chksm` + `scene=27` 的链接，再退回原始链接；这套参数来自实测，属于对公开页面的只读访问。
@@ -181,6 +182,8 @@ python -m http.server 8080 --directory web
 
 正文详情位于 `web/data/articles/<id>.json`，包含清洗后的 `content_html`。图片保留原始 CDN 链接，页面通过 `referrerpolicy="no-referrer"` 加载；如果图片失效，前端会显示「华农」占位图。
 
+`index.json` 里的 `failed` 记录每篇抓取失败的尝试次数。连续失败达到 `FAILED_MAX_ATTEMPTS` 后会被跳过；想重新尝试某篇，删除它的 `failed` 条目即可。
+
 ---
 
 ## 运行与维护
@@ -189,6 +192,7 @@ python -m http.server 8080 --directory web
 - **60 天无活动**：GitHub 可能暂停定时工作流。本项目在同步数据或回填历史时会自动提交，仓库保持活跃；如果长时间没有变化，可以手动 Run workflow 一次。
 - **微信风控**：脚本检测到「环境异常 / 访问过于频繁 / 验证码」时不会重试轰炸，而是直接回退到官方澎湃号正文。
 - **失败不影响站点**：单篇文章失败会跳过；列表接口失败会保留现有数据，不会清空站点。
+- **并发提交**：工作流的提交步骤带 rebase 重试，人工推送与定时同步同时发生时不会丢数据。
 - **Pages 未启用**：工作流会输出 warning，数据仍会提交；启用 Pages 后下一次运行自动部署。
 - **删除文章**：删除 `web/data/articles/<id>.json`，并从 `web/data/index.json` 的 `articles` 数组移除对应条目；或开 issue 说明。
 
