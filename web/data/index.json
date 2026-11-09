@@ -7,12 +7,12 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T17:00:38+08:00",
+  "generated_at": "2026-11-10T02:57:59+08:00",
   "sync": {
-    "last_success": "2026-11-09T17:00:38+08:00",
+    "last_success": "2026-11-10T02:57:59+08:00",
     "last_error": null,
-    "last_discovered": 40,
-    "last_fresh": 30,
+    "last_discovered": 28,
+    "last_fresh": 18,
     "last_new": 12,
     "last_history": 0,
     "last_wechat": 12,
@@ -68,51 +68,10 @@
       "error": null
     }
   },
-  "failed": {
-    "wx2652702107": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652701803": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652701392": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652701336": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652701192": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652700432": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652700255": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652698799": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    }
-  },
+  "failed": {},
   "stats": {
-    "total": 190,
-    "wechat": 190,
+    "total": 202,
+    "wechat": 202,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -3221,6 +3180,201 @@
       "paper_url": null,
       "word_count": 701,
       "fetched_at": "2026-11-09T17:00:37+08:00"
+    },
+    {
+      "id": "wx2652702107",
+      "title": "历届最多，华农“丰收”！",
+      "published_at": "2022-10-02T09:00:00+08:00",
+      "published_label": "2022-10-02",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8ibwQKIjXTC4uSpHotRsWBlH3cfwiadAUC6ZNrRSUYHTp82yT4VUMkwDfZPEtmjkht21NksIc94mTQ/0?wx_fmt=jpeg",
+      "summary": "日前，农业农村部公布了 2019—2021年度 全国农牧渔业丰收奖 获奖名单 我校共获奖 8项 其中主持 5项 ，参与 3项 获奖数为历届最多 2019—2021年度全国农牧渔业丰收奖 华南农业大学获奖名单 我校主持获奖的5项 分别 是 兽…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652702107&idx=1&sn=06ac87f7e01acd2ef54ff9106b70e845",
+      "paper_url": null,
+      "word_count": 788,
+      "fetched_at": "2026-11-10T02:57:04+08:00"
+    },
+    {
+      "id": "wx2652701803",
+      "title": "华农技术+从化品牌，真香！",
+      "published_at": "2022-09-23T11:30:00+08:00",
+      "published_label": "2022-09-23",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9bcgPbzbFVo7jPL72ibgXFpNJX36Fq0FoWkW1biaIMbS9WtYaswQGgTe3vbGAGjRAYMLdUKpaIzUtw/0?wx_fmt=jpeg",
+      "summary": "秋风起，稻谷黄 金色田野收获忙 2022年9月23日 是秋分 也是第5个 中国农民丰收节 我国一直是水稻种植大国 大米是老百姓餐桌上最常见的主食之一 培育高质量、高产量的水稻 是农业科学家们一直以来奋斗的目标 当 华农水稻 技术 遇上 本土…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652701803&idx=1&sn=c7ad765ee21f0c772db44a36330fa98d",
+      "paper_url": null,
+      "word_count": 2292,
+      "fetched_at": "2026-11-10T02:57:10+08:00"
+    },
+    {
+      "id": "wx2652701392",
+      "title": "首批！国家级，华农入选！",
+      "published_at": "2022-09-17T09:00:00+08:00",
+      "published_label": "2022-09-17",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcice3TfOyCO6aLa9ZQiaO0BqDiax76xgb2WGjibHQJcvFLpAeFGxzTibYeENJ9E8NbWYTbicSvnHS0ia8N3A/0?wx_fmt=jpeg",
+      "summary": "近日，教育部公布了 国家级创新创业学院、 国家级创新创业教育实践基地建设名单 华南农业大学 入选首批国家级创新创业学院建设单位 近年来，国家持续推进 “大众创业，万众创新” 在学校党委的正确领导、 党委学生工作部的具体指导下 我校 创新创业…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652701392&idx=1&sn=c4d347f18625777103a20b02befe5c95",
+      "paper_url": null,
+      "word_count": 1046,
+      "fetched_at": "2026-11-10T02:57:15+08:00"
+    },
+    {
+      "id": "wx2652701336",
+      "title": "校长讲的这堂课，听完收获满满！",
+      "published_at": "2022-09-15T23:17:23+08:00",
+      "published_label": "2022-09-15",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcibNF1SFmtoJrZGTlCpSoak9ykCjbwyZOGc2h4jSvgEFd6DHuHrFZm2Bde97BGKIzib80crX0EA31GQ/0?wx_fmt=jpeg",
+      "summary": "9月14日上午 校长刘雅红以 “胸怀‘国之大者’ 勇攀科技高峰” 为主题 在丁颖礼堂为2022级研究生 讲授“思政第一课” 300余名研究生代表到场听课 刘雅红围绕 “新时代新征程呼唤科技兴农新担当”“百年华农勇担科技自立自强新使命”“华农…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652701336&idx=1&sn=4d32ade41a21f1ccce60100b0c9c54b0",
+      "paper_url": null,
+      "word_count": 1532,
+      "fetched_at": "2026-11-10T02:57:19+08:00"
+    },
+    {
+      "id": "wx2652701192",
+      "title": "喜报！华农新增分子生物学与遗传学进入ESI全球前1%!",
+      "published_at": "2022-09-09T23:27:54+08:00",
+      "published_label": "2022-09-09",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9N4XyRe82QzpVeVWaL1hp4X1TTJLXYEbpERyDh6UgVLPicia5Cbmiby76zaS42X7iaka2Z43adiaYbicNw/0?wx_fmt=jpeg",
+      "summary": "9月8日 国际学术和专利信息调查咨询企业科睿唯安发布了ESI学科最新数据 我校新增 分子生物学与遗传学 进入 ESI 全球前1% 目前，我校进入全球前1%的ESI学科已达 11 个 ，分别是：植物学与动物学、化学、农业科学、材料科学、微生物…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652701192&idx=1&sn=6297620b8b695ab13d01cce2a88a5a5f",
+      "paper_url": null,
+      "word_count": 543,
+      "fetched_at": "2026-11-10T02:57:24+08:00"
+    },
+    {
+      "id": "wx2652700432",
+      "title": "建设“双一流”，华农下半年怎么干？",
+      "published_at": "2022-08-30T21:49:54+08:00",
+      "published_label": "2022-08-30",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8t0sf0sG7RpFYfW5Uhibb2nibZZvibsIXvV5cRicXO0jia9uHdcnXTzjY0nHFvx2qhicN0ldvurib8VNficA/0?wx_fmt=jpeg",
+      "summary": "会议现场 8月29日至30日， 学校召开 2022年秋季学期党委全委（扩大）会议、 新学期工作会议暨纪律教育学习月动员会， 总结2022年上半年工作， 研究部署下半年重点工作…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652700432&idx=2&sn=2e44f8b33eb172e708fb8bd54c867f04",
+      "paper_url": null,
+      "word_count": 2294,
+      "fetched_at": "2026-11-10T02:57:29+08:00"
+    },
+    {
+      "id": "wx2652700255",
+      "title": "龙眼×荔枝=？ 秋天的第一份甜蜜，就是它了！",
+      "published_at": "2022-08-25T16:34:48+08:00",
+      "published_label": "2022-08-25",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcibT6otibcOVvAt66Yn1xibibMl67MoqxuuVQjrJnWAuuKG3YXCtyibuicWXmfmp1rFeUibb4HKJp05F80Xw/0?wx_fmt=jpeg",
+      "summary": "处暑一过 暑气渐散 秋意初现 早晚转凉 在这样的季节里 属于你的秋天第一份甜蜜是什么？ 奶茶？蛋糕？…… 小新的选择是 由华南农业大学刘成明教授团队 育成的世界首个 “龙眼×荔枝”杂交新品种—— “脆蜜” 果肉嫩脆，滋味甜蜜 岭南佳果，请君…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652700255&idx=1&sn=21a80f632e0b81b6068aec1858772abe",
+      "paper_url": null,
+      "word_count": 2132,
+      "fetched_at": "2026-11-10T02:57:34+08:00"
+    },
+    {
+      "id": "wx2652698799",
+      "title": "争当新农科建设“领跑者”！华农推进构建一流人才培养体系",
+      "published_at": "2022-07-07T17:30:00+08:00",
+      "published_label": "2022-07-07",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcib26OtZuicQAq9icQty8w2O4tRRjqRWDgAx86JBxC0R3GNyricrPiccEff1QBMuaWbJAwXluw0dgTtHdQ/0?wx_fmt=jpeg",
+      "summary": "办一流的大学必须培养一流的人才 入选国家“双一流”建设高校后 接下来，华农人才培养工作 怎么看、怎么办、怎么干？ 争当新农科建设“领跑者” 华农这样推进构建一流人才培养体系 一起来看！…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652698799&idx=1&sn=e226c54a5dcbfb8371b0e48c03f603ef",
+      "paper_url": null,
+      "word_count": 3634,
+      "fetched_at": "2026-11-10T02:57:38+08:00"
+    },
+    {
+      "id": "wx2652698209",
+      "title": "选择华农，成就一流人生！书记校长专访来了",
+      "published_at": "2022-06-27T19:46:11+08:00",
+      "published_label": "2022-06-27",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcib6aQRCZibMzFkkiarWqh7lvaaLXH2TGONUFcicAAbRopKfjMBibTMZ0YRescfDa54mGJgKia84WJ3QSfg/0?wx_fmt=jpeg",
+      "summary": "选择一流大学， 成就一流人生！ 近日，华农党委书记王斌伟、校长刘雅红 接受《南方日报》“奋发有为争创一流”主题专访， 畅谈华南农业大学作为一所老牌综合性大学 如何发挥以农立校优势，深入推进“双一流”建设， 朝着农业特色世界一流大学 的宏伟目…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652698209&idx=1&sn=c0bf710d8437d131eb353e6250d76da3",
+      "paper_url": null,
+      "word_count": 4719,
+      "fetched_at": "2026-11-10T02:57:44+08:00"
+    },
+    {
+      "id": "wx2652697043",
+      "title": "上榜！华农新增15个一流本科专业建设点！",
+      "published_at": "2022-06-15T17:49:17+08:00",
+      "published_label": "2022-06-15",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9k6hXMZvb3EmdjfibibuE0AKRNaJb2LpMzNlFBcQzgkWND4qc31fzYp2OQr9o57QiaFVSMATblBUmVw/0?wx_fmt=jpeg",
+      "summary": "喜报！ 近日,教育部办公厅下发 《关于公布2021年度国家级和 省级一流本科专业建设点名单的通知》 我校新增 15个 一流本科专业建设点 其中国家级一流本科专业建设点5个 省级一流本科专业建设点10个 目前，学校89个本科招生专业中 共有…",
+      "tags": [
+        "通知"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652697043&idx=1&sn=8558028431e15d1df070507c3ce3b773",
+      "paper_url": null,
+      "word_count": 1933,
+      "fetched_at": "2026-11-10T02:57:48+08:00"
+    },
+    {
+      "id": "wx2652694957",
+      "title": "重磅发布！这张图，华农人必读！",
+      "published_at": "2022-05-16T21:31:07+08:00",
+      "published_label": "2022-05-16",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcic51AfHvQxDsiaV7RyUUWY0D6ib4kGlM4ItYgSBEGQKE5piazHdfQfMoNf1ZBRzOlVAUmABsicvKHnLSw/0?wx_fmt=jpeg",
+      "summary": "2022年2月 华南农业大学入选 国家“双一流”建设高校 华农“三步走”战略的第一步目标 已初步实现 扬帆起航再出发 立足新起点 接下来，华农如何发展？ “双一流”建设如何推进？ 重点任务是什么？ 学科建设又有什么新举措？…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652694957&idx=1&sn=22012230912fd3accccd119bfd95cac9",
+      "paper_url": null,
+      "word_count": 452,
+      "fetched_at": "2026-11-10T02:57:53+08:00"
+    },
+    {
+      "id": "wx2652693429",
+      "title": "必听！校长与你共话“双一流”！",
+      "published_at": "2022-04-25T19:12:24+08:00",
+      "published_label": "2022-04-25",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9L7yIjyoicoTvUnicS5GcIex27mVBl9ib3AichgOtyaPxtjliaBVE7pjtVGrqK1mNI6BicicZBL6Ssosybg/0?wx_fmt=jpeg",
+      "summary": "4月24日上午 校长刘雅红 以“勇担时代重任 争做一流人才” 为主题，在丁颖礼堂为 2021级研究生讲授“思政第一课” 300余名研究生代表到场听课 今年是学校“双一流”建设元年…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652693429&idx=1&sn=92692ba5a78f14eddff2d0d12c966596",
+      "paper_url": null,
+      "word_count": 1987,
+      "fetched_at": "2026-11-10T02:57:58+08:00"
     }
   ]
 }
