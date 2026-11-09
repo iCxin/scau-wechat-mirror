@@ -884,10 +884,25 @@ def merge_album_cache(cache: dict, new_items: list, meta: dict) -> tuple[dict, b
 # ---------------------------------------------------------------------------
 
 def wechat_url_variants(url: str) -> list[str]:
-    variants = [url]
+    """微信长链默认会跳到验证码页；带上 chksm + scene=27 后可直出正文。"""
+    variants: list[str] = []
     parsed = urlparse(url)
+    query = parse_qs(parsed.query)
+
+    sn = (query.get("sn") or [""])[0]
+    if sn and "__biz" in query:
+        chksm = hashlib.md5(sn.encode("utf-8")).hexdigest()[:20]
+        pieces = []
+        for key in ("__biz", "mid", "idx", "sn"):
+            if query.get(key):
+                pieces.append(f"{key}={quote(str(query[key][0]), safe='=')}")
+        pieces.append(f"chksm={chksm}")
+        pieces.append("scene=27")
+        variants.append("https://mp.weixin.qq.com/s?" + "&".join(pieces))
+
+    variants.append(url)
+
     if parsed.query:
-        query = parse_qs(parsed.query, keep_blank_values=True)
         encoded = urlunparse((
             "https", "mp.weixin.qq.com", parsed.path, "",
             urlencode(query, doseq=True), "",
@@ -910,6 +925,11 @@ def _fetch_wechat_once(session: requests.Session, url: str) -> dict | None:
         },
     )
     if response is None:
+        return None
+
+    final_url = str(response.url or "")
+    if "wappoc_appmsgcaptcha" in final_url:
+        log(f"微信原文跳转验证码页，换参数重试（{url[:110]}）")
         return None
 
     raw_html = response.content.decode("utf-8", errors="replace")
@@ -1317,6 +1337,12 @@ def run(args) -> int:
     seen_ids = {str(item.get("id")) for item in existing}
     seen_keys = {wechat_key(item.get("original_url")) for item in existing}
     seen_keys.discard(None)
+    # 已收录文章的「标题 + 日期」指纹：用于识别同一篇推文的不同链接形态（短链 vs 长链）。
+    seen_titles = {
+        (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
+        for item in existing
+        if item.get("title")
+    }
 
     max_new = args.max_new
     if max_new is None:
@@ -1414,7 +1440,7 @@ def run(args) -> int:
             if key and (key in seen_keys or key in paper_keys):
                 continue
             title_key = (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
-            if title_key in paper_titles:
+            if title_key in paper_titles or title_key in seen_titles:
                 continue
             discovered[item["id"]] = item
             if key:
@@ -1434,6 +1460,9 @@ def run(args) -> int:
             continue
         key = wechat_key(item.get("external_url"))
         if key and key in seen_keys:
+            continue
+        title_key = (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
+        if title_key in seen_titles:
             continue
         fresh.append(item)
     fresh.sort(key=sort_key, reverse=True)
@@ -1494,6 +1523,7 @@ def run(args) -> int:
             write_json(ARTICLES_DIR / f"{entry['id']}.json", detail_payload)
         existing.append(entry)
         seen_ids.add(entry["id"])
+        seen_titles.add((clean_text(entry.get("title")), (entry.get("published_at") or "")[:10]))
         key = wechat_key(entry.get("original_url"))
         if key:
             seen_keys.add(key)
