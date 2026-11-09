@@ -7,12 +7,12 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T16:48:56+08:00",
+  "generated_at": "2026-11-09T16:54:36+08:00",
   "sync": {
-    "last_success": "2026-11-09T16:48:56+08:00",
+    "last_success": "2026-11-09T16:54:36+08:00",
     "last_error": null,
-    "last_discovered": 120,
-    "last_fresh": 110,
+    "last_discovered": 80,
+    "last_fresh": 70,
     "last_new": 40,
     "last_history": 0,
     "last_wechat": 40,
@@ -69,110 +69,110 @@
     }
   },
   "failed": {
-    "wx2652794031": {
+    "wx2652711874": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652793885": {
+    "wx2652711248": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652793468": {
+    "wx2652710039": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652792498": {
+    "wx2652708855": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652791438": {
+    "wx2652708807": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652791397": {
+    "wx2652708737": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652791019": {
+    "wx2652708185": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652789923": {
+    "wx2652708108": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652787572": {
+    "wx2652707936": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652786120": {
+    "wx2652707915": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652785095": {
+    "wx2652707139": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652785041": {
+    "wx2652706256": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652784595": {
+    "wx2652702107": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652778547": {
+    "wx2652701803": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652778206": {
+    "wx2652701392": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652771278": {
+    "wx2652701336": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652769681": {
+    "wx2652701192": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652769654": {
+    "wx2652700432": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652768308": {
+    "wx2652700255": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     },
-    "wx2652768151": {
+    "wx2652698799": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:48:56+08:00"
+      "last_at": "2026-11-09T16:54:36+08:00"
     }
   },
   "stats": {
-    "total": 138,
-    "wechat": 138,
+    "total": 178,
+    "wechat": 178,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -2430,6 +2430,661 @@
       "paper_url": null,
       "word_count": 995,
       "fetched_at": "2026-11-09T16:48:55+08:00"
+    },
+    {
+      "id": "wx2652794031",
+      "title": "这次大会，华农师生热议！",
+      "published_at": "2024-09-12T19:36:59+08:00",
+      "published_label": "2024-09-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8PAHBJgOYmnAyPNkfSzLUdGSOIWfoiaqYy4mZHozFibQTRLI7MudnW9tb4iaeKicxDsN6icsaWuGTN4zw/0?wx_fmt=jpeg",
+      "summary": "9月9日至10日，全国教育大会在北京召开。习近平总书记出席大会并发表重要讲话，系统阐释了教育强国的科学内涵和基本路径，深刻阐述了教育强国建设要正确处理好的重大关系，系统部署了全面推进教育强国建设的战略任务和重大举措…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652794031&idx=1&sn=ee45e1c76a54c45a08ece8c8600b7872",
+      "paper_url": null,
+      "word_count": 3488,
+      "fetched_at": "2026-11-09T16:51:39+08:00"
+    },
+    {
+      "id": "wx2652793885",
+      "title": "今天，掌声和鲜花，都给您！",
+      "published_at": "2024-09-10T19:51:42+08:00",
+      "published_label": "2024-09-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicZaa8Vu3XTe3TfjDDmNqobbs96bqEuSN6TLt43klLnWDTBbI1OQT0of5amTGXcAucuXCTKHcZS9w/0?wx_fmt=jpeg",
+      "summary": "春晖指路，镌刻光阴 授业解惑，薪火相传 9月10日 华南农业大学 庆祝第40个教师节表彰大会 暨2024年荣休仪式 在丁颖礼堂隆重举行 大会现场 校党委书记李凤亮、校长薛红卫 为荣休教 工颁发 证书 校党委书记李凤亮，校长薛红卫，中国科学院…",
+      "tags": [
+        "人物",
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652793885&idx=1&sn=715e6e62d4d19f11dc8e446313ac5444",
+      "paper_url": null,
+      "word_count": 4111,
+      "fetched_at": "2026-11-09T16:51:44+08:00"
+    },
+    {
+      "id": "wx2652793468",
+      "title": "全国表彰大会，他是参会名师！",
+      "published_at": "2024-09-09T21:50:22+08:00",
+      "published_label": "2024-09-09",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9RqcwW68BbxCibcChQXxgznIrF5nQPN4oWAcrnQ5VttUkiaTUbauVyvBrNA4wWGyYK5z8ZunvCPOyg/0?wx_fmt=jpeg",
+      "summary": "9月8日 庆祝第四十个教师节 暨全国教育系统先进集体 和先进个人表彰活动 在京举行 教育部党组书记、部长怀进鹏 出席活动并讲话 华南农业大学动物科学学院教师 国家级教学名师 张永亮 作为广东省本科院校 2名高校教师代表之一 参会 张永亮 张…",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652793468&idx=1&sn=93fc2908432149a05e742ab7153e5d79",
+      "paper_url": null,
+      "word_count": 1659,
+      "fetched_at": "2026-11-09T16:51:48+08:00"
+    },
+    {
+      "id": "wx2652792498",
+      "title": "近千人参会！下半年，狠抓落实！",
+      "published_at": "2024-08-31T22:54:13+08:00",
+      "published_label": "2024-08-31",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9BWpP8pvyAUyJhOqS8vmtXNzKzfibBKGJJrP7bj4Yt3Ne7nhsMV6jsOjA8ycR03iccYUfAndo2Hq2Q/0?wx_fmt=jpeg",
+      "summary": "8月30日至31日 华南农业大学在丁颖礼堂 召开党委全委扩大会 暨2024年秋季战略研讨会 深入学习贯彻党的二十届三中全会精神 紧紧围绕学校“4+2”重点工作布局 总结成绩、分析问题、明确思路、部署工作 向新求变谋发展，凝心聚力抓落实 校党…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652792498&idx=1&sn=69e01a04af570220119a1af1f71a5142",
+      "paper_url": null,
+      "word_count": 3240,
+      "fetched_at": "2026-11-09T16:51:52+08:00"
+    },
+    {
+      "id": "wx2652791438",
+      "title": "这件大事，10月发生！",
+      "published_at": "2024-08-26T17:04:44+08:00",
+      "published_label": "2024-08-26",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicgYEUvcc5fTK1rZ4WEhkhfiaCwXTe0qHfqzu90R86Ga7p8M1zSqKVqmCibBic3hrib54m0oRFuOIHgCg/0?wx_fmt=jpeg",
+      "summary": "2024年10月 我校将接受教育部 新一轮本科教育教学审核评估 新一轮审核评估 在方式方法上有何创新？ “1+3+3”报告是什么？ 教学大事，事关你我！…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652791438&idx=1&sn=692885f5db8312ec8b27894ca86f09ed",
+      "paper_url": null,
+      "word_count": 3556,
+      "fetched_at": "2026-11-09T16:51:57+08:00"
+    },
+    {
+      "id": "wx2652791397",
+      "title": "🥇🥇🥈🥈🥈🥈🥈🥈🥈",
+      "published_at": "2024-08-24T13:03:33+08:00",
+      "published_label": "2024-08-24",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9Fm1FhDibP39KRzQB3atBgBtdYicmibia3U2xPApcJMmytJRhvMMKm83RUqMMjWyS5429pRPU7vv6vicQ/0?wx_fmt=jpeg",
+      "summary": "近日 “建行杯”中国国际大学生创新大赛（2024） 广东省分赛决赛闭幕 我校共获2金7银及学校集体奖 其中 电子工程学院（人工智能学院） 汪汪特工项目 园艺学院 援藏粤茶项目 分别以小组第一名 获得 高教主赛道 金奖 青年红色筑梦之旅赛道金…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652791397&idx=1&sn=cbe4472363dafbf0a838b74234e25010",
+      "paper_url": null,
+      "word_count": 4057,
+      "fetched_at": "2026-11-09T16:52:02+08:00"
+    },
+    {
+      "id": "wx2652791019",
+      "title": "华南农大，全国30！感谢你，有礼了！",
+      "published_at": "2024-08-20T21:21:41+08:00",
+      "published_label": "2024-08-20",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibpgG8pKe4iby2jZKxvvhFVSxs05RzQ1kmiczQpgYHL53T3vubmMT4TMumvEV704gwAk8Gpnc7I5ewQ/0?wx_fmt=jpeg",
+      "summary": "8月20日 由中国青年报主办的 “青春为中国式现代化挺膺担当” 提升高校融媒体育人实效研讨会 在四川成都开幕， 现场公布了 ‍‍‍‍‍‍‍‍‍ 2023-2024年度中国大学官微百强排行榜 华南农业大学官微 排名全国第30 连续第7年入选…",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652791019&idx=1&sn=40a47dc3a1a2662f779c5eee9bdd8c3a",
+      "paper_url": null,
+      "word_count": 1618,
+      "fetched_at": "2026-11-09T16:52:06+08:00"
+    },
+    {
+      "id": "wx2652789923",
+      "title": "让稻花在“对的时间”相遇！华农团队取得杂交水稻研究重要进展",
+      "published_at": "2024-08-13T18:06:32+08:00",
+      "published_label": "2024-08-13",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcib5LDicXgdx3mD4NTccLsTopQBcXuibIcib0mbR2ZP7kcYfxJ2dI2ibk7MeKK0gxbSuMUkDfbgstcCHYg/0?wx_fmt=jpeg",
+      "summary": "你见过水稻开花吗？ 你知道吗，其实稻花就像人 要在“对的时间”相遇 才能“修成正果”！ 近日，华农生命科学学院 沈荣鑫/王海洋团队 破解了籼粳水稻开花时间的调控机制 相关成果在《自然·通讯》杂志上发表 湖南卫视《新闻大求真》栏目 专访团队…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652789923&idx=1&sn=b1bca96cf481a5e919f7562ccb211d36",
+      "paper_url": null,
+      "word_count": 3057,
+      "fetched_at": "2026-11-09T16:52:11+08:00"
+    },
+    {
+      "id": "wx2652787572",
+      "title": "🥇🥈祝贺他们！！！",
+      "published_at": "2024-08-01T17:47:25+08:00",
+      "published_label": "2024-08-01",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibqmws2KialcgWrtg41m1xeyKXErVeZibaPhAxInYSAzply2ybdgWh1MbbEmBZZz0VMibBOZ71cjsHnQ/0?wx_fmt=jpeg",
+      "summary": "7月31日 第四届全国高校教师 教学创新大赛现场决赛 在电子科技大学落幕 华农动物科学学院张世海教师团队 （团队成员：张永亮、张常明、曹庆云） 荣获新农科副高组一等奖 农学院刘自强教师团队 （团队成员：陈乐天、谢勇尧、汪文毅） 荣获新农科正…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652787572&idx=1&sn=1c6cfa1cc2a41748281251de99aea27d",
+      "paper_url": null,
+      "word_count": 955,
+      "fetched_at": "2026-11-09T16:52:15+08:00"
+    },
+    {
+      "id": "wx2652786120",
+      "title": "华农🥢🥢🥢，出海新西兰！🥂🥂🥂",
+      "published_at": "2024-07-21T12:00:00+08:00",
+      "published_label": "2024-07-21",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicrwD0hDfRTsE2mdydkWgDAWcwx4TZ7xlM0XavP4ic0JFm2WAgKicXOPiarcBuYVTfp4scicjwe811Tng/0?wx_fmt=jpeg",
+      "summary": "近日 新西兰“广东预制菜新西兰产销研中心 ” 正式挂牌， 挂牌典礼上 在广东省人大访问团的见证下 华南农业大学食品学院 与新西兰粤商会 签署了广东预制菜“出海”新西兰 战略合作协议 为预制菜产业海外人才培养 和技术研发、营销模式创新 带来了…",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652786120&idx=1&sn=061b8ecc879ba76265e4ccb76ce91e08",
+      "paper_url": null,
+      "word_count": 2352,
+      "fetched_at": "2026-11-09T16:52:19+08:00"
+    },
+    {
+      "id": "wx2652785095",
+      "title": "华农🤝深圳，未来可期！",
+      "published_at": "2024-07-10T17:00:00+08:00",
+      "published_label": "2024-07-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicw0xURVSociaPnH9qIiaetzEwaEG6xfXqKzHAcV2VSicBgWxibNw7w41b2gCRC7gM0ZcnxojnMGouYUQ/0?wx_fmt=jpeg",
+      "summary": "7月8日至9日 校党委书记李凤亮、校长薛红卫 带队到深圳市调研交流 并回访深圳农业与食品投资控股集团 进一步深化校地、校企合作 校领导丁红星、咸春龙、仇荣亮参加调研 调研期间， 李凤亮、薛红卫一行还前往 深圳校友会（深港澳创新空间站） 参观…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652785095&idx=2&sn=c9863a21ca583ef859d17e7b9b00ba29",
+      "paper_url": null,
+      "word_count": 2292,
+      "fetched_at": "2026-11-09T16:52:24+08:00"
+    },
+    {
+      "id": "wx2652785041",
+      "title": "央视专访华农校长薛红卫：培养未来新型农业人才",
+      "published_at": "2024-07-09T12:36:58+08:00",
+      "published_label": "2024-07-09",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8gJ2NMQ6AFia34Wm5UAu6q52moR6cVYCNvoP1XBiaPQ3ht3UWVucv9JicWPHYcU86g6ZceR6Vl0KpUg/0?wx_fmt=jpeg",
+      "summary": "未来的 农业 将提供怎样的场景？ 7月8日晚 中央广播电视总台农业农村节目中心 高端访谈节目《三农绿厅》播出 “农大校长说·向上生长 向下扎根” 央视记者专访 华南农业大学校长薛红卫 畅谈未来农业发展和 人才培养 华南农业大学校长薛红卫接受…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652785041&idx=1&sn=33ab65d88d23b7764f4bcb416dde4e12",
+      "paper_url": null,
+      "word_count": 2745,
+      "fetched_at": "2026-11-09T16:52:28+08:00"
+    },
+    {
+      "id": "wx2652784595",
+      "title": "历史最佳！广东社科最高奖，华农+14！",
+      "published_at": "2024-07-01T13:37:10+08:00",
+      "published_label": "2024-07-01",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicmRtia0BoV7Zd3AMcJfDLgZHtS4fib47hXsqpZJg6Bz3ukSMIfMrSbziaNgMOM1iaXibRTXMoxQzrQcag/0?wx_fmt=jpeg",
+      "summary": "近日 广东省哲学社会科学领域 级别 最高、影响最大的政府奖 广东省哲学社会科学优秀成果奖 第十届获奖名单公布 颁奖大会于6月28日在广州举行 华农共获14项优秀成果奖 包括一等奖1项、二等奖7项、三等奖6项 创历史最好成绩 第十届广东省哲学…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652784595&idx=2&sn=3bb62b4570e27c26fb2e3a7820cf39d3",
+      "paper_url": null,
+      "word_count": 361,
+      "fetched_at": "2026-11-09T16:52:32+08:00"
+    },
+    {
+      "id": "wx2652778547",
+      "title": "大咖也奋“豆”！华农研究院“上新”！",
+      "published_at": "2024-06-06T17:00:00+08:00",
+      "published_label": "2024-06-06",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicIuys3z13VMeKTiaMp2r4nRvooVxSNOlwkqnCSGeKm15ghWXIKkdaXmIzwNRYsaAicIYJXKP8dm8jA/0?wx_fmt=jpeg",
+      "summary": "6月5日上午 华南农业大学南方大豆创新研究院 （以下简称“研究院”） 在红满堂揭牌成立并召开学术委员会议 该研究院依托华南农业大学建设 汇聚了包括2名院士、 8名国家级人才 在内的高水平科研团队 研究院将面向国家大豆供给安全重大需求 通过推…",
+      "tags": [
+        "通知",
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652778547&idx=2&sn=b21595260cbe8bd04718d645b4ad2dbb",
+      "paper_url": null,
+      "word_count": 2048,
+      "fetched_at": "2026-11-09T16:52:37+08:00"
+    },
+    {
+      "id": "wx2652778206",
+      "title": "漂洋过海来见你！华农拉美“朋友圈”，热度+N！",
+      "published_at": "2024-06-05T23:56:02+08:00",
+      "published_label": "2024-06-05",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9ENBhdjjYr89ofmbaISoI9QHdc4Kw4QQCe2Sy9TUobtic4KvMbozOhGdH2hKkb3a2lOspUTibsn6Rw/0?wx_fmt=jpeg",
+      "summary": "为深入推进学校“双一流”建设 进一步做实做大做强 中拉联盟特色品牌 5月24日至6月3日 校党委书记李凤亮率团 赴古巴、哥伦比亚、巴西访问交流 推进华农与中拉联盟成员相关单位的 实质性交流与合作 夯实中拉联盟建设 在哈瓦那大学揭牌成立我校第…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652778206&idx=2&sn=261506567c527f165e3b0e247d16845f",
+      "paper_url": null,
+      "word_count": 1630,
+      "fetched_at": "2026-11-09T16:52:41+08:00"
+    },
+    {
+      "id": "wx2652771278",
+      "title": "最新！华农ESI全球排名上升54位！",
+      "published_at": "2024-05-11T15:18:41+08:00",
+      "published_label": "2024-05-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9CVzv7LgXzTpzDOwOAMa26J6mlPib5GAyoaraZViaAg3RcThmVcUuaDc0fvfeInzZSewZm2WoJPwtw/0?wx_fmt=jpeg",
+      "summary": "5月9日 国际学术和专利信息调查咨询企业 科睿唯安发布了 ESI学科 最新统计数据 华农13个学科保持前1% 2个学科继续保持全球前1‰ 在全球机构中总排名为756位 比上一期（810位）上升54位 我校ESI学科全球总排名 植物学与动物学…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652771278&idx=2&sn=d1b23be82dab3f9982a05dc8a3e74e6b",
+      "paper_url": null,
+      "word_count": 490,
+      "fetched_at": "2026-11-09T16:52:46+08:00"
+    },
+    {
+      "id": "wx2652769681",
+      "title": "全国党建“双创”荣誉，华农+2！",
+      "published_at": "2024-04-26T23:08:08+08:00",
+      "published_label": "2024-04-26",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibzln0UHxV20z9Ul25rGltvicaHWWPR3FwWzFbbRYiaTunsKTCM24AOgqmuQq1rfB9rlYZN14sVATEw/0?wx_fmt=jpeg",
+      "summary": "近日 教育部公布了第四批 全国党建“双创”培育创建单位和 第三批全国高校研究生“双百”创建名单 我校数学与信息学院、软件学院 计算机应用教工党支部 入选“全国党建工作样板支部”培育创建单位 农学院作物学博士生永根党支部 入选全国“百个研究生…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652769681&idx=1&sn=ab6de3d47c9c9981490eca09bf2699eb",
+      "paper_url": null,
+      "word_count": 844,
+      "fetched_at": "2026-11-09T16:52:51+08:00"
+    },
+    {
+      "id": "wx2652769654",
+      "title": "🤳你好，我的爱尔兰朋友！",
+      "published_at": "2024-04-25T17:57:54+08:00",
+      "published_label": "2024-04-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibDSBo0Dl8SicZjAz6B7PzO0wey2V1qQfpE5wiccnf6bwdxsI0rCia1jEuibR40ciaS6ZLjduUAxvxIweA/0?wx_fmt=jpeg",
+      "summary": "近日，爱尔兰都柏林大学 （University College Dublin，简称UCD） 校长Orla Feely教授 率代表团一行5人来访华南农业大学 校长薛红卫会见了代表团一行 我校校长薛红卫向爱尔兰都柏林大学校长Orla Feely…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652769654&idx=1&sn=4bd68801ff0a8a5eb698374db33bf584",
+      "paper_url": null,
+      "word_count": 1742,
+      "fetched_at": "2026-11-09T16:52:56+08:00"
+    },
+    {
+      "id": "wx2652768308",
+      "title": "荔枝变身“睡美人”？华农团队“冻龄魔法”，解决保鲜难题！",
+      "published_at": "2024-04-16T20:15:51+08:00",
+      "published_label": "2024-04-16",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibunIZJleTzSvs0dgLPicbSusC5AGnGGOrgeicdl9GSiaMic9OA32vxTKzeq1j1uhTRvXKqqKXXCbcm4g/0?wx_fmt=jpeg",
+      "summary": "“荔枝产业要发展， 不解决保鲜问题不行。” 去年4月 习近平总书记在茂名视察时 曾如此强调 荔枝保鲜是令果农头疼的问题 更是总书记关心的问题 一年过后 华农教授团队实现荔枝保鲜新突破 高科技加持下，让 荔枝变身“睡美人” 用“冻龄魔法”锁住…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652768308&idx=1&sn=8a05ca21c818e01cb36d00dc3f2e527d",
+      "paper_url": null,
+      "word_count": 2131,
+      "fetched_at": "2026-11-09T16:53:00+08:00"
+    },
+    {
+      "id": "wx2652768151",
+      "title": "上榜！全国第四，广东唯一！",
+      "published_at": "2024-04-12T10:33:16+08:00",
+      "published_label": "2024-04-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9UKtEcIvfibUNDiczsdAF0icDmKWrmzGiaGERLoUomMY013SzaeIicqZcDBNiazqPTw3SIUjqVxnCeJrIg/0?wx_fmt=jpeg",
+      "summary": "4月10日 国际高等教育研究机构QS 发布了第14版QS世界大学学科排名 中国大陆共有101所大学 在54个学科中入榜 华农共 2 个学科上榜 总数位列全国农林类高校第 4 名 上榜学科中 农业和林业学科 排名世界 第41名 较上年进步6名…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652768151&idx=1&sn=01f0469900cdadd6df8c56f10ed30f2c",
+      "paper_url": null,
+      "word_count": 576,
+      "fetched_at": "2026-11-09T16:53:05+08:00"
+    },
+    {
+      "id": "wx2652768126",
+      "title": "攻坚！！！",
+      "published_at": "2024-04-11T21:59:01+08:00",
+      "published_label": "2024-04-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcic2zQLNYqa2lMx6pkHica5oLAenttTaBUnsd5ibLCQKYGgczStiaBQqkDichdyPYsKVGGZVdXfBCbj97Q/0?wx_fmt=jpeg",
+      "summary": "4月11日上午 学校在红满堂召开工作推进会 围绕学校“双一流”建设攻坚任务 全面部署10大行动、30项重点工作 立下“军令状”、吹响“冲锋号” 校党委书记李凤亮、校长薛红卫 出席会议并讲话 学校召开“双一流”建设攻坚行动工作部署会 会上，发…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652768126&idx=1&sn=abc008e34a4b3148bfe8418e8ecef98f",
+      "paper_url": null,
+      "word_count": 1608,
+      "fetched_at": "2026-11-09T16:53:09+08:00"
+    },
+    {
+      "id": "wx2652768047",
+      "title": "5年5大行动！捐赠2000万！双向奔赴，再“升温”🤜🤛",
+      "published_at": "2024-04-10T19:43:21+08:00",
+      "published_label": "2024-04-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9qm4iaIpI7IeGWicJFFPwkL86AqeGeGz4GMkHaibBjniafw8fEnsfXsofiamQPlcjicH1bIge2hebZmt8Q/0?wx_fmt=jpeg",
+      "summary": "4月9日 校长薛红卫率队访问温氏集团 温氏集团董事长温志芬、总裁黎少松 热情接待了薛红卫一行 双方签订了2024-2028年行动任务协议 标志着华农和温氏集团 第四期全面战略合作进入深化落实阶段 会上还举行了 温氏集团及集团华农校友 捐赠2…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652768047&idx=1&sn=599e5e79ce77ab3e6035bf2d490284b6",
+      "paper_url": null,
+      "word_count": 1821,
+      "fetched_at": "2026-11-09T16:53:13+08:00"
+    },
+    {
+      "id": "wx2652764383",
+      "title": "华农20人入选爱思唯尔2023“中国高被引学者”榜单",
+      "published_at": "2024-03-27T19:00:00+08:00",
+      "published_label": "2024-03-27",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicDfzqzIc8noJKgEXdiaokia6wvh61ns1ghsPaBVzVfibrPDbRfueJDEpDcuC8a8yibO9fj2jXwwZ09zA/0?wx_fmt=jpeg",
+      "summary": "3月27日 爱思唯尔(Elsevier) 重 磅发布 2023“中国高被引学者” (Highly Cited Chinese Researchers) 榜单 我校有 20位 学者上榜 位居全国高校第63名 2023“中国高被引学者” 榜单…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652764383&idx=1&sn=f25586f3bd57fa33db08d20d39a89d98",
+      "paper_url": null,
+      "word_count": 618,
+      "fetched_at": "2026-11-09T16:53:18+08:00"
+    },
+    {
+      "id": "wx2652758861",
+      "title": "华农2023年十大新闻揭晓！",
+      "published_at": "2024-01-19T13:35:35+08:00",
+      "published_label": "2024-01-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcib9h8Q5DC5TicQ0NzBOMticBH6lrSSibRlibShmn8SibrZLUfOm61mibRFTQsIcZ8ibLocepPVnpuoibpwj9w/0?wx_fmt=jpeg",
+      "summary": "2023年 是 华南农业大学 意义非凡、至关重要的一年 华农人 以务实勤勉谱写奋斗之歌 汗水浇灌大地，结出累累硕果 近日 结合网络投票、专家意见 “ 华南农业大学2023年十大新闻 ” 最终评选结果正式揭晓 一起来回顾 2023年华农的 重…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652758861&idx=1&sn=5908f5ea9378108f306452f100703e2d",
+      "paper_url": null,
+      "word_count": 5616,
+      "fetched_at": "2026-11-09T16:53:23+08:00"
+    },
+    {
+      "id": "wx2652755294",
+      "title": "广东最高级别文学艺术奖，华农+2！",
+      "published_at": "2024-01-11T19:24:49+08:00",
+      "published_label": "2024-01-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibru2Y8Fe4LZibNmynBZR483LcSbmyjCQDMeiaQem6ceUNqic19l3rfjiabC8nRD42Uj3aGxtxYibZpPAQ/0?wx_fmt=jpeg",
+      "summary": "1月10日 第十一届广东省 鲁迅文学艺术奖（艺术类） 获奖名单正式公布 华农共有2件作品获奖 该奖是广东省最高级别的 文学艺术类奖项， 每三年评一次 本届评奖年度为2016至2022年 按十二个学科门类分别进行评选 每个学科门类评选出5-6…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652755294&idx=1&sn=48654f384918262e2edeedb4dbded1ee",
+      "paper_url": null,
+      "word_count": 1116,
+      "fetched_at": "2026-11-09T16:53:27+08:00"
+    },
+    {
+      "id": "wx2652751796",
+      "title": "获批2项，全国农林类高校第二！",
+      "published_at": "2023-12-28T18:36:16+08:00",
+      "published_label": "2023-12-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8CyYibCzDJ1NOnDAB8dR4kTQR7HR8gquuTSZ12ibOMDkQqENAibgYt3B4qNvD9NNhNGmXXaepsqHHgA/0?wx_fmt=jpeg",
+      "summary": "12月28日 2023年度国家社科基金 重大项目立项名单公布 华农获批2项，立项数位居 全国农林类高校第二 省内高校前列 华农获批项目介绍 项目名称 ：《新型农村集体经济的发展路径、运行机制与政策支持研究》 首席专家 ：经济管理学院教授 罗…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652751796&idx=2&sn=8c3b294b61d6ebe2866181b79fef0c54",
+      "paper_url": null,
+      "word_count": 877,
+      "fetched_at": "2026-11-09T16:53:32+08:00"
+    },
+    {
+      "id": "wx2652747483",
+      "title": "新一轮审核评估，华农吹响集结号！",
+      "published_at": "2023-12-02T19:32:07+08:00",
+      "published_label": "2023-12-02",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9wE4FfcfBwbuTqulMibuUwUyn9OQ5AYyCITeCm65CTP5teL5DeQ0V9mpxSD2B4xEm2G8ZUn5VE63A/0?wx_fmt=jpeg",
+      "summary": "12月2日 华南农业大学在丁颖礼堂召开大会 对新一轮本科教育教学 审核评估工作 进行动员部署 强调要以审核评估为契机 做好迎评促建工作 推动本科人才培养质量再上新台阶 校党委书记李凤亮、校长薛红卫 出席会议并讲话 副校长温小波主持会议 会议…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652747483&idx=1&sn=4d5d9cc386372377d3834825c1f36a74",
+      "paper_url": null,
+      "word_count": 1927,
+      "fetched_at": "2026-11-09T16:53:36+08:00"
+    },
+    {
+      "id": "wx2652741811",
+      "title": "喜报！华农社会科学总论学科首次进入ESI全球前1%！",
+      "published_at": "2023-11-10T12:31:59+08:00",
+      "published_label": "2023-11-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibzW7K7ibVbnGGfibFnIvEiaD4bILcIPVyzJURH02yDI8vmqHMCicibTd90fWo4BVIWVINAfibOM516CcNA/0?wx_fmt=jpeg",
+      "summary": "11月9日 ESI学科新数据发布 华农社会科学总论学科 首次进入ESI全球前1%！ 现我校有 13个 ESI学科进入全球前 1% 其中 植物学与动物学、农业科学 2个学科 继续保持全球前 1‰ 本次是今年ESI学科数据 第六次（第六期）更新…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652741811&idx=2&sn=807575d1ee1a84d50b3a3f701fef4611",
+      "paper_url": null,
+      "word_count": 598,
+      "fetched_at": "2026-11-09T16:53:41+08:00"
+    },
+    {
+      "id": "wx2652738615",
+      "title": "猪猪这么可爱，怎么喂养才好吃？华农专家出手了……",
+      "published_at": "2023-10-20T17:35:41+08:00",
+      "published_label": "2023-10-20",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8fnl2QuQOOzAiasV7Fz1mhiaMZ3KZ34bkC60ia9cag4yLYdGxuianTsUGflYoCic82hPIntKwAFTtse6w/0?wx_fmt=jpeg",
+      "summary": "猪猪这么可爱 怎样喂养才能更好吃？ 在华农，有一群 “猪猪营养师” 致力于做好仔猪成长“健康餐” 推动产业技术升级 产生了显著的社会经济效益 今天，了解他们的故事 动物科学学院江青艳教授团队骨干成员合影 粉红色的小猪幼崽，拥有可爱的外表，而…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652738615&idx=1&sn=c2bdfc2cbcf61da41366b10058ea97d1",
+      "paper_url": null,
+      "word_count": 1938,
+      "fetched_at": "2026-11-09T16:53:45+08:00"
+    },
+    {
+      "id": "wx2652737528",
+      "title": "老话新解！华农版“种豆得豆”，有什么不同？",
+      "published_at": "2023-10-08T17:00:00+08:00",
+      "published_label": "2023-10-08",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8qSILZGQ2a4QwVs51suIUS9ZxkVPEiaRFgxWDFJ1B8DpI2zFenia2dR5G0TyAbgDUKn7Z3SDmUA8ibg/0?wx_fmt=jpeg",
+      "summary": "大豆，小小一粒 在我们的生活中却用途广泛 是粮油兼用的战略物资 作为全球大豆消费大国 我国如何才能摆脱对大豆的 进口 依赖 ？…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652737528&idx=1&sn=64fc37c477ccdb89a4f8a98e50a8acb1",
+      "paper_url": null,
+      "word_count": 3869,
+      "fetched_at": "2026-11-09T16:53:49+08:00"
+    },
+    {
+      "id": "wx2652732804",
+      "title": "华农连续三次上榜！刘耀光院士团队入围“全国高校黄大年式教师团队”",
+      "published_at": "2023-09-03T12:38:01+08:00",
+      "published_label": "2023-09-03",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibDDYw0PVUwx8CwTkxOIbL8f4XIlyoZ02qGEGsrtKhnnrNwxThGnfdbIvdfNyMgrWiaUDVE4thScicQ/0?wx_fmt=jpeg",
+      "summary": "近日 教育部公布第三批 “全国高校黄大年式教师团队” 创建示范活动入围名单 我校由 刘耀光院士 领衔的 水稻发育与基因工程教师团队 上榜 这是学校继预防兽医学教师团队 和农业工程教师团队后 连续三次 获此殊荣 也是学校 作物学科建设 的又一…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652732804&idx=1&sn=f725486ebfea147ece4858b198bb694e",
+      "paper_url": null,
+      "word_count": 1446,
+      "fetched_at": "2026-11-09T16:53:54+08:00"
+    },
+    {
+      "id": "wx2652731975",
+      "title": "高质量推进“双一流”建设，华农怎么干？",
+      "published_at": "2023-08-30T20:01:31+08:00",
+      "published_label": "2023-08-30",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9ic7SLwSbnaWA0KEc9PsfrVmXFkMWpDjACslY3Q0OHHfDR8SEX92iaViasR7t7nNALq2KSDNyS57h1A/0?wx_fmt=jpeg",
+      "summary": "8月29日 学校在丁颖礼堂召开 2023年秋季学期党委全委（扩大）会议 暨新学期工作会议 全面贯彻 习近平新时代中国特色社会主义思想 深入学习贯彻党的二十大精神 和省委十三届三次全会精神 紧紧围绕“双一流”建设 总结成绩、分析问题、部署工作…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652731975&idx=1&sn=2e2b068285bd097ade3cb8a04d25dd6e",
+      "paper_url": null,
+      "word_count": 2327,
+      "fetched_at": "2026-11-09T16:53:59+08:00"
+    },
+    {
+      "id": "wx2652727899",
+      "title": "喜报！华农获3项国家级教学成果奖！",
+      "published_at": "2023-07-25T19:44:31+08:00",
+      "published_label": "2023-07-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8Cn9ic9e3lgCibB6d5QCz1ZOqJSC4qMLvibeFiaEftfnblWz3tpvpiaib5NXZXcGEyjhmtEJdKUjodgTZg/0?wx_fmt=jpeg",
+      "summary": "7月25日 教育部公布 2022年国家级教学成果奖 获奖项目名单 华农共获3项二等奖 其中 罗锡文院士等申报的成果 获高等教育（本科）二等奖 刘雅红教授等申报的成果 获高等教育（研究生）二等奖 1个参与成果 获高等教育（本科）二等奖 华南农…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652727899&idx=1&sn=249487e31852584ecd765bcf3887ac03",
+      "paper_url": null,
+      "word_count": 730,
+      "fetched_at": "2026-11-09T16:54:03+08:00"
+    },
+    {
+      "id": "wx2652722428",
+      "title": "再牵手，再出发！",
+      "published_at": "2023-06-19T22:49:17+08:00",
+      "published_label": "2023-06-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8icjkUaXmUYFLNYz8xCh444hPKyXWhOfqzgsWmYdc6rossVkSQVkZcAfJxUr91cWmiaFUGP3RR4UnQ/0?wx_fmt=jpeg",
+      "summary": "为深化校地合作，助推高质量发展 6月19日上午 华农在红满堂举行签约仪式 与肇庆市人民政府签订 实施乡村振兴战略合作框架协议 合作共建乡村振兴研究院肇庆分院 并为肇庆分院揭牌 与廉江市人民政府签订 实施“百县千镇万村” 高质量发展工程合作框…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652722428&idx=1&sn=89736d0e7f91f7adfebcb57a02bfde59",
+      "paper_url": null,
+      "word_count": 1386,
+      "fetched_at": "2026-11-09T16:54:08+08:00"
+    },
+    {
+      "id": "wx2652717485",
+      "title": "封顶大吉！广东高校最大体育馆，在华农！",
+      "published_at": "2023-05-22T21:03:23+08:00",
+      "published_label": "2023-05-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicXNXM6rIffLTWFVwlyrNV2iacyicicxE73xAnDx37XA4YSvWpibQ1RgB7rYjCgN2V5CrOee3E5VU53tQ/0?wx_fmt=jpeg",
+      "summary": "学习贯彻习近平新时代中国特色社会主义思想主题教育开展以来，学校持续推动“我为群众办实事”，其中各类民生工程是重点推进的惠民生、暖民心、顺民意工作…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652717485&idx=1&sn=fa60f8f4aae06ab3bcd66e19a17a80b6",
+      "paper_url": null,
+      "word_count": 3419,
+      "fetched_at": "2026-11-09T16:54:12+08:00"
+    },
+    {
+      "id": "wx2652713761",
+      "title": "爱尔兰驻华大使安黛文到访华农",
+      "published_at": "2023-05-11T11:46:28+08:00",
+      "published_label": "2023-05-11",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9goRmSYEky74dpylVsBVAUJhmQpbkgu8QzMSVLQ84F2tKyK0p0D38XEiaWYTVTDI2CAIHdbj7zFeA/0?wx_fmt=jpeg",
+      "summary": "5月10日 爱尔兰驻华大使安黛文 （H.E. Ann Derwin） 率团访问华南农业大学 校长刘雅红会见了 爱尔兰驻华大使馆代表团一行 安黛文一行参观了校史馆和 广州都柏林国际生命科学与技术学院 （以下简称“广州都柏林国际学院”或“GDI…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652713761&idx=1&sn=c8db60529b7151e58c022658b80339e4",
+      "paper_url": null,
+      "word_count": 2031,
+      "fetched_at": "2026-11-09T16:54:17+08:00"
+    },
+    {
+      "id": "wx2652713504",
+      "title": "科技小院，华农这么建！",
+      "published_at": "2023-05-06T19:14:24+08:00",
+      "published_label": "2023-05-06",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9NvZ1WoZfd7icQfW77dEbZBRnZ1djkug1CTHibWbMnWY78llXBPZYjCQd4sk7ltU9ZuwsayhhwD4bA/0?wx_fmt=jpeg",
+      "summary": "近日 习近平总书记 给中国农业大学科技小院学生的回信 引起了全国涉农高校师生的热烈反响 一时间 “科技小院”成了当下热词 “什么是科技小院？” “科技小院做了哪些事？…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652713504&idx=1&sn=ff020b0cae6616592ec4dea24223379d",
+      "paper_url": null,
+      "word_count": 1359,
+      "fetched_at": "2026-11-09T16:54:21+08:00"
+    },
+    {
+      "id": "wx2652713390",
+      "title": "青春，就应该有这股精气神！",
+      "published_at": "2023-05-05T23:21:22+08:00",
+      "published_label": "2023-05-05",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8k5TSgqUNH2VtKoEvfYgjqkTsReibWfxgmngpsic5WcibZgHTRuCDfjexV6XAH7IyWyF0Xu1v7ibB4GQ/0?wx_fmt=jpeg",
+      "summary": "中共中央总书记、国家主席、中央军委主席习近平近日给中国农业大学科技小院的同学们回信 ，提出殷切期望，并在五四青年节到来之际，向全国广大青年致以节日的祝贺。习近平总书记的重要回信在华农师生中引发热烈反响…",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652713390&idx=1&sn=fd34c4792bbb0b7df4ce3710b978f355",
+      "paper_url": null,
+      "word_count": 4060,
+      "fetched_at": "2026-11-09T16:54:26+08:00"
+    },
+    {
+      "id": "wx2652712249",
+      "title": "劳动者荣誉，华农+2！",
+      "published_at": "2023-04-28T22:22:37+08:00",
+      "published_label": "2023-04-28",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicMZdAZpgXKCxRS80llfV27CNmNUyLklYasXUcaSDranlEuRyGib8gWme1aVz3vBVFLP6dR7l27XWA/0?wx_fmt=jpeg",
+      "summary": "4月27日 广东省庆祝“五一”国际劳动节 暨五一劳动奖表彰大会 在广州举行 华农林学与风景园林学院 荣获“广东省工人先锋号”称号 数学与信息学院、软件学院院长黄琼 荣获广东省五一劳动奖章 林学与风景园林学院简要事迹 林学与风景园林学院毕业晚…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652712249&idx=1&sn=5da2fd39216580d1c8e8e97ddb6bcaa9",
+      "paper_url": null,
+      "word_count": 1788,
+      "fetched_at": "2026-11-09T16:54:30+08:00"
+    },
+    {
+      "id": "wx2652711979",
+      "title": "恭喜他们！！",
+      "published_at": "2023-04-25T19:47:02+08:00",
+      "published_label": "2023-04-25",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicv3XMOGoE9gvOmXTekFVfSNoVqtnb0DyOCOIaCnhsbtyibSbLBI66VT1UU1sOlWicBWpYUqIFFiakhw/0?wx_fmt=jpeg",
+      "summary": "4月24日 第六届全国高校 青年教师教学竞赛决赛 在清华大学落下帷幕 经过激烈角逐，我校 艺术学院郑琳喆 动物科学学院张世海 两位青年教师代表广东省 分获 文科组、工科组二等奖 这也是我校参赛教师 在历届全国青年教师教学竞赛中 获得的 最好…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652711979&idx=1&sn=7463d09415572fea1e0d7600f7221889",
+      "paper_url": null,
+      "word_count": 1498,
+      "fetched_at": "2026-11-09T16:54:35+08:00"
     }
   ]
 }
