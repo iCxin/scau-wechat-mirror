@@ -7,16 +7,16 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T16:54:36+08:00",
+  "generated_at": "2026-11-09T17:00:38+08:00",
   "sync": {
-    "last_success": "2026-11-09T16:54:36+08:00",
+    "last_success": "2026-11-09T17:00:38+08:00",
     "last_error": null,
-    "last_discovered": 80,
-    "last_fresh": 70,
-    "last_new": 40,
+    "last_discovered": 40,
+    "last_fresh": 30,
+    "last_new": 12,
     "last_history": 0,
-    "last_wechat": 40,
-    "last_failed": 20,
+    "last_wechat": 12,
+    "last_failed": 0,
     "last_pages": 5,
     "last_raw_keys": [
       "authorInfo",
@@ -69,66 +69,6 @@
     }
   },
   "failed": {
-    "wx2652711874": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652711248": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652710039": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652708855": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652708807": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652708737": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652708185": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652708108": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652707936": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652707915": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652707139": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
-    "wx2652706256": {
-      "attempts": 1,
-      "reason": "微信原文抓取失败（合集文章）",
-      "last_at": "2026-11-09T16:54:36+08:00"
-    },
     "wx2652702107": {
       "attempts": 1,
       "reason": "微信原文抓取失败（合集文章）",
@@ -171,8 +111,8 @@
     }
   },
   "stats": {
-    "total": 178,
-    "wechat": 178,
+    "total": 190,
+    "wechat": 190,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -3085,6 +3025,202 @@
       "paper_url": null,
       "word_count": 1498,
       "fetched_at": "2026-11-09T16:54:35+08:00"
+    },
+    {
+      "id": "wx2652711874",
+      "title": "华农，3项特等奖！",
+      "published_at": "2023-04-24T11:02:16+08:00",
+      "published_label": "2023-04-24",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicQfggoic2iantYiaaq5V6nLC9dsTMJibL1EKnbtrh4icCCqLibgDxZshS3GytUpDfjWVA16kKQYjgw2vxA/0?wx_fmt=jpeg",
+      "summary": "近日， 第三届全国高校教师 教学创新大赛 广东分赛 暨广东省高校教师教学创新大赛 颁奖典礼在中山大学举行 我校材料与能源学院 雷炳富 生命科学学院 白玫 党委学生工作部（党委研究生工作部） 林钻辉 三位教师分获 新工科正高组 新农科副高组…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652711874&idx=1&sn=ccd05097c89e9aa6c6227af19cc26896",
+      "paper_url": null,
+      "word_count": 740,
+      "fetched_at": "2026-11-09T16:59:49+08:00"
+    },
+    {
+      "id": "wx2652711248",
+      "title": "全国农林高校第二！华农国家级“金课”，+21！",
+      "published_at": "2023-04-20T21:30:41+08:00",
+      "published_label": "2023-04-20",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicGOrVgn81kFP5edeiabDEVb8v0Am2QnDr5mHJl63gBBFYDicibHece7jJVIRCUaCP0jOicD7MibGQvVZA/0?wx_fmt=jpeg",
+      "summary": "近日，教育部发布的 第二批国家级一流本科课程 认定结果公示已完成 我校共有 21门 课程获得认定 认定数量位居 全国农林高校第二位 广东省高校第六位 此次入选的21门课程中，共有 线上一流本科课程 3门 虚拟仿真实验教学一流本科课程 1门…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652711248&idx=2&sn=b9c4f1a553a424867c87f10a096098b3",
+      "paper_url": null,
+      "word_count": 1119,
+      "fetched_at": "2026-11-09T16:59:53+08:00"
+    },
+    {
+      "id": "wx2652710039",
+      "title": "总书记考察的“荔枝之乡”，背后也有华农力量！",
+      "published_at": "2023-04-13T21:45:57+08:00",
+      "published_label": "2023-04-13",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcibYfBLg3IGQh7bChJw9ibfABDxbUdiayUGHt5pKop5VclL7sUwYW5SpILXNsgfWILuZ8W9zHB1P4Fng/0?wx_fmt=jpeg",
+      "summary": "4月11日下午，习近平总书记来到广东省茂名市，走进高州市根子镇柏桥村。他先后察看荔枝种植园、农业合作社，对乡亲们靠发展荔枝特色产业推动乡村振兴表示肯定…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652710039&idx=1&sn=8f8409bc0dc273012dcfe4d955cf42ea",
+      "paper_url": null,
+      "word_count": 2782,
+      "fetched_at": "2026-11-09T16:59:58+08:00"
+    },
+    {
+      "id": "wx2652708855",
+      "title": "今天，卢永根书院正式成立！",
+      "published_at": "2023-04-01T22:02:32+08:00",
+      "published_label": "2023-04-01",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcib9qG56A04pdK534uXXWMrqEU21Xqp2Mg5RFsHA3pYGiaSMNsjjSmTUXIJz2T0jpKxWib1XoxLf8CYw/0?wx_fmt=jpeg",
+      "summary": "一门三院士赓续红色血脉 五湖纳四海培育三农英才 4月1日上午 学校在思政体验馆一楼报告厅 举行卢永根书院成立仪式 暨青年科学家面对面交流会 仪式现场 校长刘雅红，书院名誉院长及 特聘导师、 中国科学院院士刘耀光，书院特聘导师、教育部重大人才…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652708855&idx=1&sn=35ff81a39a5f7ee62d6c4e79c3741f55",
+      "paper_url": null,
+      "word_count": 2590,
+      "fetched_at": "2026-11-09T17:00:02+08:00"
+    },
+    {
+      "id": "wx2652708807",
+      "title": "祝贺！华农20名学者入选爱思唯尔2022“中国高被引学者”榜单",
+      "published_at": "2023-03-30T10:15:36+08:00",
+      "published_label": "2023-03-30",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcibMT830vA1jScrpzFVy325ibT7wrcm1ZwWZs9pAgotcyaG5iauiaOJnKm1BJmCyGtcQ9v1UFeZnKIukw/0?wx_fmt=jpeg",
+      "summary": "3月28日 全球领先的信息分析公司 爱思唯尔(Elsevier) 重磅发布 2022“中国高被引学者” (Highly Cited Chinese Researchers) 榜单 我校有 20位 学者上榜 比去年增加 6 位 本次榜单共有…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652708807&idx=1&sn=b52cc3e797768033349ebb7832a9a0e0",
+      "paper_url": null,
+      "word_count": 705,
+      "fetched_at": "2026-11-09T17:00:07+08:00"
+    },
+    {
+      "id": "wx2652708737",
+      "title": "广州唯一！南沙华农渔业研究院，正式启用！",
+      "published_at": "2023-03-28T19:30:15+08:00",
+      "published_label": "2023-03-28",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcibhf31LaxxWPdRICxvJFIGiavY4r3rsJfAGvWHBFE72HuiaEOzkzPJsCUR8shDDKSJEm2AicIKVP6ibEw/0?wx_fmt=jpeg",
+      "summary": "由广东省农业农村厅 南沙经济技术开发区管理委员会 和华南农业大学三方共建的 渔业科技创新机构—— 广州南沙华农渔业研究院 （以下简称“研究院”） 在校地共同努力下 近期完成科研、办公等场所建设 3月28日 研究院启用仪式 在南沙渔业产业园综…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652708737&idx=1&sn=00d0999aed4e2ce51fd273620226eb3c",
+      "paper_url": null,
+      "word_count": 1717,
+      "fetched_at": "2026-11-09T17:00:11+08:00"
+    },
+    {
+      "id": "wx2652708185",
+      "title": "这个华农团队研发的蓝莓，也太大~大~~大~~~了吧！",
+      "published_at": "2023-03-15T20:05:45+08:00",
+      "published_label": "2023-03-15",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc82nMEvszY1S6dibT8hstjNVY4rVpj3iaMCGUXSHpNNdr5k31W7xicgTLIPayBFwBaLdL95USoRyJia9g/0?wx_fmt=jpeg",
+      "summary": "今年3月 在华农陈日远教授团队的 “华南设施大果蓝莓”项目 广东佛山 种植基地里 已然是一片忙碌采摘的热闹景象 大如表盘的果实 掰开后是浅绿色的果肉 品尝一口，又脆又甜 …… 这位集颜值与实力于一身的 新晋蓝莓选手 究竟为什么这么强？…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652708185&idx=1&sn=983732f96a1b92001ec06cbbc0d92cb5",
+      "paper_url": null,
+      "word_count": 4459,
+      "fetched_at": "2026-11-09T17:00:16+08:00"
+    },
+    {
+      "id": "wx2652708108",
+      "title": "媒体聚焦！听两会上的华农声音",
+      "published_at": "2023-03-13T21:41:47+08:00",
+      "published_label": "2023-03-13",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc96SFBu9yQJc8Q0A1ZfHESKVRTW4fOnz10Fu5xW8Dx0To5JlAPYJVKUNRvjaRVI1ciaAHNoiaV5mnxQ/0?wx_fmt=jpeg",
+      "summary": "‍‍‍‍‍ 春风和畅，万象更新。在这个满怀希望、备受瞩目的春天里，第十四届全国人民代表大会第一次会议和全国政协十四届一次会议圆满完成各项议程，在北京胜利闭幕…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652708108&idx=1&sn=09f058cb2469f7e62efe38ed78791f48",
+      "paper_url": null,
+      "word_count": 3523,
+      "fetched_at": "2026-11-09T17:00:20+08:00"
+    },
+    {
+      "id": "wx2652707936",
+      "title": "最新！我校2个学科进入ESI全球前1‰，农业科学首次进入！",
+      "published_at": "2023-03-10T07:30:00+08:00",
+      "published_label": "2023-03-10",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8b1npE4HdRGXuT1INyEQtWO1qsHDgNp8iaibibZuAUXs6NyADAqiaFHgq6kWaz6q5Lr0tL2bBlgYHpKg/0?wx_fmt=jpeg",
+      "summary": "2023年3月9日 国际学术和专利信息调查咨询企业科睿唯安发布了 ESI学科最新数据 我校农业科学 首次进入全球前1‰！ 植物学与动物学继续保持全球前1‰ 现我校进入 全球前1‰的ESI学科 达2个 本期我校仍保持12个ESI学科进入全球前…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652707936&idx=1&sn=b9571c4d7f2fcdc7dcffb796a8f0aa11",
+      "paper_url": null,
+      "word_count": 563,
+      "fetched_at": "2026-11-09T17:00:24+08:00"
+    },
+    {
+      "id": "wx2652707915",
+      "title": "春天花美，成绩更美！",
+      "published_at": "2023-03-09T19:35:00+08:00",
+      "published_label": "2023-03-09",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8b1npE4HdRGXuT1INyEQtWpE5MFTAIq2WqWZyWKM02TBxmT88iaswAJMsJNcQM1o6IbiaxlltHsN1A/0?wx_fmt=jpeg",
+      "summary": "2023年 华农师生 潜心科研攻关 勇攀学术高峰 在多个领域取得可喜进展 快来看看吧！ 王海洋团队 联合多家单位在《自然-遗传学》发表论文 生命科学学院王海洋教授团队联合中国农业科学院生物技术研究所等单位科研团队完成的论文“De novo…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652707915&idx=1&sn=c7cc67798cf701a45ed408fdd98120c7",
+      "paper_url": null,
+      "word_count": 12245,
+      "fetched_at": "2026-11-09T17:00:29+08:00"
+    },
+    {
+      "id": "wx2652707139",
+      "title": "振奋人心！2023，跑出华农“加速度”！",
+      "published_at": "2023-02-22T23:28:28+08:00",
+      "published_label": "2023-02-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9wSm1wvObjCf4HFFy4ibNbEjdiao0KtTS6bNBJ64OCZHVhra1IGWueQd39lRrGa1iatjs1joPD2uckA/0?wx_fmt=jpeg",
+      "summary": "新学期伊始 如何乘着中国式现代化新征程的东风 以“开局就冲刺、起步就争先”的精气神 奋力跑出高质量发展的华农“加速度”？ 2月22日 华南农业大学在丁颖礼堂召开 党委全委（扩大）会议暨人才工作会议 校党委副书记、校长刘雅红 主持大会并作工作…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652707139&idx=1&sn=094849ec0eefec4e05de0edfdfefe204",
+      "paper_url": null,
+      "word_count": 3373,
+      "fetched_at": "2026-11-09T17:00:33+08:00"
+    },
+    {
+      "id": "wx2652706256",
+      "title": "喜讯！华农新增计算机科学学科进入ESI全球前1%！",
+      "published_at": "2023-01-13T12:34:22+08:00",
+      "published_label": "2023-01-13",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc8Cht8SLmktecCVg7OlLwsn9r6bfDaNbsK1VOWzV8mZICKwhBEYAIBeeaA1T9iaqTwAUPFzqZ5rw2g/0?wx_fmt=jpeg",
+      "summary": "2023年1月12日 国际学术和专利信息调查咨询企业科睿唯安 发布了ESI学科最新数据 我校计算机科学学科 首次进入 ESI全球前1%！…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652706256&idx=1&sn=59f84ebc66f28262cfaee8ed093bb078",
+      "paper_url": null,
+      "word_count": 701,
+      "fetched_at": "2026-11-09T17:00:37+08:00"
     }
   ]
 }
