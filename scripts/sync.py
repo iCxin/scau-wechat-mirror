@@ -52,6 +52,9 @@ WECHAT_FETCH = os.getenv("WECHAT_FETCH", "1").lower() not in {"0", "false", "no"
 WECHAT_MAX = max(0, int(os.getenv("WECHAT_MAX", "20") or 20))
 MAX_ARTICLES = max(100, int(os.getenv("MAX_ARTICLES", "3000") or 3000))
 
+# 连续抓取失败达到该次数后跳过，避免每小时反复撞同一批抓不到的文章。
+FAILED_MAX_ATTEMPTS = max(1, int(os.getenv("FAILED_MAX_ATTEMPTS", "3") or 3))
+
 # 微信合集（专辑）用于回填历史文章。合集是公开页面，不需要公众号后台登录。
 SCAU_BIZ = os.getenv("SCAU_BIZ", "MjM5OTE2MzUwNA==")
 SCAU_ALBUM_ID = os.getenv("SCAU_ALBUM_ID", "2195323138559836160")
@@ -1194,6 +1197,7 @@ def empty_index() -> dict:
         },
         "generated_at": None,
         "sync": {},
+        "failed": {},
         "stats": {"total": 0, "wechat": 0, "paper": 0, "latest": None},
         "articles": [],
     }
@@ -1454,7 +1458,24 @@ def run(args) -> int:
     if not discovered:
         last_error = "列表与合集接口均未返回可识别的文章"
 
+    failed_map: dict = {
+        str(key): value
+        for key, value in (index.get("failed") or {}).items()
+        if isinstance(value, dict)
+    }
+    failed_changed = False
+
+    def record_failure(item_id: str, reason: str) -> None:
+        nonlocal failed_changed
+        entry = failed_map.get(str(item_id)) or {"attempts": 0}
+        entry["attempts"] = int(entry.get("attempts") or 0) + 1
+        entry["reason"] = reason
+        entry["last_at"] = NOW().isoformat(timespec="seconds")
+        failed_map[str(item_id)] = entry
+        failed_changed = True
+
     fresh: list[dict] = []
+    skipped_failed = 0
     for item in discovered.values():
         if item["id"] in seen_ids:
             continue
@@ -1464,9 +1485,13 @@ def run(args) -> int:
         title_key = (clean_text(item.get("title")), (item.get("published_at") or "")[:10])
         if title_key in seen_titles:
             continue
+        record = failed_map.get(str(item["id"]))
+        if record and int(record.get("attempts") or 0) >= FAILED_MAX_ATTEMPTS:
+            skipped_failed += 1
+            continue
         fresh.append(item)
     fresh.sort(key=sort_key, reverse=True)
-    log(f"待抓取新文章 {len(fresh)} 篇")
+    log(f"待抓取新文章 {len(fresh)} 篇（失败达上限跳过 {skipped_failed} 篇）")
 
     fetched = 0
     wechat_count = 0
@@ -1488,6 +1513,7 @@ def run(args) -> int:
             if detail is None:
                 failed += 1
                 last_error = "澎湃号正文抓取失败"
+                record_failure(item["id"], last_error)
                 log(f"跳过（正文抓取失败）：{item['title'][:42]}")
                 time.sleep(1.0)
                 continue
@@ -1508,6 +1534,7 @@ def run(args) -> int:
         if item.get("origin") == "album" and not wechat:
             failed += 1
             last_error = "微信原文抓取失败（合集文章）"
+            record_failure(item["id"], last_error)
             log(f"跳过（合集文章微信抓取失败）：{item['title'][:42]}")
             continue
 
@@ -1515,10 +1542,13 @@ def run(args) -> int:
         if not built:
             failed += 1
             last_error = "正文清洗后为空"
+            record_failure(item["id"], last_error)
             log(f"跳过（正文为空）：{item['title'][:42]}")
             continue
 
         entry, detail_payload = built
+        if failed_map.pop(str(entry["id"]), None) is not None:
+            failed_changed = True
         if not args.dry_run:
             write_json(ARTICLES_DIR / f"{entry['id']}.json", detail_payload)
         existing.append(entry)
@@ -1538,7 +1568,7 @@ def run(args) -> int:
     changed = fetched > 0
     first_write = not INDEX_PATH.exists()
 
-    if changed or first_write:
+    if changed or first_write or failed_changed:
         articles = existing
         # 去重（以 id 为主，同时兼顾微信原文链接）
         deduped: list[dict] = []
@@ -1589,12 +1619,24 @@ def run(args) -> int:
             },
         }
         index["stats"] = build_stats(deduped)
+        # 已收录的 id 不再需要失败记录；最多保留 500 条，避免索引无限膨胀。
+        for article_id in seen_ids:
+            failed_map.pop(article_id, None)
+        if len(failed_map) > 500:
+            ordered = sorted(
+                failed_map.items(),
+                key=lambda pair: pair[1].get("last_at") or "",
+                reverse=True,
+            )[:500]
+            failed_map.clear()
+            failed_map.update(dict(ordered))
+        index["failed"] = failed_map
 
         write_json(INDEX_PATH, index, pretty=True)
         generate_feed(index)
         cleanup_article_files(deduped)
     else:
-        log("本次没有新文章，保持现有站点不变")
+        log("本次没有新文章；失败记录已更新，站点内容保持不变")
 
     log(
         f"同步完成：新增 {fetched} 篇，微信全文 {wechat_count} 篇，"
