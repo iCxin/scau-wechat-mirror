@@ -7,16 +7,17 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T00:23:25+08:00",
+  "generated_at": "2026-11-09T09:03:13+08:00",
   "sync": {
-    "last_success": "2026-11-09T00:23:25+08:00",
+    "last_success": "2026-11-09T09:03:13+08:00",
     "last_error": null,
-    "last_discovered": 20,
-    "last_fresh": 20,
-    "last_new": 20,
-    "last_wechat": 20,
-    "last_failed": 0,
-    "last_pages": 10,
+    "last_discovered": 196,
+    "last_fresh": 188,
+    "last_new": 2,
+    "last_history": 0,
+    "last_wechat": 2,
+    "last_failed": 10,
+    "last_pages": 5,
     "last_raw_keys": [
       "authorInfo",
       "cardMode",
@@ -56,16 +57,57 @@
     "last_list": {
       "status": 200,
       "code": 200,
-      "count": 20
+      "count": 10
+    },
+    "album": {
+      "id": "2195323138559836160",
+      "title": "",
+      "article_count": 192,
+      "cached": 189,
+      "pages": 1,
+      "error": null
     }
   },
   "stats": {
-    "total": 20,
-    "wechat": 20,
+    "total": 22,
+    "wechat": 22,
     "paper": 0,
-    "latest": "2026-11-04T17:26:00+08:00"
+    "latest": "2026-11-08T11:19:00+08:00"
   },
   "articles": [
+    {
+      "id": "34436320",
+      "title": "画“农”为“家”！一年一度，温情直播→",
+      "published_at": "2026-11-08T11:19:00+08:00",
+      "published_label": "2026-11-08",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBDwtku3Q9Zcszia9NB34jm1p3p1mwhzhaUvpI1IFHICicJrGe4xPfxeNm5FTQVib3FbFHMdpuMdqicXGKzic44T095Ad9ASFX5owhc/0?wx_fmt=jpeg",
+      "summary": "这个周末 秋光澄澈，暖意洋洋 华农2026年秩年校友返校日活动 温情举行 来自五湖四海的校友重返校园 忆过往，启新篇 广东华南农业大学校友会 第七次校友代表大会",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/T9kKeH8w1v9GObUR9wZbAA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34436320",
+      "word_count": 3311,
+      "fetched_at": "2026-11-09T09:02:23+08:00"
+    },
+    {
+      "id": "34436318",
+      "title": "除了三角梅，华农到底还有多少花在开： | 今日立冬",
+      "published_at": "2026-11-07T08:03:00+08:00",
+      "published_label": "2026-11-07",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDCuXBYNjTSXUibOibUmnluIphTLYT7d2fCd0InN4Lu2TlVjU4AHxnVaY9RSKKEdjOtDcsS8icCO3GAicjqoZbJyicNxaTfMMa0NRbc/0?wx_fmt=jpeg",
+      "summary": "华农二十四节气 【编者按】“初冬天气暖，小似立春时。”今日立冬，当北方多地已是秋收完毕、秋裤加身，身处广州的华农师生们依然身着短袖。校园里，晚稻正待归仓，繁花仍",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/HDlpxmCkPfAuJNPh6WwYKA",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34436318",
+      "word_count": 1926,
+      "fetched_at": "2026-11-09T09:02:29+08:00"
+    },
     {
       "id": "34417470",
       "title": "华农，特等奖！总数全省第一！",
