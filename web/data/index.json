@@ -7,16 +7,16 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T09:03:13+08:00",
+  "generated_at": "2026-11-09T16:21:34+08:00",
   "sync": {
-    "last_success": "2026-11-09T09:03:13+08:00",
+    "last_success": "2026-11-09T16:21:34+08:00",
     "last_error": null,
     "last_discovered": 196,
-    "last_fresh": 188,
-    "last_new": 2,
+    "last_fresh": 186,
+    "last_new": 12,
     "last_history": 0,
-    "last_wechat": 2,
-    "last_failed": 10,
+    "last_wechat": 12,
+    "last_failed": 0,
     "last_pages": 5,
     "last_raw_keys": [
       "authorInfo",
@@ -69,8 +69,8 @@
     }
   },
   "stats": {
-    "total": 22,
-    "wechat": 22,
+    "total": 34,
+    "wechat": 34,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -141,6 +141,39 @@
       "fetched_at": "2026-11-09T00:21:52+08:00"
     },
     {
+      "id": "wx2652900708",
+      "title": "华农师生热议党的二十届五中全会精神",
+      "published_at": "2026-10-30T20:46:25+08:00",
+      "published_label": "2026-10-30",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDPWAKYsaqzXYS1MD51PNly75Gu2I1n6dBWxjZdYRVUEwK0L1XFcIMlNRdrH54sMM0sBVYQ1sHdMjPE2jOs81qibhEgyoAyQ3xQ/0?wx_fmt=jpeg",
+      "summary": "10月26日至29日，中国共产党第二十届中央委员会第五次全体会议在北京举行，会议审议通过了《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。 华南农业大学师生热切关注党的二十届五中全会的召开，掀起学习贯彻全会精神的热潮…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652900708&idx=1&sn=ef3cd8928fc2ab80f97d52204492819f",
+      "paper_url": null,
+      "word_count": 2434,
+      "fetched_at": "2026-11-09T16:20:29+08:00"
+    },
+    {
+      "id": "wx2652900643",
+      "title": "祝贺！14项广东省科学技术奖！",
+      "published_at": "2026-10-29T11:26:54+08:00",
+      "published_label": "2026-10-29",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDbpu971efG3HvwU8nKeNE4RfaDb1VNwyMHjZbQxHwsTzqb6xy95Dx1avicqz9oEO2pGppXK4LrmAWtsiccPlmuEznxTp6yiaWzFA/0?wx_fmt=jpeg",
+      "summary": "10月27日 广东省人民政府公布了 2025年度广东省科学技术奖名单 华农共14个项目（个人）获奖 主持8项、参与6项 包括一等奖2项、二等奖8项 推广奖3项、青年奖1项 华南农业大学 2025年度广东省科学技术奖 获奖名单 本次获奖成果既…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652900643&idx=1&sn=da5ea51b0c0179605001ed942e46b12f",
+      "paper_url": null,
+      "word_count": 1417,
+      "fetched_at": "2026-11-09T16:20:34+08:00"
+    },
+    {
       "id": "34356344",
       "title": "SAJ创刊！华农主办，高标准、国际化！",
       "published_at": "2026-10-28T17:39:00+08:00",
@@ -187,6 +220,38 @@
       "paper_url": "https://m.thepaper.cn/newsDetail_forward_34314025",
       "word_count": 2309,
       "fetched_at": "2026-11-09T00:22:07+08:00"
+    },
+    {
+      "id": "wx2652900033",
+      "title": "今天，致敬伟大胜利！",
+      "published_at": "2026-10-22T11:17:23+08:00",
+      "published_label": "2026-10-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckAD1ozrbbiaEniazFbjVYnM0wibq4kCbb4aEk1mKPtMYMmicviaQzkvLfvOR0llAbib8onMqoFAcibZOumwMjiabcAiaxYTukryRzgEclF0/0?wx_fmt=jpeg",
+      "summary": "1936年深秋，朔风漫过黄土高原。历经长途艰难跋涉，红一、红四方面军会师会宁，红一、红二方面军会师将台堡，实现三大主力红军会师…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652900033&idx=1&sn=4fc260a1cd785c0bde67e5a07712d808",
+      "paper_url": null,
+      "word_count": 1856,
+      "fetched_at": "2026-11-09T16:20:39+08:00"
+    },
+    {
+      "id": "wx2652899938",
+      "title": "广东高校新时代立德树人工程推进会在华农召开",
+      "published_at": "2026-10-21T17:49:00+08:00",
+      "published_label": "2026-10-21",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckATiaXNqeYFIQziaUzIHRtsNlROfO82Pxacm26AxHHx8p8VfUFuJRBib750xSvxrEsj9YzTI5NBHqQLia0iaJDEg3JqOn1bOLicMyxlw/0?wx_fmt=jpeg",
+      "summary": "近日，广东高校新时代立德树人工程推进会在华南农业大学召开。会议聚焦全面推进高校新时代立德树人工程落地见效，系统总结前期工作经验，深入分析当前面临形势，研究部署下一阶段重点任务…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652899938&idx=1&sn=b784e0e4dc01cd2cf9a9630b5e2f5ef4",
+      "paper_url": null,
+      "word_count": 2455,
+      "fetched_at": "2026-11-09T16:20:46+08:00"
     },
     {
       "id": "34296023",
@@ -284,6 +349,22 @@
       "paper_url": "https://m.thepaper.cn/newsDetail_forward_34246188",
       "word_count": 4715,
       "fetched_at": "2026-11-09T00:22:39+08:00"
+    },
+    {
+      "id": "wx2652899200",
+      "title": "全国多省市高校齐聚华农，研讨这件大事→",
+      "published_at": "2026-10-12T21:59:49+08:00",
+      "published_label": "2026-10-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBJs9uPJsaepWibLjNA14BF9F16tiaUTMyniciblmTGzvMGyXicTwJnGOAGfn79JOlibaD4mibwC7X4EJJ7pAcSKqROR8zbicxsJgKqLTY/0?wx_fmt=jpeg",
+      "summary": "10月12日，华南农业大学举行立德树人机制综合改革交流研讨会，助力改革工作向纵深推进。来自 北京、辽宁、上海、江苏、福建、江西、湖北、重庆、新疆 等13个省（区、市）18所高校及相关职能部门、院系党组织负责人近200人齐聚华农，以“聚力改革…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652899200&idx=1&sn=5a76b7eee3a9d1aa31356da081dd585b",
+      "paper_url": null,
+      "word_count": 1864,
+      "fetched_at": "2026-11-09T16:20:50+08:00"
     },
     {
       "id": "34230908",
@@ -430,6 +511,120 @@
       "paper_url": "https://m.thepaper.cn/newsDetail_forward_34141789",
       "word_count": 1850,
       "fetched_at": "2026-11-09T00:23:24+08:00"
+    },
+    {
+      "id": "wx2652897173",
+      "title": "华农🤝温氏，全面合作再升级！",
+      "published_at": "2026-09-15T20:00:00+08:00",
+      "published_label": "2026-09-15",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckAP7mnfNeImJRTIjCMURVmcVqy7zrXppQRQILA0Cttkzsxh6SnRN5ufM8kIc8cyS2GaFwgN9UW8ia02Hx7GbTA9I87NprdweeWU/0?wx_fmt=jpeg",
+      "summary": "9月15日，华南农业大学（以下简称“华农”）与温氏食品集团股份有限公司（以下简称“温氏集团”）在广州签署第五期全面合作协议…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652897173&idx=1&sn=d8f40efce96db81a76502908c533079a",
+      "paper_url": null,
+      "word_count": 2039,
+      "fetched_at": "2026-11-09T16:20:57+08:00"
+    },
+    {
+      "id": "wx2652897094",
+      "title": "华南农业大学召开树立和践行正确政绩观学习教育总结会",
+      "published_at": "2026-09-12T00:02:01+08:00",
+      "published_label": "2026-09-12",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBlibGnbSQ7sICljCYjJCR4KYRVssic7jU9V3bpzR1IiaxGhUPyNS8xnkdXqgbydZMISUvuic9IibSngBDz66IeMmcwEA3SVAXBh47g/0?wx_fmt=jpeg",
+      "summary": "9月11日，华南农业大学在红满堂召开树立和践行正确政绩观学习教育总结会暨 基层党委书记工作例会，总结树立和践行正确政绩观学习教育，研究部署巩固拓展学习教育成果、建立树立和践行正确政绩观长效机制工作…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652897094&idx=1&sn=8706f8157e6c545b34b461cc803100f3",
+      "paper_url": null,
+      "word_count": 1291,
+      "fetched_at": "2026-11-09T16:21:03+08:00"
+    },
+    {
+      "id": "wx2652896841",
+      "title": "全体老师，节日快乐！（还有“彩蛋”！）",
+      "published_at": "2026-09-10T09:31:34+08:00",
+      "published_label": "2026-09-10",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckA26KMkuv3aORwzXNJQgkOTxck24wNCnabwseP4HgczblGNNbxcnoicOEcDmT8pGmUHz8gIfjDQ39Wdn1aFASsbAC7sickwUVewI/0?wx_fmt=jpeg",
+      "summary": "今年毕业季 在离开母校前 毕业学子提前录制了祝福视频 作为9月教师节的礼物 不同的话语，同样的感念师恩 今天，与你一起打开这份 穿越时光的光影贺卡 师者若水，润物无声 桃李争妍，四海承风 祝华南农业大学全体教职工 节日快乐！…",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652896841&idx=1&sn=b0e68466c6a20cb0f7edf2446d742a18",
+      "paper_url": null,
+      "word_count": 269,
+      "fetched_at": "2026-11-09T16:21:09+08:00"
+    },
+    {
+      "id": "wx2652896422",
+      "title": "全国首批依法治校示范校，华农+1！",
+      "published_at": "2026-09-07T21:31:48+08:00",
+      "published_label": "2026-09-07",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckCt1P1iaBbzqKzX0jFSw8cVIX3e7ZmYeGRUPuThwK8jFIwjFya3u7S5vd9sbntq9K1BmMRV7BYIYWUMXfvpfrL7aVclUib3EpNeU/0?wx_fmt=jpeg",
+      "summary": "zhzhengc 近日 教育部公布了第一批全国依法治校示范校名单 华南农业大学获评 “全国依法治校示范校”荣誉称号 本次入选首批全国依法治校示范校 是对学校规范办学、依法治理成效的高度认可 标志着学校依法治校建设跻身全国先进行列 近年来，学…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652896422&idx=1&sn=b6d57b8d6d7b9becc715632ba191bf4f",
+      "paper_url": null,
+      "word_count": 2575,
+      "fetched_at": "2026-11-09T16:21:15+08:00"
+    },
+    {
+      "id": "wx2652895669",
+      "title": "下半年，攻坚新跨越！",
+      "published_at": "2026-08-28T22:52:26+08:00",
+      "published_label": "2026-08-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBfiaCtMm3B0l1pO18ibUXuT6Cm8Wjx0zawr2qsRhRIo8CRgzje1270qzIMiajszkgRC66N8PV8YPP4xLEKqVW6VohZmDMdjauCOg/0?wx_fmt=jpeg",
+      "summary": "8月28日 华南农业大学召开党委全委（扩大）会议 暨2026年秋季战略研讨会 围绕“攻坚跨越”主题 全面总结上半年工作进展 分析研判学校发展形势 系统部署“十五五”时期 及2026年下半年重点工作任务 推动全年工作落地见效 大会现场 校党委…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652895669&idx=1&sn=45c8f80357e8bf40459acd5bc5cee410",
+      "paper_url": null,
+      "word_count": 2378,
+      "fetched_at": "2026-11-09T16:21:21+08:00"
+    },
+    {
+      "id": "wx2652895662",
+      "title": "国奖+2，祝贺她们！",
+      "published_at": "2026-08-28T20:17:00+08:00",
+      "published_label": "2026-08-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDoseNIHZKURtS8E6nqpmSlaia40NXILbg86ptBrn4icrpMtxHzOMPIhA7p0icILp4jG7IQOVzbPoX6DLfBPz9H4dM4ibIGiczt3JSg/0?wx_fmt=jpeg",
+      "summary": "8月24日-28日 第八届全国高校青年教师教学竞赛决赛 在山东大学举行 全国160名优秀青年教师同台竞技，各展风采 华农马克思主义学院教师缪燚晶 荣获思想政治课专项组二等奖 海洋学院教师严慕婷 荣获理科组三等奖 实现了学校在理科组、思想政治…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652895662&idx=1&sn=786231a8e10f04decc66bbc7736388c8",
+      "paper_url": null,
+      "word_count": 835,
+      "fetched_at": "2026-11-09T16:21:27+08:00"
+    },
+    {
+      "id": "wx2652895333",
+      "title": "“人工智能+农业”，华农这个研究院揭牌！",
+      "published_at": "2026-08-26T09:46:23+08:00",
+      "published_label": "2026-08-26",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckBiaFLOj9wFPVJqPh71DnW0kQoocmrRibZaRb8VPkbrzlrNl7wm1YqNc5Ww4EKqfc6FFfWIT8CN5MbLX0ubibIA4N2YvjJrvtGJvM/0?wx_fmt=jpeg",
+      "summary": "8月25日 华南农业大学智慧农业研究院 揭牌成立（下称“研究院”） 研究院由中国工程院院士 华农工程学院教授罗锡文担任院长 汇聚中国工程院院士 赵春江、麦康森、李天来、柏连阳 等一批权威专家 整合多学科优势资源 将聚焦人工智能与农业交叉融合…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652895333&idx=1&sn=526199f65eef6556c017a72ae0cf3afe",
+      "paper_url": null,
+      "word_count": 1468,
+      "fetched_at": "2026-11-09T16:21:33+08:00"
     }
   ]
 }
