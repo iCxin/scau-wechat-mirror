@@ -76,10 +76,21 @@ jobs:
           git add web
           if git diff --cached --quiet; then
             echo "No data changes to commit."
-          else
-            git commit -m "chore: sync $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "chore: sync $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # 仓库可能同时被人工提交更新；失败时 rebase 后重试，避免一次同步白跑。
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push failed, retrying after rebase ($attempt/3)"
+            git pull --rebase --autostash origin main || true
+            sleep 3
+          done
+          echo "::error title=提交失败::数据已生成但无法推送到仓库，请检查分支保护或并发提交。"
+          exit 1
 
       - name: Prepare GitHub Pages
         id: pages
