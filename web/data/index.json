@@ -7,16 +7,16 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T16:31:36+08:00",
+  "generated_at": "2026-11-09T16:37:31+08:00",
   "sync": {
-    "last_success": "2026-11-09T16:31:36+08:00",
+    "last_success": "2026-11-09T16:37:31+08:00",
     "last_error": null,
-    "last_discovered": 184,
-    "last_fresh": 174,
-    "last_new": 12,
+    "last_discovered": 172,
+    "last_fresh": 162,
+    "last_new": 40,
     "last_history": 0,
-    "last_wechat": 12,
-    "last_failed": 0,
+    "last_wechat": 40,
+    "last_failed": 20,
     "last_pages": 5,
     "last_raw_keys": [
       "authorInfo",
@@ -69,8 +69,8 @@
     }
   },
   "stats": {
-    "total": 46,
-    "wechat": 46,
+    "total": 86,
+    "wechat": 86,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -821,6 +821,665 @@
       "paper_url": null,
       "word_count": 1423,
       "fetched_at": "2026-11-09T16:31:35+08:00"
+    },
+    {
+      "id": "wx2652888994",
+      "title": "华农如何培育一流人才？重磅首发！",
+      "published_at": "2026-06-15T12:31:42+08:00",
+      "published_label": "2026-06-15",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckCrGibHhvfiaHfp7xHIql2RaVanpI4Ecm9Bb8yjjrvNY7YEdlFhJiaeDaFFribHyiafTSSZ0LD2VD3LTJoT5gibu6mBExwW7Ayjm0tgM/0?wx_fmt=jpeg",
+      "summary": "立德树人是教育的根本任务 作为教育部立德树人机制综合改革试点高校 华南地区农林类“双一流”建设高校 华农如何培育一流人才？…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652888994&idx=1&sn=c1536da9e28f99c671a7888fb8883367",
+      "paper_url": null,
+      "word_count": 4647,
+      "fetched_at": "2026-11-09T16:34:28+08:00"
+    },
+    {
+      "id": "wx2652888453",
+      "title": "华南农业大学召开树立和践行正确政绩观学习教育推进会",
+      "published_at": "2026-06-09T10:40:33+08:00",
+      "published_label": "2026-06-09",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBvP8icCvdyAJQYceNJALvB89q2FY08OmgANYSVQu3DME948TyLYnlE4Lfl3bTXWqicfkCEEKBpjwGPsZ7hgiafJygCzvFyXrR6DE/0?wx_fmt=jpeg",
+      "summary": "6月8日 华南农业大学召开 树立和践行正确政绩观 学习教育推进会 总结学习教育开展以来的阶段性成效 对下一阶段深化学习教育 推动学校高质量发展 进行重点部署 校党委书记李凤亮作专题讲话 校党委副书记、 校长薛红卫主持会议 推进会现场 李凤亮…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652888453&idx=1&sn=3a67c7fea96ac6bcccbd94a76c270d47",
+      "paper_url": null,
+      "word_count": 2141,
+      "fetched_at": "2026-11-09T16:34:32+08:00"
+    },
+    {
+      "id": "wx2652880246",
+      "title": "全国首个！农业动物类器官，前沿创新在华农！",
+      "published_at": "2026-04-13T09:03:58+08:00",
+      "published_label": "2026-04-13",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDotSFYbrOnJCiasJ5OKRwKsvm5Dx4qVA4RcSUMsibOLJicFGq8GrgRacnbgZMLQibicXLaOxmBIU60D0Nl8FQlibnAibfr8NkdVmXB6E/0?wx_fmt=jpeg",
+      "summary": "4月12日 华南农业大学农业动物类器官创新研究院 （下称“研究院”）揭牌成立 该研究院是 全国首个农业动物类器官 专业创新研究和产业转化平台 联合香港大学、澳门大学 香港中文大学(深圳) 岭南现代农业科学与技术广东省实验室 中国农业大学 中…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652880246&idx=1&sn=ed38bd07fc2e75d0811185924e03ed80",
+      "paper_url": null,
+      "word_count": 1994,
+      "fetched_at": "2026-11-09T16:34:37+08:00"
+    },
+    {
+      "id": "wx2652879571",
+      "title": "华南农大🤝上海交大，合作再深化！",
+      "published_at": "2026-03-30T10:31:32+08:00",
+      "published_label": "2026-03-30",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBh04MF3KDFua8AUSTVNjYeBic4XzgEkSF6WkOVAaqfpx7YaHW2XE91ibYFVpQicLaAsfYwPw4X26IzicCOQYEF2SJsoibpLf6nTLKU/0?wx_fmt=jpeg",
+      "summary": "3月28日 华南农业大学与上海交通大学 签署共同服务和深化乡村全面振兴合作协议 签约仪式在上海举行 华农校长薛红卫、上海交大校长丁奎岭 见证签约仪式 华农副校长钟强与上海交大副校长张兆国 作为双方代表签署协议 签约仪式现场 根据协议，双方将…",
+      "tags": [
+        "通知",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652879571&idx=1&sn=bde1fadd79eccd89685910196e68f35d",
+      "paper_url": null,
+      "word_count": 1594,
+      "fetched_at": "2026-11-09T16:34:41+08:00"
+    },
+    {
+      "id": "wx2652877715",
+      "title": "新型高端智库，+2！",
+      "published_at": "2026-03-19T17:57:39+08:00",
+      "published_label": "2026-03-19",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDJiazdTVhoibcTVgsUpAcw2Z3or5YQYiczZG3psyaKR6ZawJicqsqraW4JnZ9msP2tG0RfSaSfxYicBFicVMdDEIXkAqJEgdMa2QA4c/0?wx_fmt=jpeg",
+      "summary": "近日 广东省社会科学界联合会 公布社科新型智库评审结果 华南农业大学 乡村振兴重点实验室 农业农村政策与改革创新重点实验室 上榜社科新型高端智库名单 在10个名额中坐拥2席 充分彰显了学校在农业农村领域的 科研实力与智库服务能力 社科新型高…",
+      "tags": [
+        "通知",
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652877715&idx=1&sn=1608a847f316c68490aa21a7f463679a",
+      "paper_url": null,
+      "word_count": 868,
+      "fetched_at": "2026-11-09T16:34:46+08:00"
+    },
+    {
+      "id": "wx2652876788",
+      "title": "闭幕！他们发出“华农声音”！",
+      "published_at": "2026-03-12T20:46:18+08:00",
+      "published_label": "2026-03-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckBIDsjkHJsCTtenrJibzGXcxIebCO5vNJ3ibbJCZFNjD6IHJjGX3cJ5nNeQtJq21licp7kDeiceo5QtsRBUxdvy6QU9gYGHQoGqG6U/0?wx_fmt=jpeg",
+      "summary": "十四届全国人大四次会议 和全国政协十四届四次会议 分别于3月12日和3月11日 在北京闭幕 今年，华农共有2位在职教师参会 他们是 全国人大代表谢青梅 全国政协委员温小波 履职尽责，建言献策 他们在两会发出华农声音 贡献华农智慧、彰显华农担…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652876788&idx=1&sn=8b5f626ecc39359127515aa8c1917abb",
+      "paper_url": null,
+      "word_count": 3343,
+      "fetched_at": "2026-11-09T16:34:50+08:00"
+    },
+    {
+      "id": "wx2652876272",
+      "title": "聚焦，热议！",
+      "published_at": "2026-03-06T12:13:00+08:00",
+      "published_label": "2026-03-06",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDsfp4KWOniapgiaNbbPGYwRXia03goYmaOJuTgsAWibGKiaddjkrib8fXLUHYo0LbrHlrvhoBZ7ew9d0GffN04oUwgQWk3D5G0iaEcvc/0?wx_fmt=jpeg",
+      "summary": "3月4日-5日 备受瞩目的2026全国两会在北京开幕 全国人大代表 华农动物科学学院院长谢青梅 全国政协委员 华农副校长温小波 赴京参会 全校师生通过多种渠道 收听收看大会盛况 第一时间学习领会两会精神 3月5日上午，第十四届全国人民代表大…",
+      "tags": [
+        "人物",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652876272&idx=1&sn=330bd7d640f3c870c15180f09b646f14",
+      "paper_url": null,
+      "word_count": 2405,
+      "fetched_at": "2026-11-09T16:34:54+08:00"
+    },
+    {
+      "id": "wx2652875726",
+      "title": "定了，华农2026这么干！",
+      "published_at": "2026-02-27T23:08:42+08:00",
+      "published_label": "2026-02-27",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckDK0nFa5gKZ7JQcQ7iavRic9ogALld49Q5J5K3zvicObTVfAoF3onH2IFs1YLhCrmTwric6ZQbstuvAfFI9k2t7G3MqoWcbsMsESvo/0?wx_fmt=jpeg",
+      "summary": "2月27日 华南农业大学召开党委全委（扩大）会议 暨2026年春季学期战略研讨会 全面总结2025年工作成效 紧扣“攻坚跨越”主题 系统部署今年重点工作 校党委书记李凤亮、校长薛红卫 作工作部署 会议现场 2026年，学校工作的总体思路是：…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652875726&idx=1&sn=3d9e8f15555b29c646b1a04bafbc6a88",
+      "paper_url": null,
+      "word_count": 2513,
+      "fetched_at": "2026-11-09T16:34:58+08:00"
+    },
+    {
+      "id": "wx2652872716",
+      "title": "“中国高被引学者”，华农18人上榜！",
+      "published_at": "2026-01-31T18:04:48+08:00",
+      "published_label": "2026-01-31",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicHKUEXiaibvyibwmAziagPJ2mAJB4ibzRV9dEg9UXjMxrEQ6cmaZyeDFUicopqCJwuRbaQY1jb2s4nNH5w/0?wx_fmt=jpeg",
+      "summary": "1月30日 爱思唯尔(Elsevier)正式发布 2025“中国高被引学者”榜单 (Highly Cited Chinese Researchers) 华农共有18位学者上榜 分布在农学、理学、工学三个学科领域 涉及作物学、农业资源与环境…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652872716&idx=1&sn=c45c720bed64403cf930c2aef3daf135",
+      "paper_url": null,
+      "word_count": 678,
+      "fetched_at": "2026-11-09T16:35:03+08:00"
+    },
+    {
+      "id": "wx2652872467",
+      "title": "全省优秀成果公布，华农+3！",
+      "published_at": "2026-01-23T12:46:00+08:00",
+      "published_label": "2026-01-23",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibGsuVhnASvzmXXwYfFVlKaZpK8fmWx6rbFVH259EUEz4Un40gPdmwu1fzt2xAl5z6On6yTwbY8VQ/0?wx_fmt=jpeg",
+      "summary": "近日 中共广东省委教育工委公布了 “党建好案例、书记好党课、党员好榜样” 优秀成果入选结果 兽医药理学团队教工党支部案例 《党建“红”引领专业“能”：以高水平科技 自立自强培育兽药领域新质生产力》 入选“党建好案例” 林木遗传育种教研室教工…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652872467&idx=1&sn=02e8486dd0c9fdd5477ca7fc5a8f4f35",
+      "paper_url": null,
+      "word_count": 1700,
+      "fetched_at": "2026-11-09T16:35:08+08:00"
+    },
+    {
+      "id": "wx2652872080",
+      "title": "华农，+36！省属第一！",
+      "published_at": "2026-01-14T12:03:46+08:00",
+      "published_label": "2026-01-14",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc84D2WkaaVClh5uX4DUulbK4NXTAev7t5z6ibU8iatHHsqPpEzfICDJA0hb3INfuJl1sIYstn13OMeA/0?wx_fmt=jpeg",
+      "summary": "近日 广东省人力资源和社会保障厅 广东省教育厅 公布 全省学校（高等教育） 优秀教学成果奖名单 华农作为主持单位 获广东省高等教育教学 成果奖36项 其中 特等奖2项 一等奖12项 获奖数 位 居省属高校第一 华南农业大学获2025年 广东…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652872080&idx=1&sn=0bc58eb836a9ae78538cb7589afea562",
+      "paper_url": null,
+      "word_count": 2055,
+      "fetched_at": "2026-11-09T16:35:13+08:00"
+    },
+    {
+      "id": "wx2652870356",
+      "title": "央媒聚焦！华农一流学科成果",
+      "published_at": "2026-01-05T16:48:23+08:00",
+      "published_label": "2026-01-05",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8Mrq3FibN5HXXjicqnPQHaIDuIEdYC3byVEmOgtQsEia9lNngAmz0SzjA8sOhBy9srPOcIT5Zm1VRYQ/0?wx_fmt=jpeg",
+      "summary": "近日 《中国日报》《科技日报》两大中央媒体 以“整版+专题”报道形式 深度聚焦华南农业大学作物学一流学科建设 通过图文并茂的版面设计 详实鲜活的案例剖析 系统展现了 华农人如何以“顶天立地”的科研追求 在作物学领域书写“中国方案”的生动实践…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652870356&idx=1&sn=9fa1771544b5bb8c0cfc52f5c800f218",
+      "paper_url": null,
+      "word_count": 5549,
+      "fetched_at": "2026-11-09T16:35:18+08:00"
+    },
+    {
+      "id": "wx2652869781",
+      "title": "华南农业大学2026年新年贺词",
+      "published_at": "2025-12-31T16:34:59+08:00",
+      "published_label": "2025-12-31",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8vp5IhiaeIN5RZ4IkjtlUTRotWOyFibF6d6icODkicnKptSIKjXAFYcMDHC5RoPMumtCa5vgUjCh9e4g/0?wx_fmt=jpeg",
+      "summary": "老师们、同学们、校友们、朋友们： 时光奔涌，四序迁流。值此辞旧迎新之际，我们谨代表学校党政领导班子向全校师生员工、离退休老同志、海内外校友和所有关心支持华南农业大学建设发展的各级领导、各界朋友，致以美好的问候和新年的祝福！…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652869781&idx=1&sn=b5ac3d781191ba360a34a246cf357dd2",
+      "paper_url": null,
+      "word_count": 3006,
+      "fetched_at": "2026-11-09T16:35:22+08:00"
+    },
+    {
+      "id": "wx2652864725",
+      "title": "华农13项成果获2024年度广东省科学技术奖！",
+      "published_at": "2025-11-22T11:24:42+08:00",
+      "published_label": "2025-11-22",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicV2lnawKIlSQFtdkLzF7mGValib2NVjY5kxPenXg8JdpJ3XnhSLO0Q8S7xLFiaicprttIItvFY0WUjg/0?wx_fmt=jpeg",
+      "summary": "近日 广东省人民政府发布了 2024年度广东省科学技术奖获奖名单 华农共13个项目（个人）获奖 主持7项，参与6项 包括一等奖4项、二等奖4项 推广奖3项、青年奖2项 详细获奖名单如下 ↓ ↓ ↓ 2024年度广东省科学技术奖 华南农业大学…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652864725&idx=1&sn=977c62385acf4ab908d542b5e7cb2ac7",
+      "paper_url": null,
+      "word_count": 527,
+      "fetched_at": "2026-11-09T16:35:27+08:00"
+    },
+    {
+      "id": "wx2652864638",
+      "title": "华农5人上榜！2025年度“全球高被引科学家”名单发布",
+      "published_at": "2025-11-20T19:11:41+08:00",
+      "published_label": "2025-11-20",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9pibyuqh64zAgCGVxbnW7xHD7n06v0aRKAkh5znogicgG9m6eIEHqZpUIANwchkNumgdN4maIe5OPg/0?wx_fmt=jpeg",
+      "summary": "近日 科睿唯安发布 2025年度“全球高被引科学家”名单 来自全球60个国家和地区 1300多个机构的6868名科学家（7131人次） 入选该名单 中国大陆以1406人次位居第二名 占总人次的19.7% 华农共有 5位 科学家入选 人数与2…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652864638&idx=1&sn=258e8afed5d157e2c890650a06e9918b",
+      "paper_url": null,
+      "word_count": 529,
+      "fetched_at": "2026-11-09T16:35:33+08:00"
+    },
+    {
+      "id": "wx2652863863",
+      "title": "全球青年学者盛会，启动报名！大湾区C位邀您来！",
+      "published_at": "2025-11-14T12:31:47+08:00",
+      "published_label": "2025-11-14",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcic0DFD1iatvrl3kUR7aibH004hMBMymN4ltwgMhUmQwFCub1T5kvACDOMzAVwsY3bPj42QvzhQ1Qjibg/0?wx_fmt=jpeg",
+      "summary": "点击文末左下 【阅读原文】 即可报名 华南农业大学诚邀全球英才！ 点击下方“往期回顾” 了解更多华农精彩！ 往期回顾 / 何以华农？华农形象宣传片正式发布！ / / 华南农业大学，116岁生日快乐！…",
+      "tags": [
+        "通知",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652863863&idx=1&sn=f5acc2217b109a5c860f585469f334e9",
+      "paper_url": null,
+      "word_count": 225,
+      "fetched_at": "2026-11-09T16:35:37+08:00"
+    },
+    {
+      "id": "wx2652861857",
+      "title": "华南农业大学，116岁生日快乐！",
+      "published_at": "2025-11-10T18:00:00+08:00",
+      "published_label": "2025-11-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8Fng5dD22lVzvDzenDcCyTVev0E4PWn4wXZWnuJoEyKYMsKfPErNJ7cH8yl07guFnWMvZViaKxSDw/0?wx_fmt=jpeg",
+      "summary": "今天，11月10日 华南农业大学迎来办学116周年 百十六载弦歌不辍 岁月流转“农”情不改 薪火相传，初心如磐 那些珍贵的记忆，仿佛从未远去 现在，请您横置手机 按住紫荆小巴滑动图片 和我们一起穿越时光，感受华农故事 往期回顾 / 十五运会…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652861857&idx=1&sn=9638e0cbe00019a9e0461a9bbdcc02d3",
+      "paper_url": null,
+      "word_count": 327,
+      "fetched_at": "2026-11-09T16:35:43+08:00"
+    },
+    {
+      "id": "wx2652860256",
+      "title": "华农师生，热议！",
+      "published_at": "2025-11-02T23:35:29+08:00",
+      "published_label": "2025-11-02",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc90PnqibdXXENLXvqiak3tW5SbQqYgmsmnd1tV2d5MuFQA4yHTJc1iarPpuH8tF7mahYNFxK3XEicuTmQ/0?wx_fmt=jpeg",
+      "summary": "中国共产党第二十届中央委员会第四次全体会议 于2025年10月20日至23日 在北京举行 连日来，全校师生通过多种形式 深入学习全会精神 畅谈学习体会 发出了以学校高质量发展 服务中国式现代化建设的共同心声 中国共产党第二十届中央委员会第四…",
+      "tags": [
+        "通知",
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652860256&idx=1&sn=51c3c1b86b37212fbfb4e8975235aa02",
+      "paper_url": null,
+      "word_count": 3010,
+      "fetched_at": "2026-11-09T16:35:47+08:00"
+    },
+    {
+      "id": "wx2652855534",
+      "title": "华农全球朋友圈，有新消息！",
+      "published_at": "2025-09-25T17:15:18+08:00",
+      "published_label": "2025-09-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicuBvUtVgVcqbRdPtF3poC1ObMx5mn9aBbGpEoSEEVcicCuCvwkZbuvX6aqfYKI1K2VNJribR7tXr3A/0?wx_fmt=jpeg",
+      "summary": "近日 华农校长 薛红卫率团赴英国和爱尔兰 先后到访英国剑桥大学、塞恩斯伯里实验室 诺丁汉大学、谢菲尔德大学、约克大学 爱尔兰都柏林大学 等多所知名高校及科研机构 围绕科研合作、人才培养 师资交流、平台共建等领域 进行了广泛深入的交流 达成多…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652855534&idx=1&sn=6ad08ccb1850f7ed4a5e1068cd947f82",
+      "paper_url": null,
+      "word_count": 1773,
+      "fetched_at": "2026-11-09T16:35:52+08:00"
+    },
+    {
+      "id": "wx2652853144",
+      "title": "历史新高！175项！",
+      "published_at": "2025-08-28T15:01:35+08:00",
+      "published_label": "2025-08-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9ibmtf8vx0QFUkOS2LnoebCibZA8XaF6cj60ymw6ILqNfve0kRKWJM9behxibGR2iaiae98PBKGJfHEng/0?wx_fmt=jpeg",
+      "summary": "近日 国家自然科学基金委员会公布了 2025年度集中接收期项目评审结果 华南农业大学获资助各类项目共计175项 创学校历史新高 同比增长13.6% 直接经费共计9460万元，同比增长32.7% 呈现出量质齐升的良好态势 其中 创新群体研究项…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652853144&idx=1&sn=35ede5dbcf2792da725ae78ee29ebfae",
+      "paper_url": null,
+      "word_count": 1066,
+      "fetched_at": "2026-11-09T16:35:56+08:00"
+    },
+    {
+      "id": "wx2652850193",
+      "title": "今天，他们获表彰！",
+      "published_at": "2025-07-01T19:40:03+08:00",
+      "published_label": "2025-07-01",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc83x7JhCTbNdWM0oGQxDQhKvibRXJ8MN9ZqTsXOs4ts6KrLwxAf2kxlSjHN4C8ATNI3BERicVO5tWMw/0?wx_fmt=jpeg",
+      "summary": "7月1日上午 学校在图书馆报告厅举行 庆祝中国共产党成立104周年表彰大会 回顾党的光辉历程 表彰一批先进集体和优秀个人 同时向新增的50年党龄老党员 颁发纪念章 激励全校各级党组织和全体党员干部 向先进榜样学习 牢记初心使命、坚定理想信念…",
+      "tags": [
+        "人物",
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652850193&idx=1&sn=3c552ef571137c62c5a8ec2e137f6238",
+      "paper_url": null,
+      "word_count": 2103,
+      "fetched_at": "2026-11-09T16:36:00+08:00"
+    },
+    {
+      "id": "wx2652849823",
+      "title": "“双一流”华南农大，公开招聘二级学院院长！",
+      "published_at": "2025-06-27T12:24:26+08:00",
+      "published_label": "2025-06-27",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibRInXqk56yg9morOPFrFXjh98lmsU3icT7rrszpibKoYiciagYKCFgic668Qfq8Kl26jVZMLQSpAubu3w/0?wx_fmt=jpeg",
+      "summary": "为加快建设农业特色世界一流大学进程 国家“双一流”建设高校 华南农业大学 现面向海内外公开招聘部分学院院长 学校现有ESI全球排名 前1‰学科2个，前1%学科13个 农学和兽医学软科排名全球第6位 农业与林学QS排名全球第28位 校园位于粤…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652849823&idx=1&sn=bd8ef179c89f7e0964d0170094169ffc",
+      "paper_url": null,
+      "word_count": 1287,
+      "fetched_at": "2026-11-09T16:36:04+08:00"
+    },
+    {
+      "id": "wx2652845795",
+      "title": "13项特等奖！刷新纪录！",
+      "published_at": "2025-05-21T12:35:00+08:00",
+      "published_label": "2025-05-21",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcib8e9EArGniaqvLwhlnFHzspFfbsiaNXU1SloCk9gBmOCYmvy2uFvTsennszAWezTxibQziah6V6hU7aw/0?wx_fmt=jpeg",
+      "summary": "近日 第十八届“挑战杯” 广东大学生课外学术科技作品 竞赛终审决赛落幕 华南农业大学荣获 特等奖13项、总获奖39项 均刷新历史纪录 团体总分居全省第三 蝉联本科院校组“优胜杯” 据悉，本届赛事以 “青春助力百千万，挑战致胜新赛道”为主题…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652845795&idx=1&sn=9e36ae55c597ecebac1b3240253ecadf",
+      "paper_url": null,
+      "word_count": 705,
+      "fetched_at": "2026-11-09T16:36:09+08:00"
+    },
+    {
+      "id": "wx2652842197",
+      "title": "🤝🤝🤝🤝四省区协同，联盟启动！",
+      "published_at": "2025-04-25T19:18:48+08:00",
+      "published_label": "2025-04-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicbfJTZeIYiccewibTfolcHMSdoLQK8aMHt3LxLPYCd0jv1SOjgiaDgZX79SjribjhVPaNz14BsvRwzUw/0?wx_fmt=jpeg",
+      "summary": "在全面推进乡村振兴 建设农业强国的战略背景下 粤闽桂琼四省区 农林高等教育协同发展 迈出重要一步 4月25日 由华南农业大学牵头筹建 福建农林大学、广西大学、海南大学、中山大学 广东海洋大学和仲恺农业工程学院 联合发起的 粤闽桂琼农林高校新…",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652842197&idx=1&sn=cabc9912ac17ce9ab3426f162234b1fb",
+      "paper_url": null,
+      "word_count": 1271,
+      "fetched_at": "2026-11-09T16:36:13+08:00"
+    },
+    {
+      "id": "wx2652842155",
+      "title": "华南农业大学新增2个本科专业，是它们→",
+      "published_at": "2025-04-25T15:09:00+08:00",
+      "published_label": "2025-04-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibVUyRkayL2icOex8UoupNKUciaIG33fZ8DrVibKJWzLhkwVASfy6wyCH2Q2JVABVJgicibOZYPYvqELHg/0?wx_fmt=jpeg",
+      "summary": "近日， 教育部公布 2024年度普通高等学校 本科专业备案和审批结果 我校申报的 “集成电路设计与集成系统” “国家公园建设与管理” 两个专业获批通过 将列入2025年本科招生计划 集成电路设计与集成系统 “集成电路设计与集成系统”（专业代…",
+      "tags": [
+        "通知"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652842155&idx=1&sn=9a8ee2bb4c9066a3364e9e1d1740d62b",
+      "paper_url": null,
+      "word_count": 1131,
+      "fetched_at": "2026-11-09T16:36:17+08:00"
+    },
+    {
+      "id": "wx2652840944",
+      "title": "行业奖“国家队”，华农+7！",
+      "published_at": "2025-04-22T10:00:00+08:00",
+      "published_label": "2025-04-22",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicXvm1uFam1tDVMMiaM2Zjg6EpdJFVuwVSz2NQuJJ3RLTt0icIOY68fQCibd2dpcjibONia04FkvF7JBAg/0?wx_fmt=jpeg",
+      "summary": "4月19日 第十三届大北农科技奖颁奖大会 暨中关村全球农业科技创新论坛 在北京举行 来自全球农业领域的 知名院士、科学家、企业家 近800人参会 华南农业大学共 7 项成果获奖 其中主持项目获 一等奖2项、二等奖3项 总获奖数在26所获奖高…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652840944&idx=1&sn=5b3a6fdfbe1fda5dd9aac067e8b04202",
+      "paper_url": null,
+      "word_count": 1339,
+      "fetched_at": "2026-11-09T16:36:22+08:00"
+    },
+    {
+      "id": "wx2652840803",
+      "title": "华南农业大学与华为技术有限公司启动全面合作",
+      "published_at": "2025-04-19T18:49:49+08:00",
+      "published_label": "2025-04-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8nHWqXQg5V3UIe62BkPACiad7UYKnIBrrnANXHSPqRB3oS6vGu15WXzM98LDduTaUhaqeLNnb25Og/0?wx_fmt=jpeg",
+      "summary": "当全球领先的科技企业 与“双一流”建设高校相遇 会擦出怎样的火花？ 4月18日 华南农业大学与 华为技术有限公司 （以下简称“华为”） 在深圳华为坂田基地 举行全面合作协议签订仪式 在华为公共事业军团COO夏尊、华南农业大学党委书记李凤亮的…",
+      "tags": [
+        "活动",
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652840803&idx=1&sn=91cb12dfbdd3ed1e28d6a6270d1f03a3",
+      "paper_url": null,
+      "word_count": 1067,
+      "fetched_at": "2026-11-09T16:36:26+08:00"
+    },
+    {
+      "id": "wx2652840781",
+      "title": "华农大果蓝莓，升级了！",
+      "published_at": "2025-04-19T11:02:23+08:00",
+      "published_label": "2025-04-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8nHWqXQg5V3UIe62BkPACiaMgMQnx3nicY2g482Y9bVn8Nve8icRBvlagKxXZFuvrruicuL4yEJ982NA/0?wx_fmt=jpeg",
+      "summary": "永根科技站专题报道 在珠海平沙基地 一颗颗新鲜饱满的华农大果蓝莓 正从枝头走向全国人民的餐桌 华南农业大学园艺学院 陈日远教授团队指导 生产的 “南高系列大果蓝莓” 不仅大如表盘 还打破了进口蓝莓垄断 填补了我国鲜果蓝莓的上市空挡期 朝着“…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652840781&idx=1&sn=4ac5693bb5963b7c05fe70a90cd4bc24",
+      "paper_url": null,
+      "word_count": 3104,
+      "fetched_at": "2026-11-09T16:36:31+08:00"
+    },
+    {
+      "id": "wx2652840116",
+      "title": "最新通知！华南农大7城招聘，有你的IP吗？",
+      "published_at": "2025-04-14T16:52:41+08:00",
+      "published_label": "2025-04-14",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8NrXIQGLiau6MuSUG8oicia4rHtPlzEz9zIqRYIxdv8g9a12sS3ZHkIVicxuobuibE6vQzk71Qia788aUg/0?wx_fmt=jpeg",
+      "summary": "2025年粤聚英才、粤见未来—— “百万英才汇南粤”春季招聘会已经启动 4月19至26日 国家“双一流”建设高校 华南农业大学 将在7个城市现场招聘 诚邀 全球高层次人才和博士后加盟 东西南北中，发展来华农！…",
+      "tags": [
+        "通知",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652840116&idx=1&sn=1f783ce187cac37eb18c2cf0b085842f",
+      "paper_url": null,
+      "word_count": 4429,
+      "fetched_at": "2026-11-09T16:36:35+08:00"
+    },
+    {
+      "id": "wx2652839873",
+      "title": "“一流高校”+“一流企业”=？",
+      "published_at": "2025-04-12T11:29:37+08:00",
+      "published_label": "2025-04-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcib0ibCVZ1xKic5x72Te51m3DX4HO0MPLbeibMsG4zLHqU2MTnHTL2EAHicdD26hRrodGYeg7K6UWePBicw/0?wx_fmt=jpeg",
+      "summary": "4月11日 华南农业大学 与国家能源集团广东电力公司 举行 “一流高校”+“一流企业” 第一届 创新发展论坛 暨战略合作协议签订仪式 双方将 在 人才培养、科技创新、生物质能源 农村能源革命、新能源项目、零碳校园 等 方面开展深度合作 以新…",
+      "tags": [
+        "科研",
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652839873&idx=1&sn=7495ef64d811131fd10f0bd0586467ae",
+      "paper_url": null,
+      "word_count": 989,
+      "fetched_at": "2026-11-09T16:36:40+08:00"
+    },
+    {
+      "id": "wx2652839830",
+      "title": "“中国高被引学者”，华农21人入选！",
+      "published_at": "2025-04-11T11:31:53+08:00",
+      "published_label": "2025-04-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8LWTg78R0MQFlEbowaicKrOzUkm9CAuPO3ohrQlqRx8jYicAx5Zn6DdDl81y0OsHVYlD6Tc62Wr0ow/0?wx_fmt=jpeg",
+      "summary": "近日 爱思唯尔(Elsevier) 正式发布 2024“中国高被引学者” (Highly Cited Chinese Researchers) 榜单 我校有 21位学者上榜 位居全国高校第66名 2024“中国高被引学者”榜单 共计6388…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652839830&idx=1&sn=2fb6fa469fe629de685fdc80694d7b59",
+      "paper_url": null,
+      "word_count": 619,
+      "fetched_at": "2026-11-09T16:36:44+08:00"
+    },
+    {
+      "id": "wx2652838941",
+      "title": "倒计时2天，北京见！“双一流”，招人！",
+      "published_at": "2025-04-09T09:22:41+08:00",
+      "published_label": "2025-04-09",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9zJIUeMwReccTaeRbU4XcAwxsWCVuQicM3aBNdfo2HzFx0HDX6ib8vV2QkUia8y3zxhdibGSlQGHN0IQ/0?wx_fmt=jpeg",
+      "summary": "4月11-13日 2025年粤聚英才 粤见未来—— “百万英才汇南粤”春季招聘会 （北京站） 即将盛大举行 华农将参会 并面向全球招聘高层次人才和博士后 本次招聘 有哪些场次安排？ 有哪些类型和条件？ 待遇和发展如何？ 为何要选择加入华农？…",
+      "tags": [
+        "通知"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652838941&idx=1&sn=9cddd9732fa61406b7876dd24da2eddd",
+      "paper_url": null,
+      "word_count": 4279,
+      "fetched_at": "2026-11-09T16:36:49+08:00"
+    },
+    {
+      "id": "wx2652838938",
+      "title": "华农研究院再“上新”，生物智造打头阵！",
+      "published_at": "2025-04-08T21:55:12+08:00",
+      "published_label": "2025-04-08",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibCJq1Oe6e1djzP7ObocKAmRNaqeVQSxxHbFe0YGkiahhbIh5YjELFpuGZU5dic326j4gnCgKiayXZGQ/0?wx_fmt=jpeg",
+      "summary": "4月8日 华南农业大学生物智造创新研究院 （下称研究院）揭牌成立 该研究院将以 “工业智造思维革新传统农业生产”为使命 聚焦人工智能与生物制造融合创新 围绕核酸疫苗、药用分子与功能食品 生物智造研究 及生物智造核心工具开发 基因编辑驱动生物…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652838938&idx=1&sn=ef4a808e1d7a8d28c2026c16d1b3aa63",
+      "paper_url": null,
+      "word_count": 1296,
+      "fetched_at": "2026-11-09T16:36:54+08:00"
+    },
+    {
+      "id": "wx2652837007",
+      "title": "这盘发展大棋，何处落子？",
+      "published_at": "2025-04-01T18:00:00+08:00",
+      "published_label": "2025-04-01",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlciclpqDFTqZMv3tibD6Qk5whJicKycxePAyUeurSWpQh4x3kzy3o301CaFbztHYdIPmFwF3V5O6bUQ9g/0?wx_fmt=jpeg",
+      "summary": "编 者 按 随着2025年中央一号文件的发布， “农业新质生产力”成为业内热词。文件提出，推进农业科技力量协同攻关，以科技创新引领先进生产要素集聚，因地制宜发展农业新质生产力…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652837007&idx=1&sn=7b30e4f94213b77a3a84c07280b5bc98",
+      "paper_url": null,
+      "word_count": 2682,
+      "fetched_at": "2026-11-09T16:36:59+08:00"
+    },
+    {
+      "id": "wx2652836507",
+      "title": "各位博士博士后，华农喊你来报湾区项目啦！",
+      "published_at": "2025-03-28T22:50:33+08:00",
+      "published_label": "2025-03-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9VxGXcAl8IhmCfFpU9CH7nB4sUkyh6PHr8lasOBUUvnq5ibAzXCkSaur8VHppzVkVpWqCR9N3dt3Q/0?wx_fmt=jpeg",
+      "summary": "好消息！ 香江、澳门学者计划新版本开启啦 全国新近毕业的博士生、我校在职科研人员、 我校博士后科研流动站的在站博士后 均可申请 共赴学术探索新征程！…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652836507&idx=2&sn=c5edb1df2d78b0128630bdffee5e85ee",
+      "paper_url": null,
+      "word_count": 1609,
+      "fetched_at": "2026-11-09T16:37:04+08:00"
+    },
+    {
+      "id": "wx2652836403",
+      "title": "这老师太宝藏，换你也羡慕我🤩",
+      "published_at": "2025-03-28T11:50:00+08:00",
+      "published_label": "2025-03-28",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicCdlw2q8EOSfuaSpF4IVU3a3rWfqibiaK5Zkmic4rvUiaGHOJiaIzojvHKU6rDCQQT8nib0zWGAHABsgbQ/0?wx_fmt=jpeg",
+      "summary": "三尺春台，总有新枝破土 星火流转，终成漫天霞光 近日 华南农业大学2023-2024学年 青年教师教学获奖名单 正式公布 快来看看 有你pick的老师吗？…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652836403&idx=1&sn=7a55902986622c3e5ac8b8822627145d",
+      "paper_url": null,
+      "word_count": 7420,
+      "fetched_at": "2026-11-09T16:37:09+08:00"
+    },
+    {
+      "id": "wx2652835751",
+      "title": "启动部署！打造学科发展新格局",
+      "published_at": "2025-03-27T10:40:00+08:00",
+      "published_label": "2025-03-27",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9VxGXcAl8IhmCfFpU9CH7nRYP7icgETAJzQKnVTnZQ0VtvcFZmPJsdsWZsd6FY2h4nfwSsED5vz7w/0?wx_fmt=jpeg",
+      "summary": "为加快推进 农业特色世界一流大学建设 实现学校高质量内涵式发展 3月26日 学校在红满堂召开会议 部署推动“学院-学科-学位点-专业” 一体化建设工作 校党委书记李凤亮、校长薛红卫 出席会议并讲话 会上，发展规划处汇报了学校“学院-学科-学…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652835751&idx=1&sn=7012a00ffb6847e3af7592ee4a000148",
+      "paper_url": null,
+      "word_count": 1365,
+      "fetched_at": "2026-11-09T16:37:16+08:00"
+    },
+    {
+      "id": "wx2652835456",
+      "title": "新突破！全国农林高校第二！",
+      "published_at": "2025-03-25T19:36:54+08:00",
+      "published_label": "2025-03-25",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8swYErWBkyNfTbw3Zn4eibIf256B7MFzUtGH3FUMlH77OFbWjAbLZuNcCZXibv3yMz9pJUicoKkg3Ew/0?wx_fmt=jpeg",
+      "summary": "近日 国际高等教育研究机构QS 发布了第15版QS世界大学学科排名 中国（内地）共有 125所大学的1230个学科 上榜 华南农业大学共 6 个学科上榜 总数位列全国农林类高校第 2 名 去年上榜的2个学科中 农业和林业 保持位列TOP50…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652835456&idx=1&sn=28c9a92358644268da961a233aaf3ae8",
+      "paper_url": null,
+      "word_count": 614,
+      "fetched_at": "2026-11-09T16:37:21+08:00"
+    },
+    {
+      "id": "wx2652835369",
+      "title": "聚焦未来，这个中心正式揭牌！",
+      "published_at": "2025-03-24T15:09:04+08:00",
+      "published_label": "2025-03-24",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibvPOibCCwZ9fXXeFL01sZJyoibPJReVJvpJMjeu2J7nMxTCeGUGPkXjgeKqSLbaibrr9vug8jjCTomw/0?wx_fmt=jpeg",
+      "summary": "2024年10月 我校牵头建设的 广东省高等学校 未来作 物精准育种 基础研究卓越中心 （以下简称中心） 获批立项 2025年3月23日 中心在红满堂举行揭牌仪式 并召开第一届学术委员会第一次会议 揭牌仪式 该中心将聚焦 未来作物精准设计基…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652835369&idx=1&sn=6330e7568790ebfe818c97719d602269",
+      "paper_url": null,
+      "word_count": 1500,
+      "fetched_at": "2026-11-09T16:37:26+08:00"
+    },
+    {
+      "id": "wx2652835267",
+      "title": "华农“摘星”计划，启动！",
+      "published_at": "2025-03-22T11:08:21+08:00",
+      "published_label": "2025-03-22",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibar2d5qAib7iaEGZbHVbunIcicTXNRgtTwVBibxZPy7JOIVTs33EWvFPXC6iaz3PAGpfKofCrTn7IvGfA/0?wx_fmt=jpeg",
+      "summary": "近日 第十一届华南农业大学 “模范引领计划”评选工作 已经拉开帷幕 本届评选共设10类奖项 面向全日制在校生开展 下一个华农之星 会是你吗？…",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652835267&idx=1&sn=cfd8eeb2ea2e5254314976b8792253f0",
+      "paper_url": null,
+      "word_count": 2095,
+      "fetched_at": "2026-11-09T16:37:30+08:00"
     }
   ]
 }
