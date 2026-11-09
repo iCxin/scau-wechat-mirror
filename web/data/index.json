@@ -7,16 +7,16 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-09T16:37:31+08:00",
+  "generated_at": "2026-11-09T16:43:25+08:00",
   "sync": {
-    "last_success": "2026-11-09T16:37:31+08:00",
+    "last_success": "2026-11-09T16:43:25+08:00",
     "last_error": null,
-    "last_discovered": 172,
-    "last_fresh": 162,
-    "last_new": 40,
+    "last_discovered": 132,
+    "last_fresh": 122,
+    "last_new": 12,
     "last_history": 0,
-    "last_wechat": 40,
-    "last_failed": 20,
+    "last_wechat": 12,
+    "last_failed": 0,
     "last_pages": 5,
     "last_raw_keys": [
       "authorInfo",
@@ -68,9 +68,10 @@
       "error": null
     }
   },
+  "failed": {},
   "stats": {
-    "total": 86,
-    "wechat": 86,
+    "total": 98,
+    "wechat": 98,
     "paper": 0,
     "latest": "2026-11-08T11:19:00+08:00"
   },
@@ -1480,6 +1481,203 @@
       "paper_url": null,
       "word_count": 2095,
       "fetched_at": "2026-11-09T16:37:30+08:00"
+    },
+    {
+      "id": "wx2652833858",
+      "title": "这项重点工作，启动部署！",
+      "published_at": "2025-03-19T21:20:56+08:00",
+      "published_label": "2025-03-19",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9ibBv1dZPo5Q5ZhGXdvFA7fEYrmYCbL2S4TYlSqOP9enBhtBRBe6ibcvVib65hMQfselUwacIhn9wUQ/0?wx_fmt=jpeg",
+      "summary": "3月19日 学校党委召开会议 学习贯彻习近平总书记 关于深入贯彻 中央八项规定精神学习教育 的重要讲话和重要指示精神 以及中央、省委有关部署要求 对全校开展 深入贯彻中央八项规定精神学习教育 进行安排部署 会议现场 李凤亮作工作部署 学校党…",
+      "tags": [
+        "通知",
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652833858&idx=1&sn=f63baf944848d3690aef5231cd0e4857",
+      "paper_url": null,
+      "word_count": 1129,
+      "fetched_at": "2026-11-09T16:42:30+08:00"
+    },
+    {
+      "id": "wx2652833710",
+      "title": "消失的ta，“复活”了！",
+      "published_at": "2025-03-18T17:29:24+08:00",
+      "published_label": "2025-03-18",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicwQvDfdNn3piaaI7asuODvHr8Nu5iajB4bGiaicZDRv7ribDUPticQXkjKgc3NlFGXP7UicicFOHmUDFZ4bw/0?wx_fmt=jpeg",
+      "summary": "中山麻鸭 是土生土长的“广东鸭” 曾面临断崖式消失 一度被认定为“灭绝” 然而 有一群人相信它们的存在—— 华农动物科学学院团队 联手中山市相关单位 踏上寻鸭之路 几番考察 悉心育种 终于“复活”鸭种 相关内容获《南方日报 》、南方+ 报道…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652833710&idx=1&sn=a4e27753833aa2d8845b545678a0df65",
+      "paper_url": null,
+      "word_count": 4491,
+      "fetched_at": "2026-11-09T16:42:35+08:00"
+    },
+    {
+      "id": "wx2652833110",
+      "title": "征集建议！事关华农未来发展",
+      "published_at": "2025-03-17T21:10:01+08:00",
+      "published_label": "2025-03-17",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9o9h2icaHqOyNznPSkU93icry0r05BIu3N509FPJnkm12edLMfpvmGEj0dJOsWue1XrMbticxhhCyFA/0?wx_fmt=jpeg",
+      "summary": "近日 为进一步推动学校事业发展 华农 征集第十四次党代会报告 和事业发展“十五五”规划建议工作启动 现面向校内外广泛征集意见与建议 擎绘学校未来高质量发展蓝图 华南农业大学关于征集 第十四次党代会报告和 事业发展 “十五五”规划建议的公告…",
+      "tags": [
+        "通知",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652833110&idx=1&sn=b34eaf0dcf78f21157635ee60267ba5a",
+      "paper_url": null,
+      "word_count": 1479,
+      "fetched_at": "2026-11-09T16:42:40+08:00"
+    },
+    {
+      "id": "wx2652832267",
+      "title": "华南农业大学2025年公开招聘辅导员公告丨百万英才汇南粤",
+      "published_at": "2025-03-15T16:51:39+08:00",
+      "published_label": "2025-03-15",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc9AXmxUz7MJ7zmZ07zGvVSC8icW2bsoVCEK7b3XdTLv2SMmLz2TicZ8iar1l1Uq5Lck8z1Rlnt5H8XhQ/0?wx_fmt=jpeg",
+      "summary": "华南农业大学是 全国重点大学 国家“双一流”建设高校 广东省高水平大学重点建设高校 学校学科门类齐全 是一所以农业科学和生命科学 为优势和特色的综合性大学 现因发展需要 面向社会公开招聘27名工作人员， 有关事项公告如下： 一、招聘对象 社…",
+      "tags": [
+        "通知"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652832267&idx=1&sn=781c5130173af5f6f2b59877d0387794",
+      "paper_url": null,
+      "word_count": 3879,
+      "fetched_at": "2026-11-09T16:42:45+08:00"
+    },
+    {
+      "id": "wx2652832249",
+      "title": "3月16日约定！才聚华农，共创一流｜百万英才汇南粤",
+      "published_at": "2025-03-14T21:47:15+08:00",
+      "published_label": "2025-03-14",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcichK66bMux0rSEiabhOruDQwPf3SDflwcAdibPcj6U1F1ZXLnN3SRYBfIJEnhtzgCMsWz4icByu9o12Q/0?wx_fmt=jpeg",
+      "summary": "3月16日 2025年全国城市联合招聘 高校毕业生春季专场活动启动仪式 暨“百万英才汇南粤”春季大型综合招聘会 将在广州琶洲广交会展馆举行 华农也将参会 并面向全球招聘高层次人才和博士后 本次招聘有哪些类型和条件？ 待遇和发展如何？…",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652832249&idx=2&sn=281e10d48489660d4f777c524244f440",
+      "paper_url": null,
+      "word_count": 4183,
+      "fetched_at": "2026-11-09T16:42:49+08:00"
+    },
+    {
+      "id": "wx2652831764",
+      "title": "开放报名！华农首批微专业招生啦！",
+      "published_at": "2025-03-13T19:12:48+08:00",
+      "published_label": "2025-03-13",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibYJCMCWuH2C1D37v6tRKjWzdbA05NicH3uib3oRm5t0SGmsyiaAsxYCPOib58asEkiaL3ZnMXR0aTN3WQ/0?wx_fmt=jpeg",
+      "summary": "想探索更多知识领域 实现跨专业联动学习? 马上安排！ 为 助力广大华农学子 实现 个性化、多样化发展 学校首批微专业正式招生啦！ 什么是微专业？ 有哪些微专业可供选择？怎么报名？ 下拉了解详情！ 01 微专业是什么？…",
+      "tags": [
+        "通知",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652831764&idx=1&sn=1e4cb21c14dde2fc99cce0460be1ed3a",
+      "paper_url": null,
+      "word_count": 1941,
+      "fetched_at": "2026-11-09T16:42:54+08:00"
+    },
+    {
+      "id": "wx2652830606",
+      "title": "提问！谁见过华农这张SSR",
+      "published_at": "2025-03-12T19:36:11+08:00",
+      "published_label": "2025-03-12",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8yFIp99mCpdia6EUgic9KiaWqLhjwfsg4Gk5R4G3u5MVJ2nicicuJReeDRYWicG055lrH5juiav9NxtpJaA/0?wx_fmt=jpeg",
+      "summary": "三月的华农 不仅有烂漫花海令人陶醉 绿美树木也大有乾坤 它们或历史悠久，见证岁月变迁 或珍贵稀有，承载独特价值 想象偌大的华农校园是一本游戏地图 漫步其中，偶遇的树木便犹如一张张道具卡牌 今天是第47个植树节 带你“抽卡 ” 识树！…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652830606&idx=1&sn=6534feabc26eedb8adf2cb1bbeada979",
+      "paper_url": null,
+      "word_count": 2940,
+      "fetched_at": "2026-11-09T16:42:59+08:00"
+    },
+    {
+      "id": "wx2652829773",
+      "title": "摊牌了，华农学子确实去种田了！",
+      "published_at": "2025-03-10T16:04:58+08:00",
+      "published_label": "2025-03-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc8yFIp99mCpdia6EUgic9KiaWqPZsgebB4ibibk9m99hu7kVJ700VEYutJH21UxicicLLpiche2lQcdFjF4qg/0?wx_fmt=jpeg",
+      "summary": "随着2025年中央一号文件发布 “南繁”再次成为农业领域的热词 文件明确提出 要发挥“南繁硅谷” 等 重大农业科研平台作用 加快攻克一批突破性品种 什么是“南繁”？ 它有着怎样的神奇力量？ 今天，跟着5名华农学子 一起下地感受！…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652829773&idx=1&sn=c12fe001985c5549352f5854e2374cd7",
+      "paper_url": null,
+      "word_count": 2476,
+      "fetched_at": "2026-11-09T16:43:04+08:00"
+    },
+    {
+      "id": "wx2652826139",
+      "title": "热！一“会”百应！",
+      "published_at": "2025-02-26T20:29:00+08:00",
+      "published_label": "2025-02-26",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc916hFqOkHJxVyrMcXA3Z8bLb1ic8LGWpYUwI3pedicJBn0O6LIypnMtTbnLlXgC9DhgM8ZicwwiaWKVA/0?wx_fmt=jpeg",
+      "summary": "2月24日 全省教育大会在广州召开 对新时代新征程加快推进广东教育现代化 建设教育强省进行再动员再部署再落实 华农师生第一时间学习大会内容 纷纷表示将立足学校“双一流”建设实际 为扎实推进教育强省建设贡献力量 书记校长亮举措 媒体聚焦华农声…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652826139&idx=1&sn=e0e4e5bfccba78d5f838a9f99678dbf4",
+      "paper_url": null,
+      "word_count": 3028,
+      "fetched_at": "2026-11-09T16:43:09+08:00"
+    },
+    {
+      "id": "wx2652826032",
+      "title": "教育部部长怀进鹏在华南农业大学主持召开高质量启动实施新时代立德树人工程调研座谈会",
+      "published_at": "2025-02-26T16:06:45+08:00",
+      "published_label": "2025-02-26",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlc916hFqOkHJxVyrMcXA3Z8b9ibROR7oQcrtE2KvEvWgaQlrXqHv2TwNIYPnm1ZyTxUf5c1q3yZJ0ibg/0?wx_fmt=jpeg",
+      "summary": "2月24日 高质量启动实施 新时代立德树人工程调研座谈会 在广州召开 教育部党组书记、部长怀进鹏 主持会议并讲话 广东省委常委、副省长张国智参加会议 怀进鹏指出，习近平总书记对立德树人高度重视、十分关心，作出一系列重要指示批示…",
+      "tags": [
+        "科研",
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652826032&idx=1&sn=9cd1b623907b438d08d52864c0906589",
+      "paper_url": null,
+      "word_count": 1823,
+      "fetched_at": "2026-11-09T16:43:14+08:00"
+    },
+    {
+      "id": "wx2652825551",
+      "title": "华农这堂课，亮相人民日报！",
+      "published_at": "2025-02-24T13:50:30+08:00",
+      "published_label": "2025-02-24",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcicVo40icEThAntTY7AyHPibsP6BUKkmVYqLSEGnJDDSfeo1OLqiaicQYrs3AbknsllVyF5oX32bjNAaFA/0?wx_fmt=jpeg",
+      "summary": "思政课怎么上？ 在华农，智能农机“开进”思政课堂！ 2月24日 《人民日报》刊发 报道 华农首期“农耕文明大讲堂”中 罗锡文院士 以访谈对话 和现场展示的形式 将农耕文明融入思政课堂 《人民日报》2月24日报道华南农业大学思政课相关内容 •…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652825551&idx=1&sn=c0f7345c50961c97341ba0a0046d4258",
+      "paper_url": null,
+      "word_count": 1710,
+      "fetched_at": "2026-11-09T16:43:19+08:00"
+    },
+    {
+      "id": "wx2652824761",
+      "title": "从春天出发， 目标→",
+      "published_at": "2025-02-18T16:12:14+08:00",
+      "published_label": "2025-02-18",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/w4bIWyNFlcibhMgf42hZOPialj9ftyknHiadMZDwEPxe7UyO9BQcBXhluABcmYAXLAIeiatkfHTySd2iamuOenIozrw/0?wx_fmt=jpeg",
+      "summary": "编 者 按 作为华农发展的“提质增效年”，2025年至关重要。2月15至16日，华南农业大学党委全委（扩大）会议暨2025年春季战略研讨会召开，推进今年各项重点工作及谋划学校未来发展…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652824761&idx=1&sn=a4e08d89d5dda62733943e6d134be9cb",
+      "paper_url": null,
+      "word_count": 2490,
+      "fetched_at": "2026-11-09T16:43:24+08:00"
     }
   ]
 }
