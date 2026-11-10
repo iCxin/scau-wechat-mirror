@@ -7,15 +7,15 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-10T02:57:59+08:00",
+  "generated_at": "2026-11-10T10:19:17+08:00",
   "sync": {
-    "last_success": "2026-11-10T02:57:59+08:00",
+    "last_success": "2026-11-10T10:19:17+08:00",
     "last_error": null,
-    "last_discovered": 28,
-    "last_fresh": 18,
-    "last_new": 12,
+    "last_discovered": 17,
+    "last_fresh": 7,
+    "last_new": 7,
     "last_history": 0,
-    "last_wechat": 12,
+    "last_wechat": 7,
     "last_failed": 0,
     "last_pages": 5,
     "last_raw_keys": [
@@ -62,20 +62,36 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 192,
-      "cached": 189,
+      "article_count": 193,
+      "cached": 190,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 202,
-    "wechat": 202,
+    "total": 209,
+    "wechat": 209,
     "paper": 0,
-    "latest": "2026-11-08T11:19:00+08:00"
+    "latest": "2026-11-10T08:00:00+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652901915",
+      "title": "华南农业大学，117岁生日快乐！今天有礼送你！",
+      "published_at": "2026-11-10T08:00:00+08:00",
+      "published_label": "2026-11-10",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDZgHcPsiaAC3NOhnTFF5ZwQrMibVVzyIBBEGvliapgJSFdrZhmok43Lh9O4USHjdajEo9jYlxYboiaaSLjlia5EqN3qzJ0KFiaWjlibU/0?wx_fmt=jpeg",
+      "summary": "在粤港澳大湾区核心城市广州 有这样一所高校 它是我国近现代高等农业教育史上 创建最早的学校之一 植物学与动物学、农业科学 等学科位居全球前列 是国家“双一流”建设高校 正朝着农业特色世界一流大学目标奋勇前行 今天，她迎来了117岁生日 办学…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652901915&idx=1&sn=4a8b7ec6b155f4ccf654f16a8eaa1c65",
+      "paper_url": null,
+      "word_count": 4847,
+      "fetched_at": "2026-11-10T10:18:50+08:00"
+    },
     {
       "id": "34436320",
       "title": "画“农”为“家”！一年一度，温情直播→",
@@ -3375,6 +3391,103 @@
       "paper_url": null,
       "word_count": 1987,
       "fetched_at": "2026-11-10T02:57:58+08:00"
+    },
+    {
+      "id": "wx2652691092",
+      "title": "划重点！建设“双一流”，华农学子应该这样做",
+      "published_at": "2022-03-26T18:25:13+08:00",
+      "published_label": "2022-03-26",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicC0nBWvJFefcUF90psVtF1ZTFib1WA94r6ZaKErnalhHQeh7bLmDFEBx3Oh3I7ZBEcKKuW7qJbx8Q/0?wx_fmt=jpeg",
+      "summary": "3月24日 校党委书记王斌伟以 “牢记嘱托担使命 增信力行闯未来” 为主题，在丁颖礼堂为2021级研究生 讲授“思政第一课” 300余名研究生代表到场听课 王斌伟带领同学们重温了中国共产党的百年辉煌历程，从艰苦奋斗、理论探索、自身建设三个维…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652691092&idx=1&sn=08f8edb62d6ca0c20550883c65fe3d34",
+      "paper_url": null,
+      "word_count": 1881,
+      "fetched_at": "2026-11-10T10:18:54+08:00"
+    },
+    {
+      "id": "wx2652690526",
+      "title": "“双一流”建设，华农这样干！",
+      "published_at": "2022-03-11T21:42:59+08:00",
+      "published_label": "2022-03-11",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicBLbHb6TUCdGzjyKn97cXiaF7aVP8CeKianQCBhsUbF3ta2Bh4FO5EWFQ16ZkapLmKg7LibdcFjEXlg/0?wx_fmt=jpeg",
+      "summary": "为进一步统一思想、凝聚共识 统筹部署并扎实推进“双一流”建设 3月10日 学校召开“双一流”建设启动会 吹响新征程上的 “集结号”、“冲锋号”和“奋进号” 标志着我校“双一流”建设 进入全面实施阶段 学校召开“双一流”建设启动会 省教育厅党…",
+      "tags": [
+        "活动"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652690526&idx=1&sn=78244f0cae14d557f273b7e041554e71",
+      "paper_url": null,
+      "word_count": 3264,
+      "fetched_at": "2026-11-10T10:18:58+08:00"
+    },
+    {
+      "id": "wx2652690051",
+      "title": "重任在肩！师生热议：厚植“三农”情怀，朝着“一流”前进！",
+      "published_at": "2022-02-24T10:43:31+08:00",
+      "published_label": "2022-02-24",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlc9icugHlEBw1Q4fsIYNg8TMicMNxDg9ibNpnkIjFBF9NicXddMWn7KrG0JLj5TChNdWfeFvxdiaY2opDTw/0?wx_fmt=jpeg",
+      "summary": "2月14日 华南农业大学（简称“华农”） 跻身“双一流”的好消息传来 华农全体师生员工、广大校友 欢欣鼓舞、振奋不已 作为一所以农立校、以农业特色为优势的高校 华农始终不忘立德树人初心、牢记强农兴农使命 为推动乡村全面振兴贡献华农力量 如今…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652690051&idx=1&sn=a216ea0deb74f92befa927bcf35d5c15",
+      "paper_url": null,
+      "word_count": 5089,
+      "fetched_at": "2026-11-10T10:19:03+08:00"
+    },
+    {
+      "id": "wx2652690045",
+      "title": "华农怎么建设“双一流”？专访来了！",
+      "published_at": "2022-02-22T15:22:35+08:00",
+      "published_label": "2022-02-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicOtUjiavd10877OxOsSEE7ibAyz1ccr355oL4zL5JOs4ibm3wbibkk2MPtn6ZADGGSSdh5MiaUSUIuC5g/0?wx_fmt=jpeg",
+      "summary": "近日 教育部等公布新一轮“双一流”建设名单 历史悠久、特色鲜明的 华农作物学学科入选其中 华农是一所以农立校的老牌综合性大学 从广东全省农事试验场及附设农业讲习所起步 到中山大学农学院、岭南大学农学院和 广西大学农学院的一部分组建华南农学院…",
+      "tags": [
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652690045&idx=1&sn=1bd66e8152c07ef952b9106383d7dc4a",
+      "paper_url": null,
+      "word_count": 4610,
+      "fetched_at": "2026-11-10T10:19:07+08:00"
+    },
+    {
+      "id": "wx2652689993",
+      "title": "振奋精神，争创一流！这个大会，华农师生都得了解！",
+      "published_at": "2022-02-20T17:51:22+08:00",
+      "published_label": "2022-02-20",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlcicOtUjiavd10877OxOsSEE7ibMNuNUZPaeTUh9yeia46NLYzkWuicLIPexNkT3vBOggLxME3jStsD45bg/0?wx_fmt=jpeg",
+      "summary": "2月18日至19日 学校举行2022年春季学期 党委全委（扩大）会议暨新学期工作会议 会议的主要任务是： 总结2021年工作，部署2022年工作 统一思想，振奋精神，争创一流 会议主会场设在丁颖礼堂，分会场设在行政楼三楼报告厅…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652689993&idx=1&sn=5db4e7a053a0244abf051b925ad9e12a",
+      "paper_url": null,
+      "word_count": 3773,
+      "fetched_at": "2026-11-10T10:19:12+08:00"
+    },
+    {
+      "id": "wx2652689812",
+      "title": "华南农业大学入选“双一流”",
+      "published_at": "2022-02-14T13:12:17+08:00",
+      "published_label": "2022-02-14",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/w4bIWyNFlciccs0mdejDW8NzWftRm5qLFDibrpLQPwmRKoiaPxOwiaJn8iaDVT5bQfKec1ianxoAnaJibEppU2qYsjKicw/0?wx_fmt=jpeg",
+      "summary": "今天 教育部、财政部、国家发展改革委 公布第二轮“双一流”建设高校 及建设学科名单 华南农业大学入选 教育部官网通知 作为一所以农立校的综合性大学，华南农业大学的办学历史可追溯至1909年成立的广东全省农事试验场及附设农业讲习所…",
+      "tags": [
+        "通知"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652689812&idx=1&sn=a291181f5f064f4626f323e6877567da",
+      "paper_url": null,
+      "word_count": 1004,
+      "fetched_at": "2026-11-10T10:19:16+08:00"
     }
   ]
 }
