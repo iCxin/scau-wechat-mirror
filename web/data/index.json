@@ -7,15 +7,15 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-10T10:19:17+08:00",
+  "generated_at": "2026-11-11T23:28:12+08:00",
   "sync": {
-    "last_success": "2026-11-10T10:19:17+08:00",
+    "last_success": "2026-11-11T23:28:12+08:00",
     "last_error": null,
-    "last_discovered": 17,
-    "last_fresh": 7,
-    "last_new": 7,
+    "last_discovered": 11,
+    "last_fresh": 1,
+    "last_new": 1,
     "last_history": 0,
-    "last_wechat": 7,
+    "last_wechat": 1,
     "last_failed": 0,
     "last_pages": 5,
     "last_raw_keys": [
@@ -62,20 +62,37 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 193,
-      "cached": 190,
+      "article_count": 194,
+      "cached": 191,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 209,
-    "wechat": 209,
+    "total": 210,
+    "wechat": 210,
     "paper": 0,
-    "latest": "2026-11-10T08:00:00+08:00"
+    "latest": "2026-11-11T19:12:41+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652902023",
+      "title": "校党委理论学习中心组专题学习党的二十届五中全会精神",
+      "published_at": "2026-11-11T19:12:41+08:00",
+      "published_label": "2026-11-11",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckD1ZszKWsmlIPhmHl57RvGso3PcL1TenNEyRmojzlreicDg5NhQQBqcFOnHJC5m9hZJzqOmvU8ZwqDKc8WPXIx5ytPJQ5LgOMu0/0?wx_fmt=jpeg",
+      "summary": "11月11日 华南农业大学召开 党委理论学习中心组（扩大）学习会 专题传达学习党的二十届五中全会精神 校党委书记李凤亮主持学习会并讲话 专题扩大学习会现场 会上，华南师范大学学术委员会主任、马克思主义学院陈金龙教授应邀作题为《新时代持之以恒…",
+      "tags": [
+        "科研",
+        "人物"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652902023&idx=1&sn=433ded63241161e10ac78de4b89ff5c8",
+      "paper_url": null,
+      "word_count": 2220,
+      "fetched_at": "2026-11-11T23:28:11+08:00"
+    },
     {
       "id": "wx2652901915",
       "title": "华南农业大学，117岁生日快乐！今天有礼送你！",
