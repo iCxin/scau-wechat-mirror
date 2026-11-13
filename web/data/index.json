@@ -7,9 +7,9 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-11T23:28:12+08:00",
+  "generated_at": "2026-11-13T09:59:04+08:00",
   "sync": {
-    "last_success": "2026-11-11T23:28:12+08:00",
+    "last_success": "2026-11-13T09:59:04+08:00",
     "last_error": null,
     "last_discovered": 11,
     "last_fresh": 1,
@@ -62,20 +62,36 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 194,
-      "cached": 191,
+      "article_count": 195,
+      "cached": 192,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 210,
-    "wechat": 210,
+    "total": 211,
+    "wechat": 211,
     "paper": 0,
-    "latest": "2026-11-11T19:12:41+08:00"
+    "latest": "2026-11-13T08:00:00+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652902092",
+      "title": "华农新增1个ESI全球前1%学科",
+      "published_at": "2026-11-13T08:00:00+08:00",
+      "published_label": "2026-11-13",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckAB5VqEF9OPLYkUhDZWcnjj8q5licbe9oek3vElt5KcgvwXGheJyLJRpfHg4ibF5rff89iaoDHQ28TLzr7FtBQb5vxE6k0GFYXaCk/0?wx_fmt=jpeg",
+      "summary": "11月12日 ESI学科发布本年度第六期数据 华南农业大学地球科学学科进入全球前1% 截至目前，华农ESI 前1% 学科已达15个 在10847家全球机构中总排名第578位 较上一期上升6位 植物学与动物学、农业科学 继续保持全球前1‰ 其…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652902092&idx=1&sn=3fcca7313e298d5d260b9c5cc6aa3b6d",
+      "paper_url": null,
+      "word_count": 796,
+      "fetched_at": "2026-11-13T09:59:03+08:00"
+    },
     {
       "id": "wx2652902023",
       "title": "校党委理论学习中心组专题学习党的二十届五中全会精神",
