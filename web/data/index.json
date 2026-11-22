@@ -7,9 +7,9 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-21T10:39:04+08:00",
+  "generated_at": "2026-11-23T06:37:22+08:00",
   "sync": {
-    "last_success": "2026-11-21T10:39:04+08:00",
+    "last_success": "2026-11-23T06:37:22+08:00",
     "last_error": null,
     "last_discovered": 10,
     "last_fresh": 1,
@@ -50,7 +50,6 @@
       "smallPic",
       "softLocType",
       "trackArticleType",
-      "trackAuthor",
       "trackOriginality",
       "trackPublishTime",
       "voiceInfo"
@@ -71,12 +70,28 @@
   },
   "failed": {},
   "stats": {
-    "total": 215,
-    "wechat": 215,
+    "total": 216,
+    "wechat": 216,
     "paper": 0,
-    "latest": "2026-11-20T12:29:22+08:00"
+    "latest": "2026-11-22T08:06:00+08:00"
   },
   "articles": [
+    {
+      "id": "34536883",
+      "title": "如梦似幻，华农下雪了！ | 今日小雪",
+      "published_at": "2026-11-22T08:06:00+08:00",
+      "published_label": "2026-11-22",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckCoZIrwHO9RVjAKr3YWnawM7KKrL37licbzzATgT9ju9tXdq26yryYhia5YGAI1ke7UXYSnfdkEChuXT42y9jYt7UBwSf5ZaGMS4/0?wx_fmt=jpeg",
+      "summary": "华农二十四节气 【编者按】风携冬意入南野，节近小雪草木柔。小雪，是冬季的第二个节气，此时北方寒潮南下、初雪纷飞，而刚刚入秋的广州只是微露清寒。华农校园里，异木棉",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s/ihMrZ2CsV42uE9KbYoIExQ",
+      "paper_url": "https://m.thepaper.cn/newsDetail_forward_34536883",
+      "word_count": 1982,
+      "fetched_at": "2026-11-23T06:37:21+08:00"
+    },
     {
       "id": "34526873",
       "title": "毕业实习在野生动物世界？独家探秘华农长隆班！",
