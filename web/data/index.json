@@ -7,11 +7,11 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-23T06:37:22+08:00",
+  "generated_at": "2026-11-23T11:50:42+08:00",
   "sync": {
-    "last_success": "2026-11-23T06:37:22+08:00",
+    "last_success": "2026-11-23T11:50:42+08:00",
     "last_error": null,
-    "last_discovered": 10,
+    "last_discovered": 11,
     "last_fresh": 1,
     "last_new": 1,
     "last_history": 0,
@@ -62,20 +62,36 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 196,
-      "cached": 193,
+      "article_count": 197,
+      "cached": 194,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 216,
-    "wechat": 216,
+    "total": 217,
+    "wechat": 217,
     "paper": 0,
-    "latest": "2026-11-22T08:06:00+08:00"
+    "latest": "2026-11-23T11:21:42+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652903093",
+      "title": "速看！在这里，读懂华农“双一流”的跃升⏫",
+      "published_at": "2026-11-23T11:21:42+08:00",
+      "published_label": "2026-11-23",
+      "cover": "https://mmbiz.qpic.cn/mmbiz_jpg/dVw6Fiav4ckCKU9JSVrIPwcua5siaYAQnekf9jvZayPwCHqkskgu5ZAKa7E3N1F6iblw880jwyErwfZVIJ6RVe4BTqS44LXupDZHgRkoNvEDWI/0?wx_fmt=jpeg",
+      "summary": "开栏语 当教育强国、农业强国建设的时代浪潮奔涌向前，当粤港澳大湾区高质量发展的蓝图徐徐铺展，一所扎根南粤大地、矢志强农兴农的百年老校，正以奋进一流的姿态书写自己的时代答卷…",
+      "tags": [
+        "校园"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652903093&idx=1&sn=2196e444df83cf2355bc02957c49ffd5",
+      "paper_url": null,
+      "word_count": 5070,
+      "fetched_at": "2026-11-23T11:50:41+08:00"
+    },
     {
       "id": "34536883",
       "title": "如梦似幻，华农下雪了！ | 今日小雪",
