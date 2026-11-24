@@ -7,9 +7,9 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-23T11:50:42+08:00",
+  "generated_at": "2026-11-24T22:00:02+08:00",
   "sync": {
-    "last_success": "2026-11-23T11:50:42+08:00",
+    "last_success": "2026-11-24T22:00:02+08:00",
     "last_error": null,
     "last_discovered": 11,
     "last_fresh": 1,
@@ -62,20 +62,36 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 197,
-      "cached": 194,
+      "article_count": 198,
+      "cached": 195,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 217,
-    "wechat": 217,
+    "total": 218,
+    "wechat": 218,
     "paper": 0,
-    "latest": "2026-11-23T11:21:42+08:00"
+    "latest": "2026-11-24T12:00:00+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652903126",
+      "title": "华农新增1个CTTI来源智库，成果获最佳案例！",
+      "published_at": "2026-11-24T12:00:00+08:00",
+      "published_label": "2026-11-24",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckD3OibUO379WicKtn4PVCVelUiaVORZ5iaL9L1zick0RtayFEIShlJcV5hSvSYrYBOrZKOSTvsltXULut0kqld3BylZKAIcVrf64SMU/0?wx_fmt=jpeg",
+      "summary": "助力“百千万” 华农在行动 近日 2026新型智库治理论坛在济南举行 会上发布了中国智库索引（CTTI） 年度智库建设最佳案例 智库研究优秀成果 及来源智库增补名单 华南农业大学乡村振兴实验室 入选CTTI来源智库 1项成果获评丙类优秀成果…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652903126&idx=1&sn=1015d44b607bacdd89ca0a3b70fc5ded",
+      "paper_url": null,
+      "word_count": 1460,
+      "fetched_at": "2026-11-24T22:00:01+08:00"
+    },
     {
       "id": "wx2652903093",
       "title": "速看！在这里，读懂华农“双一流”的跃升⏫",
