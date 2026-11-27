@@ -7,9 +7,9 @@
     "site_url": "https://icxin.github.io/scau-wechat-mirror",
     "repo_url": "https://github.com/iCxin/scau-wechat-mirror"
   },
-  "generated_at": "2026-11-24T22:00:02+08:00",
+  "generated_at": "2026-11-27T13:11:47+08:00",
   "sync": {
-    "last_success": "2026-11-24T22:00:02+08:00",
+    "last_success": "2026-11-27T13:11:47+08:00",
     "last_error": null,
     "last_discovered": 11,
     "last_fresh": 1,
@@ -62,20 +62,36 @@
     "album": {
       "id": "2195323138559836160",
       "title": "",
-      "article_count": 198,
-      "cached": 195,
+      "article_count": 199,
+      "cached": 196,
       "pages": 1,
       "error": null
     }
   },
   "failed": {},
   "stats": {
-    "total": 218,
-    "wechat": 218,
+    "total": 219,
+    "wechat": 219,
     "paper": 0,
-    "latest": "2026-11-24T12:00:00+08:00"
+    "latest": "2026-11-27T09:00:00+08:00"
   },
   "articles": [
+    {
+      "id": "wx2652903380",
+      "title": "105位顶尖学者加盟，华农主办国际期刊+1！",
+      "published_at": "2026-11-27T09:00:00+08:00",
+      "published_label": "2026-11-27",
+      "cover": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/dVw6Fiav4ckDlvBj6AmfPfXia0oddXVVyN4iaZXJo8afu3s0k0DMics2R9IujzgUp2RFBWoVLZ8KXS3xDH6JSHgN0fpBtsqzsbBkp8F96Pic2KIc/0?wx_fmt=jpeg",
+      "summary": "华南农业大学一流学科 作物学建设再落新子 11月26日 由华农主办的国际学术期刊 《分子作物（英文）》 （Molecular Crop）创刊 首届编委会成立并召开第一次会议 会议现场 《分子作物（英文）》（Molecular Crop）创刊…",
+      "tags": [
+        "科研"
+      ],
+      "source": "wechat",
+      "original_url": "https://mp.weixin.qq.com/s?__biz=MjM5OTE2MzUwNA==&mid=2652903380&idx=1&sn=8ac62f3be050ab1023d9e0cf0d350834",
+      "paper_url": null,
+      "word_count": 1628,
+      "fetched_at": "2026-11-27T13:11:46+08:00"
+    },
     {
       "id": "wx2652903126",
       "title": "华农新增1个CTTI来源智库，成果获最佳案例！",
